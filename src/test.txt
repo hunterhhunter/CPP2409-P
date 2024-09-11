@@ -1,2 +1,2 @@
 test.txt
-conflict cotroll 2
+conflict controll
