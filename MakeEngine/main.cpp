@@ -3,8 +3,16 @@
 
 #include "framework.h"
 #include "MakeEngine.h"
+#include "../NewbieEngine_Source/NewbieApplication.h"
 
 #define MAX_LOADSTRING 100
+#define RGB(r, g, b)    ((COLORREF)(((BYTE)(r) | ((WORD)((BYTE)(g))<<8)) | (((DWORD)(BYTE)(b))<<16)))
+#define GetRValue(rgb)  ((BYTE)(rgb))
+#define GetGValue(rgb)  ((BYTE)(((WORD)(rgb) >> 8)))
+#define GetBValue(rgb)  ((BYTE)((rgb) >> 16))
+
+// 
+#pragma comment (lib, "x64\\Debug\\NewbieEngine.lib")
 
 // 전역 변수:
 HINSTANCE hInst;                                // 현재 인스턴스입니다.
@@ -42,15 +50,44 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     MSG msg;
 
-    // 기본 메시지 루프입니다:
-    while (GetMessage(&msg, nullptr, 0, 0))
+
+    // GetMessage(&message, nullptr, 0, 0)
+    // 프로세스에서 발생한 메세지를 메세지 큐에서 가져오는 함수
+    // 메세지큐에서 아무것도 없다면??? 아무 메세지도 가져오지 않게된다.
+
+    // PeekMessage : 메세지큐에 메세지 유무에 상관없이 함수가 리턴된다.
+    //               리턴값이 true인 경우 메세지가 있고, false인 경우 메세지가 없다고 알려준다.
+
+
+    while (true)
     {
-        if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+        if (PeekMessage(&msg, nullptr, 0, 0, PM_REMOVE))
         {
-            TranslateMessage(&msg);
-            DispatchMessage(&msg);
+            if (msg.message == WM_QUIT)
+                break;
+
+            if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+            {
+                TranslateMessage(&msg);
+                DispatchMessage(&msg);
+            }
+        }
+        else
+        {
+            // 메세지가 없을 경우 여기서 처리
+            // 게임 로직이 들어가면 된다.
+
         }
     }
+    // 기본 메시지 루프입니다:
+    //while (GetMessage(&msg, nullptr, 0, 0))
+    //{
+    //    if (!TranslateAccelerator(msg.hwnd, hAccelTable, &msg))
+    //    {
+    //        TranslateMessage(&msg);
+    //        DispatchMessage(&msg);
+    //    }
+    //}
 
     return (int) msg.wParam;
 }
@@ -123,6 +160,10 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 //
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
+    HDC hdc;
+    PAINTSTRUCT ps;
+    HBRUSH MyBrush, OldBrush;
+    HPEN MyPen, OldPen;
     switch (message)
     {
     case WM_COMMAND:
@@ -144,10 +185,19 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         break;
     case WM_PAINT:
         {
-            PAINTSTRUCT ps;
-            HDC hdc = BeginPaint(hWnd, &ps);
+            hdc = BeginPaint(hWnd, &ps);
+            MyBrush = (HBRUSH)CreateHatchBrush(HS_BDIAGONAL, RGB(255, 255, 0));
+            OldBrush = (HBRUSH)SelectObject(hdc, MyBrush);
+            MyPen = CreatePen(PS_SOLID, 5, RGB(0, 0, 255));
+            OldPen = (HPEN)SelectObject(hdc, MyPen);
+            Ellipse(hdc, 50, 50, 300, 200);
+            SelectObject(hdc, OldBrush);
+            SelectObject(hdc, OldPen);
+            DeleteObject(MyBrush);
+            DeleteObject(MyPen);
             // TODO: 여기에 hdc를 사용하는 그리기 코드를 추가합니다...
             EndPaint(hWnd, &ps);
+            return 0;
         }
         break;
     case WM_DESTROY:

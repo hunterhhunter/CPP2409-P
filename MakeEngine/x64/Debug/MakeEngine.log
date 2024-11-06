@@ -1,0 +1,20 @@
+﻿  NewbieApplication.cpp
+  main.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\main.cpp(9,1): warning C4005: 'RGB': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(1859,1):
+  'RGB'의 이전 정의를 참조하십시오.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\main.cpp(10,1): warning C4005: 'GetRValue': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(1869,1):
+  'GetRValue'의 이전 정의를 참조하십시오.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\main.cpp(11,1): warning C4005: 'GetGValue': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(1870,1):
+  'GetGValue'의 이전 정의를 참조하십시오.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\main.cpp(12,1): warning C4005: 'GetBValue': 매크로 재정의
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\wingdi.h(1871,1):
+  'GetBValue'의 이전 정의를 참조하십시오.
+  
+  코드를 생성하고 있습니다...
+  MakeEngine.vcxproj -> C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Debug\MakeEngine.exe

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MakeEngine", "MakeEngine.vcxproj", "{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewbieEngine", "..\NewbieEngine\NewbieEngine.vcxproj", "{CBEBCA42-71E4-4971-BFCE-393296287E46}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewbieEngine_Source", "..\NewbieEngine_Source\NewbieEngine_Source.vcxitems", "{F2D72CF2-98B5-4759-88E7-815F7A945308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,11 +25,24 @@ Global
 		{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}.Release|x64.Build.0 = Release|x64
 		{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}.Release|x86.ActiveCfg = Release|Win32
 		{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}.Release|x86.Build.0 = Release|Win32
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Debug|x64.ActiveCfg = Debug|x64
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Debug|x64.Build.0 = Debug|x64
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Debug|x86.ActiveCfg = Debug|Win32
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Debug|x86.Build.0 = Debug|Win32
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Release|x64.ActiveCfg = Release|x64
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Release|x64.Build.0 = Release|x64
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Release|x86.ActiveCfg = Release|Win32
+		{CBEBCA42-71E4-4971-BFCE-393296287E46}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D4046805-A1C8-4895-85D7-BA6990FF57E2}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{08a3c955-b54b-4cab-a6cc-b8d1d1761ec9}*SharedItemsImports = 4
+		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{cbebca42-71e4-4971-bfce-393296287e46}*SharedItemsImports = 4
+		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{f2d72cf2-98b5-4759-88e7-815f7a945308}*SharedItemsImports = 9
 	EndGlobalSection
 EndGlobal
