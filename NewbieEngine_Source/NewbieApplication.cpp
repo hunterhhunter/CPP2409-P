@@ -1,6 +1,31 @@
 #include "NewbieApplication.h"
 
-void Application::test()
+namespace ya
 {
-	int a = 10;
+	void ya::Application::Initialize()
+	{
+
+	}
+
+	void ya::Application::Run()
+	{
+		Updata();
+		LateUpdate();
+		Render();
+	}
+
+	void Application::Updata()
+	{
+
+	}
+
+	void Application::LateUpdate()
+	{
+
+	}
+
+	void Application::Render()
+	{
+
+	}
 }
