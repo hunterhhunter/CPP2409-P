@@ -14,9 +14,12 @@
     <ProjectCapability Include="SourceItemsFromImports" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieGameObject.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieGameObject.cpp" />
   </ItemGroup>
 </Project>

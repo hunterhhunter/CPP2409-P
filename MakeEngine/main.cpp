@@ -5,13 +5,10 @@
 #include "MakeEngine.h"
 #include "../NewbieEngine_Source/NewbieApplication.h"
 
-#define MAX_LOADSTRING 100
-#define RGB(r, g, b)    ((COLORREF)(((BYTE)(r) | ((WORD)((BYTE)(g))<<8)) | (((DWORD)(BYTE)(b))<<16)))
-#define GetRValue(rgb)  ((BYTE)(rgb))
-#define GetGValue(rgb)  ((BYTE)(((WORD)(rgb) >> 8)))
-#define GetBValue(rgb)  ((BYTE)((rgb) >> 16))
+newbie::Application application;
 
-// 
+#define MAX_LOADSTRING 100
+
 #pragma comment (lib, "x64\\Debug\\NewbieEngine.lib")
 
 // 전역 변수:
@@ -35,7 +32,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     // TODO: 여기에 코드를 입력합니다.
     
-    ya::Application application;
+    
     // 전역 문자열을 초기화합니다.
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_MAKEENGINE, szWindowClass, MAX_LOADSTRING);
@@ -138,6 +135,9 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
 
+   // 어플리케이션 initailize
+   application.Initialize(hWnd);
+
    if (!hWnd)
    {
       return FALSE;
@@ -163,8 +163,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 {
     HDC hdc;
     PAINTSTRUCT ps;
-    HBRUSH MyBrush, OldBrush;
-    HPEN MyPen, OldPen;
     switch (message)
     {
     case WM_COMMAND:
@@ -187,16 +185,6 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_PAINT:
         {
             hdc = BeginPaint(hWnd, &ps);
-            MyBrush = (HBRUSH)CreateHatchBrush(HS_BDIAGONAL, RGB(255, 255, 0));
-            OldBrush = (HBRUSH)SelectObject(hdc, MyBrush);
-            MyPen = CreatePen(PS_SOLID, 5, RGB(0, 0, 255));
-            OldPen = (HPEN)SelectObject(hdc, MyPen);
-            Ellipse(hdc, 50, 50, 300, 200);
-            SelectObject(hdc, OldBrush);
-            SelectObject(hdc, OldPen);
-            DeleteObject(MyBrush);
-            DeleteObject(MyPen);
-            // TODO: 여기에 hdc를 사용하는 그리기 코드를 추가합니다...
             EndPaint(hWnd, &ps);
             return 0;
         }

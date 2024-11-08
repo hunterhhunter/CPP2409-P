@@ -1,10 +1,14 @@
 #pragma once
-namespace ya {
+#include "NewbieGameObject.h"
+
+namespace newbie {
 	class Application
 	{
-
 	public:
-		void Initialize();
+		Application();
+		~Application();
+
+		void Initialize(HWND mHwnd);
 		void Run();
 		
 		void Updata();		// 먼저 업데이트
@@ -14,6 +18,13 @@ namespace ya {
 
 
 	private:
+		HWND mHwnd;
+		HDC mHdc;
+
+		float mSpeed;
+		
+		// 플레이어
+		GameObject mPlayer;
 	};
 }
 	
