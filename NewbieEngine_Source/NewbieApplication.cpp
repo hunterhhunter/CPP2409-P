@@ -1,4 +1,5 @@
 #include "NewbieApplication.h"
+#include "NewbieInput.h"
 
 namespace newbie
 {
@@ -18,6 +19,8 @@ namespace newbie
 	{
 		mHwnd = hwnd;
 		mHdc = GetDC(hwnd);
+		// 11.13 - Inputí´ë˜ìŠ¤ë¡œ ì…ë ¥ ì²˜ë¦¬
+		Input::Initialize();
 	}
 
 	void Application::Run()
@@ -29,6 +32,9 @@ namespace newbie
 
 	void Application::Updata()
 	{
+		// ìƒíƒœì—…ë°ì´íŠ¸ì‹œ ì‚¬ìš© (ì´ë™, ì…ë ¥ ë“±)
+		// 11.13 - Inputí´ë˜ìŠ¤ë¡œ ì…ë ¥ ì—…ë°ì´íŠ¸
+		Input::Update();
 		mPlayer.Update();
 	}
 
@@ -39,8 +45,7 @@ namespace newbie
 
 	void Application::Render()
 	{
-		// mainÀÇ winProc ¸Ş¼­µå ³»¿¡¼­´Â ½ÇÇà ½Ã ÇÑ ¹ø¸¸ ±×·ÁÁü
-		// Render·Î º¯°æÇÑ ¼ø°£ ¸Å run¸¶´Ù ·»´õ¸µµÊ
+		// Rendering ë˜ëŠ” í•¨ìˆ˜           
 		mPlayer.Render(mHdc);
 	}
 }

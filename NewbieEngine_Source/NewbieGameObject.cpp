@@ -1,5 +1,6 @@
 #pragma once
 #include "NewbieGameObject.h"
+#include "NewbieInput.h"
 
 namespace newbie
 {
@@ -13,19 +14,20 @@ namespace newbie
 
 	void GameObject::Update()
 	{
-		if (GetAsyncKeyState(VK_LEFT) & 0x8000)
+		// if (GetAsyncKeyState(VK_LEFT) & 0x8000)ì—ì„œ Input í´ë˜ìŠ¤ë¡œ ë³€ê²½
+		if (Input::GetKey(eKeyCode::A))
 		{
 			mX -= 0.01f;
 		}
-		if (GetAsyncKeyState(VK_RIGHT) & 0x8000)
+		if (Input::GetKey(eKeyCode::D))
 		{
 			mX += 0.01f;
 		}
-		if (GetAsyncKeyState(VK_UP) & 0x8000)
+		if (Input::GetKey(eKeyCode::W))
 		{
 			mY -= 0.01f;
 		}
-		if (GetAsyncKeyState(VK_DOWN) & 0x8000)
+		if (Input::GetKey(eKeyCode::S))
 		{
 			mY += 0.01f;
 		}
@@ -37,9 +39,8 @@ namespace newbie
 
 	void GameObject::Render(HDC hdc)
 	{
-		//ÆÄ¶û ºê·¯½¬ »ı¼º
+		// ê²Œì„ ì˜¤ë¸Œì íŠ¸ ë Œë”ë§      
 		HBRUSH blueBrush = CreateSolidBrush(RGB(0, 0, 255));
-		// ÆÄ¶û ºê·¯½¬ DC¿¡ ¼±ÅÃ ±×¸®°í Èò»ö ºê·¯½¬ ¹İÈ¯°ª ¹İÈ¯
 		HBRUSH oldBrush = (HBRUSH)SelectObject(hdc, blueBrush);
 		HPEN redPen = CreatePen(PS_SOLID, 2, RGB(255, 0, 0));
 		HPEN oldPen = (HPEN)SelectObject(hdc, redPen);

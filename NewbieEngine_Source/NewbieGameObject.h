@@ -23,7 +23,7 @@ namespace newbie
 		float GetPositionY() { return mY; }
 
 	private:
-		// 게임 오브젝트 좌표
+		//            트   표
 		float mX;
 		float mY;
 		
