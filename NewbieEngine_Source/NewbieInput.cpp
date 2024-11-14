@@ -12,16 +12,7 @@ namespace newbie
 
 	void Input::Initialize()
 	{
-		// vector로 mKeys의 배열을 만들고 각 자판마다의 key클래스를 만들어
-		// mKeys에 push함으로 각 키를 객체화해 관리를 쉽게 만듦
-		for (size_t i = 0; i < (UINT)eKeyCode::End; i++) {
-			Key key = {};
-			key.bPressed = false;
-			key.state = eKeyState::None;
-			key.keyCode = (eKeyCode)i;
-
-			Keys.push_back(key);
-		}
+		createKeys();
 	}
 
 	void Input::Update()
@@ -49,6 +40,59 @@ namespace newbie
 		}
 	}
 
+	void Input::createKeys() {
+		// vector로 mKeys의 배열을 만들고 각 자판마다의 key클래스를 만들어
+		// mKeys에 push함으로 각 키를 객체화해 관리를 쉽게 만듦
+		for (size_t i = 0; i < (UINT)eKeyCode::End; i++) {
+			Key key = {};
+			key.bPressed = false;
+			key.state = eKeyState::None;
+			key.keyCode = (eKeyCode)i;
 
+			Keys.push_back(key);
+		}
+	}
 
+	void Input::updateKeys() 
+	{
+		std::for_each(Keys.begin(), Keys.end(),
+			[](Key& key) -> void
+			{
+				updateKey(key);
+			});
+	}
+	
+	void Input::updateKey(Input::Key& key) 
+	{
+		if (isKeyDown(key.keyCode))
+		{
+			updateKeyDown(key);
+		}
+		else
+		{
+			updateKeyUp(key);
+		}
+	}
+
+	bool Input::isKeyDown(eKeyCode code)
+	{
+		return GetAsyncKeyState(ASCII[(UINT)code]) & 0x8000;
+	}
+
+	void Input::updateKeyDown(Input::Key& key)
+	{
+		if (key.bPressed == true)
+			key.state = eKeyState::Pressed;
+		key.bPressed = true;
+	}
+
+	void Input::updateKeyUp(Input::Key& key)
+	{
+		if (key.bPressed == true)
+			key.state = eKeyState::Up;
+		else
+			key.state = eKeyState::None;
+
+		key.bPressed = false;
+	}
 }

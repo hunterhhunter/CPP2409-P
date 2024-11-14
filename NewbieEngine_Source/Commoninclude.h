@@ -1,6 +1,8 @@
 #pragma once
 
-// Çì´õÆÄÀÏ¸¸À» Æ÷ÇÔÇÏ¿© loadÇØ¼­ »ç¿ëÇÏ´Â Çì´õÆÄÀÏ
+// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ loadï¿½Ø¼ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 #include<Windows.h>
 #include<vector>
+#include <iostream>
+#include <algorithm>
