@@ -1,6 +1,7 @@
 #pragma once
 #include "NewbieGameObject.h"
 #include "NewbieInput.h"
+#include "NewbieTime.h"
 
 namespace newbie
 {
@@ -14,22 +15,25 @@ namespace newbie
 
 	void GameObject::Update()
 	{
+		const int speed = 100.0f;
+
 		// if (GetAsyncKeyState(VK_LEFT) & 0x8000)에서 Input 클래스로 변경
 		if (Input::GetKey(eKeyCode::A))
 		{
-			mX -= 0.01f;
+			// 11.14 프레임에 관계없이 일정한 거리 이동을 위한 Time::DeltaTime()으로 업데이트
+			mX -= speed * Time::DeltaTime();
 		}
 		if (Input::GetKey(eKeyCode::D))
 		{
-			mX += 0.01f;
+			mX += speed * Time::DeltaTime();
 		}
 		if (Input::GetKey(eKeyCode::W))
 		{
-			mY -= 0.01f;
+			mY -= speed * Time::DeltaTime();
 		}
 		if (Input::GetKey(eKeyCode::S))
 		{
-			mY += 0.01f;
+			mY += speed * Time::DeltaTime();
 		}
 	}
 	void GameObject::LateUpdate()

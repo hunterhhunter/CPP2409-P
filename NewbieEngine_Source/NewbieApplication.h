@@ -8,7 +8,7 @@ namespace newbie {
 		Application();
 		~Application();
 
-		void Initialize(HWND mHwnd);
+		void Initialize(HWND mHwnd, UINT width, UINT height);
 		void Run();
 		
 		void Updata();		// 먼저 업데이트
@@ -21,7 +21,11 @@ namespace newbie {
 		HWND mHwnd;
 		HDC mHdc;
 
-		float mSpeed;
+		HDC mBackHdc;
+		HBITMAP mBackBitmap;
+
+		UINT mWidth;
+		UINT mHeight;
 		
 		// 플레이어
 		GameObject mPlayer;
