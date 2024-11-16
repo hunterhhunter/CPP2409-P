@@ -52,6 +52,7 @@ Global
 	EndGlobalSection
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{08a3c955-b54b-4cab-a6cc-b8d1d1761ec9}*SharedItemsImports = 4
+		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{908d8cf2-6cd8-47c4-8a6f-311bbafc282f}*SharedItemsImports = 4
 		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{cbebca42-71e4-4971-bfce-393296287e46}*SharedItemsImports = 4
 		..\NewbieEngine_Source\NewbieEngine_Source.vcxitems*{f2d72cf2-98b5-4759-88e7-815f7a945308}*SharedItemsImports = 9
 	EndGlobalSection

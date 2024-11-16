@@ -147,6 +147,14 @@
     <Image Include="MakeEngine.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NewbieEngine\NewbieEngine.vcxproj">
+      <Project>{cbebca42-71e4-4971-bfce-393296287e46}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\NewbieEngine_Window\NewbieEngine_Window.vcxproj">
+      <Project>{908d8cf2-6cd8-47c4-8a6f-311bbafc282f}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

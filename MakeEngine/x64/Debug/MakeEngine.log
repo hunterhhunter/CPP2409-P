@@ -1,6 +1,1 @@
-﻿  NewbieApplication.cpp
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(30,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(30,30): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(53,47): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(53,32): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  MakeEngine.vcxproj -> C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Debug\MakeEngine.exe
+﻿  MakeEngine.vcxproj -> C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Debug\MakeEngine.exe

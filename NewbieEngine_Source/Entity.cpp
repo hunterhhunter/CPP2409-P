@@ -3,6 +3,12 @@
 namespace newbie
 {
 	Entity::Entity()
+		: mName(L"")
+	{
+
+	}
+
+	Entity::~Entity()
 	{
 
 	}

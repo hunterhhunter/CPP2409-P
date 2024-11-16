@@ -15,9 +15,21 @@ namespace newbie
 			scene->Initialize();
 
 			mScene.insert(std::make_pair(name, scene));
+
+			return scene;
 		}
 
+		static Scene* LoadScene(const std::wstring& name)
+		{
+			std::map<std::wstring, Scene*>::iterator iter = mScene.find(name);
 
+			if (iter == mScene.end())
+				return nullptr;
+
+			mActiveScene = iter->second;
+
+			return iter->second;
+		}
 
 		static void Initialize();
 		static void Update();
@@ -25,8 +37,8 @@ namespace newbie
 		static void Render(HDC hdc);
 
 	private:
-		static std::map<std::wstring, Scene*> mScene; // 씬 벡터
-		static Scene* mactiveScene; // 실행시킬 씬
+		static std::map<std::wstring, Scene*> mScene; // 씬 map 자료형
+		static Scene* mActiveScene; // 실행시킬 씬
 	};
 }
 

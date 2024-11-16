@@ -3,24 +3,24 @@
 namespace newbie
 {
 	std::map<std::wstring, Scene*> SceneManager::mScene = {};
-	Scene* SceneManager::mactiveScene = nullptr;
+	Scene* SceneManager::mActiveScene = nullptr;
 
-	void newbie::SceneManager::Initialize()
+	void SceneManager::Initialize()
 	{
 	}
 
-	void newbie::SceneManager::Update()
+	void SceneManager::Update()
 	{
-		mactiveScene->Update();
+		mActiveScene->Update();
 	}
 
-	void newbie::SceneManager::LateUpdate()
+	void SceneManager::LateUpdate()
 	{
-		mactiveScene->LateUpdate();
+		mActiveScene->LateUpdate();
 	}
 
-	void newbie::SceneManager::Render(HDC hdc)
+	void SceneManager::Render(HDC hdc)
 	{
-		mactiveScene->Render(hdc);
+		mActiveScene->Render(hdc);
 	}
 }

@@ -3,7 +3,9 @@
 
 #include "framework.h"
 #include "MakeEngine.h"
+
 #include "../NewbieEngine_Source/NewbieApplication.h"
+#include "../NewbieEngine_Window/NewbieLoadScenes.h"
 
 newbie::Application application;
 
@@ -148,6 +150,9 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
    ShowWindow(hWnd, nCmdShow);
    UpdateWindow(hWnd);
+
+   //load Scenes
+   newbie::LoadScenes();
 
    return TRUE;
 }

@@ -11,13 +11,16 @@ namespace newbie {
 		void Initialize(HWND mHwnd, UINT width, UINT height);
 		void Run();
 		
-		void clearRenderTarget();
-		void copyRenderTarget(HDC source, HDC dest);
 		void Updata();		// 먼저 업데이트
 		void LateUpdate();	// 나중에 업데이트
 		void Render();		// 그리는 건 전부 여기
 
-
+	private:
+		void clearRenderTarget();
+		void copyRenderTarget(HDC source, HDC dest);
+		void adjustWindowRect(HWND hwnd, UINT width, UINT height);
+		void createBuffer(UINT width, UINT height);
+		void initializeEtc();
 
 	private:
 		HWND mHwnd;
@@ -30,7 +33,7 @@ namespace newbie {
 		UINT mHeight;
 		
 		// 플레이어
-		std::vector<GameObject*> mGameObjects;
+		// std::vector<GameObject*> mGameObjects;
 	};
 }
 	
