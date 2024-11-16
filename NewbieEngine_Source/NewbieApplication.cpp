@@ -1,6 +1,7 @@
 #include "NewbieApplication.h"
 #include "NewbieInput.h"
 #include "NewbieTime.h"
+#include "NewbieSceneManager.h"
 
 namespace newbie
 {
@@ -45,7 +46,15 @@ namespace newbie
 		HBITMAP oldBitmap = (HBITMAP)SelectObject(mBackHdc, mBackBitmap);
 		DeleteObject(oldBitmap);
 
-		mPlayer.SetPosition(0, 0);
+		// 11.14 Object vector화
+		// for (size_t i=0; i< 100; i++)
+		// {
+		// 	GameObject* gameObj = new GameObject();
+		//	gameObj->SetPosition(rand() % 1600, rand() % 900);
+		//	mGameObjects.push_back(gameObj);
+		//}
+		// 11.14 SceneManager로 Object 관리
+		SceneManager::Initialize();
 
 		// 11.13 - Input클래스로 입력 처리
 		Input::Initialize();
@@ -59,6 +68,19 @@ namespace newbie
 		Render();
 	}
 
+	void Application::clearRenderTarget()
+	{
+		// 1픽셀 키워서 선 안보이게 하기
+		Rectangle(mBackHdc, 0, 0, 1610, 910);
+	}
+
+	void Application::copyRenderTarget(HDC source, HDC dest)
+	{
+		// source에서 dest로 복사
+		BitBlt(dest, 0, 0, mWidth, mHeight
+			, source, 0, 0, SRCCOPY);
+	}
+
 	void Application::Updata()
 	{
 		// 상태업데이트시 사용 (이동, 입력 등)
@@ -66,7 +88,9 @@ namespace newbie
 		Input::Update();
 		// 11.14 - TIme 클래스 Update
 		Time::Update();
-		mPlayer.Update();
+		
+		// SceneManager가 Update
+		SceneManager::Update();
 	}
 
 	void Application::LateUpdate()
@@ -77,14 +101,19 @@ namespace newbie
 	void Application::Render()
 	{
 		// Rendering 되는 함수 
-		Rectangle(mBackHdc, 0, 0, 1600, 900);
+		clearRenderTarget();
 
 		// Time Rendering
 		Time::Render(mBackHdc);
-		mPlayer.Render(mHdc);
+
+		// for (size_t i = 0; i < mGameObjects.size(); i++)
+		// {
+		//	mGameObjects[i]->Render(mHdc);
+		// }
+		// GameObject Render도 SceneManager가
+		SceneManager::Render();
 
 		// BackBuffer에 있는걸 원본 Buffer에 복사
-		BitBlt(mHdc, 0, 0, mWidth, mHeight
-			, mBackHdc, 0, 0, SRCCOPY);
+		copyRenderTarget(mBackHdc, mHdc);
 	}
 }

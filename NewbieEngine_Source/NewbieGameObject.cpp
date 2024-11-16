@@ -6,6 +6,8 @@
 namespace newbie
 {
 	GameObject::GameObject()
+		: mX(0)
+		, mY(0)
 	{
 	}
 
