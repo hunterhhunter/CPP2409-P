@@ -26,4 +26,3 @@ namespace newbie
 		Vector2 mPosition;
 	};
 }
-

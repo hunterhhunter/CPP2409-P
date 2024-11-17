@@ -65,6 +65,7 @@ namespace newbie
 	
 	void Input::updateKey(Input::Key& key) 
 	{
+		// 키가 눌린 상태라면
 		if (isKeyDown(key.keyCode))
 		{
 			updateKeyDown(key);
@@ -77,11 +78,13 @@ namespace newbie
 
 	bool Input::isKeyDown(eKeyCode code)
 	{
+		// 키가 눌렸는지 확인
 		return GetAsyncKeyState(ASCII[(UINT)code]) & 0x8000;
 	}
 
 	void Input::updateKeyDown(Input::Key& key)
 	{
+		// 눌려있는지 확인 후 업데이트
 		if (key.bPressed == true)
 			key.state = eKeyState::Pressed;
 		key.bPressed = true;
@@ -89,6 +92,7 @@ namespace newbie
 
 	void Input::updateKeyUp(Input::Key& key)
 	{
+		// 눌려있다가 떼지는 경우
 		if (key.bPressed == true)
 			key.state = eKeyState::Up;
 		else
