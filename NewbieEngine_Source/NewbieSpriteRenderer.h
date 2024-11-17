@@ -17,6 +17,12 @@ namespace newbie
 		void Render(HDC hdc) override;
 
 	private:
+		void ImageLoad(const std::wstring& path);
+
+	private:
+		Gdiplus::Image* mImage;
+		UINT mWidth;
+		UINT mHeight;
 	};
 }
 

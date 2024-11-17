@@ -21,46 +21,32 @@ namespace newbie
 		//	obj->SetPosition(rand() % 1600, rand() % 900);
 		//	AddGameObject(obj);
 		//}
-		{
-			// Player 생성(GameObject의 mComponents 보유)
-			Player* p1 = new Player();
-			// 좌표, 위치를 나타내는 Transform 객체를 p1의 Components에 추가
-			Transform* tr = p1->AddComponent<Transform>();
-			tr->SetPos(800, 450);
-			tr->SetName(L"TR1");
-			// 렌더링하는 SpriteRenderer를 p1의 Components에 추가
-			SpriteRenderer* sr = p1->AddComponent <SpriteRenderer>();
-			sr->SetName(L"SR1");
-			// Scene->PlayScene에 GameObject로 삽입
-			AddGameObject(p1);
-		}
+		
+		// 11.17 Component Struct 구축 후
+		//{
+		//	// Player 생성(GameObject의 mComponents 보유)
+		//	Player* p1 = new Player();
+		//	// 좌표, 위치를 나타내는 Transform 객체를 p1의 Components에 추가
+		//	Transform* tr = p1->AddComponent<Transform>();
+		//	tr->SetPos(800, 450);
+		//	tr->SetName(L"TR1");
+		//	// 렌더링하는 SpriteRenderer를 p1의 Components에 추가
+		//	SpriteRenderer* sr = p1->AddComponent <SpriteRenderer>();
+		//	sr->SetName(L"SR1");
+		//	// Scene->PlayScene에 GameObject로 삽입
+		//	AddGameObject(p1);
+		//}
 
+		// BackGround 유닛 추가
 		{
-			// Player 생성(GameObject의 mComponents 보유)
-			Player* p1 = new Player();
-			// 좌표, 위치를 나타내는 Transform 객체를 p1의 Components에 추가
-			Transform* tr = p1->AddComponent<Transform>();
-			tr->SetPos(600, 450);
-			tr->SetName(L"TR2");
-			// 렌더링하는 SpriteRenderer를 p1의 Components에 추가
-			SpriteRenderer* sr = p1->AddComponent <SpriteRenderer>();
-			sr->SetName(L"SR2");
-			// Scene->PlayScene에 GameObject로 삽입
-			AddGameObject(p1);
-		}
+			Player* bg = new Player();
+			Transform* tr = bg->AddComponent<Transform>();
+			tr->SetPos(Vector2(0, 0));
+			tr->SetName(L"TR");
 
-		{
-			// Player 생성(GameObject의 mComponents 보유)
-			Player* p1 = new Player();
-			// 좌표, 위치를 나타내는 Transform 객체를 p1의 Components에 추가
-			Transform* tr = p1->AddComponent<Transform>();
-			tr->SetPos(400, 450);
-			tr->SetName(L"TR3");
-			// 렌더링하는 SpriteRenderer를 p1의 Components에 추가
-			SpriteRenderer* sr = p1->AddComponent <SpriteRenderer>();
-			sr->SetName(L"SR3");
-			// Scene->PlayScene에 GameObject로 삽입
-			AddGameObject(p1);
+			SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
+			sr->SetName(L"SR");
+			sr->ImageLoad(L"C:/Users/slugg/Documents/GitHub/CPP2409-P/Resources/BackGroundImage.jpg");
 		}
 	}
 

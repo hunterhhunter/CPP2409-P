@@ -3,41 +3,73 @@
 namespace newbie
 {
 	Scene::Scene()
-		: mGameObjects{}
+		: mLayers{}
 	{
+		CreateLayers();
 	}
 	Scene::~Scene()
 	{
 	}
 	void Scene::Initialize()
 	{
+		for (Layer* layer : mLayers)
+		{
+			if (layer == nullptr)
+				continue;
+			layer->Initialize();
+		}
 	}
 	void Scene::Update()
 	{
-		// 게임 오브젝트들 업데이트
-		for (GameObject* gameObj : mGameObjects)
+		// 레이어를 업데이트
+		for (Layer* layer : mLayers)
 		{
-			gameObj->Update();
+			if (layer == nullptr)
+				continue;
+			layer->Update();
 		}
 	}
 	void Scene::LateUpdate()
 	{
-		for (GameObject* gameObj : mGameObjects)
+		for (Layer* layer : mLayers)
 		{
-			gameObj->LateUpdate();
+			if (layer == nullptr)
+				continue;
+			layer->LateUpdate();
 		}
 	}
 
 	void Scene::Render(HDC hdc)
 	{
-		for (GameObject* gameObj : mGameObjects)
+		for (Layer* layer : mLayers)
 		{
-			gameObj->Render(hdc);
+			if (layer == nullptr)
+				continue;
+			layer->Render(hdc);
 		}
 	}
 
-	void Scene::AddGameObject(GameObject* gameObject)
+	void Scene::AddGameObject(GameObject* gameObject, const eLayerType type)
 	{
-		mGameObjects.push_back(gameObject);
+		mLayers[(UINT)type]->AddGameObject(gameObject);
+	}
+
+	void Scene::CreateLayers()
+	{
+		mLayers.resize((UINT)eLayerType::Max);
+		for (size_t i = 0; i < (UINT)eLayerType::Max; i++)
+		{
+			mLayers[i] = new Layer();
+		}
+	}
+
+	void Scene::OnEnter()
+	{
+
+	}
+
+	void Scene::OnExit()
+	{
+
 	}
 }

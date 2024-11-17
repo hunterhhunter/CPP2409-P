@@ -11,6 +11,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewbieEngine_Source", "..\N
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NewbieEngine_Window", "..\NewbieEngine_Window\NewbieEngine_Window.vcxproj", "{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{91208BCE-E35E-4DEE-908E-A65D5360B1E9}"
+	ProjectSection(SolutionItems) = preProject
+		..\Resources\BackGroundImage.jpg = ..\Resources\BackGroundImage.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

@@ -5,6 +5,9 @@
 namespace newbie
 {
 	SpriteRenderer::SpriteRenderer()
+		: mImage(nullptr)
+		, mWidth(0)
+		, mHeight(0)
 	{
 	}
 
@@ -26,21 +29,19 @@ namespace newbie
 
 	void SpriteRenderer::Render(HDC hdc)
 	{
-		// 파랑 브러쉬 생성
-		HBRUSH blueBrush = CreateSolidBrush(RGB(255, 0, 255));
-
-		// 파랑 브러쉬 DC에 선택 그리고 흰색 브러쉬 반환값 반환
-		HBRUSH oldBrush = (HBRUSH)SelectObject(hdc, blueBrush);
-
-		HPEN redPen = CreatePen(PS_SOLID, 2, RGB(rand() % 255, rand() % 255, rand() % 255));
-		HPEN oldPen = (HPEN)SelectObject(hdc, redPen);
-		SelectObject(hdc, oldPen);
-
+		// 위치정보 불러오기
 		Transform* tr = GetOwner()->GetComponent<Transform>();
-		Rectangle(hdc, tr->GetX(), tr->GetY(), 100 + tr->GetX(), 100 + tr->GetY());
+		Vector2 pos = tr->GetPosition();
 
-		SelectObject(hdc, oldBrush);
-		DeleteObject(blueBrush);
-		DeleteObject(redPen);
+		// Gdiplus Graphics
+		Gdiplus::Graphics graphics(hdc);
+		graphics.DrawImage(mImage, Gdiplus::Rect(pos.x, pos.y, mWidth, mHeight));
+	}
+
+	void SpriteRenderer::ImageLoad(const std::wstring& path)
+	{
+		mImage = Gdiplus::Image::FromFile(path.c_str());
+		mWidth = mImage->GetWidth();
+		mHeight = mImage->GetHeight();
 	}
 }

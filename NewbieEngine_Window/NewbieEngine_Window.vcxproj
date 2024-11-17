@@ -131,15 +131,12 @@
     <ClInclude Include="NewbieLoadScenes.h" />
     <ClInclude Include="NewbiePlayer.h" />
     <ClInclude Include="NewbiePlayScene.h" />
+    <ClInclude Include="NewbieTitleScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewbiePlayer.cpp" />
     <ClCompile Include="NewbiePlayScene.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\NewbieEngine\NewbieEngine.vcxproj">
-      <Project>{cbebca42-71e4-4971-bfce-393296287e46}</Project>
-    </ProjectReference>
+    <ClCompile Include="NewbieTitleScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

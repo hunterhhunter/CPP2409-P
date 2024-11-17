@@ -1,6 +1,8 @@
 #pragma once
 #include "Entity.h"
 #include "NewbieGameObject.h"
+#include "NewbieLayer.h"
+#include "NewbieEnums.h"
 
 namespace newbie
 {
@@ -15,10 +17,16 @@ namespace newbie
 		virtual void LateUpdate();
 		virtual void Render(HDC hdc);
 
-		void AddGameObject(GameObject* gameObject);
+		virtual void OnEnter();
+		virtual void OnExit();
+
+		void AddGameObject(GameObject* gameObject, const eLayerType type);
 		
 	private:
-		std::vector<GameObject*> mGameObjects;
+		void CreateLayers();
+
+	private:
+		std::vector<Layer*> mLayers;
 	};
 }
 

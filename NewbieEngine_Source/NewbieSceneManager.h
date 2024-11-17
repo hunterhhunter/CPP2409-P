@@ -21,12 +21,16 @@ namespace newbie
 
 		static Scene* LoadScene(const std::wstring& name)
 		{
+			if (mActiveScene)
+				mActiveScene->OnExit();
+
 			std::map<std::wstring, Scene*>::iterator iter = mScene.find(name);
 
 			if (iter == mScene.end())
 				return nullptr;
 
 			mActiveScene = iter->second;
+			mActiveScene->OnEnter();
 
 			return iter->second;
 		}
@@ -35,6 +39,7 @@ namespace newbie
 		static void Update();
 		static void LateUpdate();
 		static void Render(HDC hdc);
+
 
 	private:
 		static std::map<std::wstring, Scene*> mScene; // 씬 map 자료형

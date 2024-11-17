@@ -1,4 +1,7 @@
 #include "NewbiePlayer.h"
+#include "NewbieInput.h"
+#include "NewbieTransform.h"
+#include "NewbieTime.h"
 
 namespace newbie
 {
@@ -15,6 +18,12 @@ namespace newbie
 	void Player::LateUpdate()
 	{
 		GameObject::LateUpdate();
+
+		if (Input::GetKey(eKeyCode::Right))
+		{
+			Transform* tr = GetComponent<Transform>();
+			Vector2 Pos = tr->Ge
+		}
 	}
 
 	void Player::Render(HDC hdc)
