@@ -1,8 +1,12 @@
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\Entity.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieApplication.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieComponent.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieComponent.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieGameObject.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieInput.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieScene.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieScene.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieSceneManager.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieSpriteRenderer.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTime.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTransform.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTransform.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\NewbiePlayer.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbiePlayer.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\NewbiePlayScene.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbiePlayScene.obj

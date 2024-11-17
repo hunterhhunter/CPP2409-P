@@ -1,25 +1,28 @@
 #include "NewbieComponent.h"
 
-newbie::Component::Component()
+namespace newbie
 {
-}
+	Component::Component()
+	{
+	}
 
-newbie::Component::~Component()
-{
-}
+	Component::~Component()
+	{
+	}
 
-void newbie::Component::Initialize()
-{
-}
+	void Component::Initialize()
+	{
+	}
 
-void newbie::Component::Update()
-{
-}
+	void Component::Update()
+	{
+	}
 
-void newbie::Component::LateUpdate()
-{
-}
+	void Component::LateUpdate()
+	{
+	}
 
-void newbie::Component::Render(HDC hdc)
-{
+	void Component::Render(HDC hdc)
+	{
+	}
 }

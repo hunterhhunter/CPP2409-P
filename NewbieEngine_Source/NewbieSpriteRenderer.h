@@ -6,6 +6,7 @@ namespace newbie
 {
 	class SpriteRenderer : public Component
 	{
+		// 요소를 상속받아 Sprite를 렌더링하는 요소
 	public:
 		SpriteRenderer();
 		~SpriteRenderer();

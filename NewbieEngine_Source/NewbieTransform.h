@@ -13,6 +13,7 @@ namespace newbie
 
 	class Transform : public Component
 	{
+		// 위치, 좌표를 저장하는 요소로 각 객체에 부착
 	public:
 		Transform();
 		~Transform();
