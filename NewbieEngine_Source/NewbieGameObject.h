@@ -1,5 +1,6 @@
 #pragma once
 #include "Commoninclude.h"
+#include "NewbieComponent.h"
 
 namespace newbie
 {
@@ -10,22 +11,36 @@ namespace newbie
 		GameObject();
 		~GameObject();
 
-		void Update();
-		void LateUpdate();
-		void Render(HDC hdc);
+		virtual void Initialize();
+		virtual void Update();
+		virtual void LateUpdate();
+		virtual void Render(HDC hdc);
 
-		void SetPosition(float x, float y)
+		template <typename T>
+		T* AddComponent()
 		{
-			mX = x;
-			mY = y;
+			T* comp = new T();
+			comp->Setowner(this);
+			mComponents.push_back(comp);
+
+			return comp;
 		}
-		float GetPositionX() { return mX; }
-		float GetPositionY() { return mY; }
+
+		template <typename T>
+		T* GetComponent()
+		{
+			T* comonent = nullptr;
+			for (Component* comp : mComponents)
+			{
+				// dynamic_cast는 캐스팅 가능시 캐스트 된 결과를, 불가능시 nullptr 반환
+				component = dynamic_cast<T*>(comp);
+				if (component)
+					break;
+			}
+			return component;
+		}
 
 	private:
-		//            Ʈ   ǥ
-		float mX;
-		float mY;
-		
+		std::vector<Component*> mComponents;
 	};
 }

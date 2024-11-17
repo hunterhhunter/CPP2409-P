@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClInclude Include="NewbieLoadScenes.h" />
     <ClInclude Include="NewbiePlayScene.h" />
+    <ClInclude Include="NewbiePlayer.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -11,5 +12,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewbiePlayScene.cpp" />
+    <ClCompile Include="NewbiePlayer.cpp" />
   </ItemGroup>
 </Project>

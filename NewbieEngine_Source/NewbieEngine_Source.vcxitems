@@ -17,19 +17,25 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Entity.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieGameObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieInput.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScene.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTime.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieGameObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieInput.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScene.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTime.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTransform.cpp" />
   </ItemGroup>
 </Project>

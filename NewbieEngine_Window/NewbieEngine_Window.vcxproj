@@ -129,9 +129,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="NewbieLoadScenes.h" />
+    <ClInclude Include="NewbiePlayer.h" />
     <ClInclude Include="NewbiePlayScene.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="NewbiePlayer.cpp" />
     <ClCompile Include="NewbiePlayScene.cpp" />
   </ItemGroup>
   <ItemGroup>
