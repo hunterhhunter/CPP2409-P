@@ -2,11 +2,13 @@
 #include "NewbieGameObject.h"
 #include "NewbieInput.h"
 #include "NewbieTime.h"
+#include "NewbieTransform.h"
 
 namespace newbie
 {
 	GameObject::GameObject()
 	{
+		initializeTransform();
 	}
 
 	GameObject::~GameObject()
@@ -47,5 +49,10 @@ namespace newbie
 		{
 			comp->Render(hdc);
 		}
+	}
+
+	void GameObject::initializeTransform()
+	{
+		AddComponent<Transform>();
 	}
 }

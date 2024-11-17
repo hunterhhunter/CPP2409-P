@@ -23,6 +23,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieInput.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieLayer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieMath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResource.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResources.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScene.h" />

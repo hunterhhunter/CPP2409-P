@@ -15,8 +15,6 @@ namespace newbie
 		void Update() override;
 		void LateUpdate() override;
 		void Render(HDC hdc) override;
-
-	private:
 		void ImageLoad(const std::wstring& path);
 
 	private:

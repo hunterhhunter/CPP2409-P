@@ -3,6 +3,10 @@ C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieComponent.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieComponent.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieGameObject.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieInput.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieLayer.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieLayer.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieMath.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieMath.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieResource.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieResources.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieScene.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieScene.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieSceneManager.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieSpriteRenderer.obj

@@ -26,11 +26,11 @@
     <ClCompile Include="NewbiePlayScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="NewbieTitleScene.cpp">
-      <Filter>Scenes</Filter>
-    </ClCompile>
     <ClCompile Include="NewbiePlayer.cpp">
       <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieTitleScene.cpp">
+      <Filter>Scenes</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

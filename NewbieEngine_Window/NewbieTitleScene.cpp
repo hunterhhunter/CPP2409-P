@@ -1,6 +1,11 @@
 #include "NewbieTitleScene.h"
-#include "NewbieInput.h"
 #include "NewbiePlayScene.h"
+#include "NewbieGameObject.h"
+#include "NewbiePlayer.h"
+#include "NewbieTransform.h"
+#include "NewbieSpriteRenderer.h"
+#include "NewbieInput.h"
+#include "NewbieTitleScene.h"
 #include "NewbieSceneManager.h"
 
 namespace newbie
@@ -18,6 +23,17 @@ namespace newbie
 	void TitleScene::Initialize()
 	{
 		Scene::Initialize();
+
+		Player* bg = new Player();
+		Transform* tr = bg->AddComponent<Transform>();
+		tr->SetPosition(Vector2(0, 0));
+		tr->SetName(L"TR");
+
+		SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
+		sr->SetName(L"SR");
+		sr->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\BackGroundImage2.png");
+
+		AddGameObject(bg, enums::eLayerType::BackGround);
 	}
 
 	void TitleScene::Update()

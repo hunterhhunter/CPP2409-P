@@ -2,7 +2,6 @@
 #include "Entity.h"
 #include "NewbieGameObject.h"
 #include "NewbieLayer.h"
-#include "NewbieEnums.h"
 
 namespace newbie
 {
@@ -20,10 +19,11 @@ namespace newbie
 		virtual void OnEnter();
 		virtual void OnExit();
 
-		void AddGameObject(GameObject* gameObject, const eLayerType type);
-		
+		void AddGameObject(GameObject* gameObject, const newbie::enums::eLayerType type);
+		Layer* GetLayer(const enums::eLayerType type) { return mLayers[(UINT)type]; }
+
 	private:
-		void CreateLayers();
+		void createLayers();
 
 	private:
 		std::vector<Layer*> mLayers;
