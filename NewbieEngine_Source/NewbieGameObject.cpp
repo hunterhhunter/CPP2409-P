@@ -54,7 +54,7 @@ namespace newbie
 		HPEN oldPen = (HPEN)SelectObject(hdc, redPen);
 		SelectObject(hdc, oldPen);
 
-		Rectangle(hdc, 100 + mX, 100 + mY, 200 + mX, 200 + mY);
+		Rectangle(hdc, mX, mY, mX, mY);
 
 		SelectObject(hdc, oldBrush);
 		DeleteObject(blueBrush);
