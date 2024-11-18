@@ -91,14 +91,14 @@
     <Filter Include="Scene">
       <UniqueIdentifier>{c5ddb9ea-00a6-4dc0-845a-755f3e386e95}</UniqueIdentifier>
     </Filter>
-    <Filter Include="GameObject">
-      <UniqueIdentifier>{95d6cd06-0677-4e80-a07b-74085233a522}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Helpers">
       <UniqueIdentifier>{e71f8907-2183-4024-bbc3-641cd24ea5af}</UniqueIdentifier>
     </Filter>
     <Filter Include="High Level Interface">
       <UniqueIdentifier>{4be4bee1-e268-49d8-8910-af3048583d54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{95d6cd06-0677-4e80-a07b-74085233a522}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
