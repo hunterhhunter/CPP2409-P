@@ -13,6 +13,7 @@ namespace newbie
 	void Player::Update()
 	{
 		GameObject::Update();
+		
 		if (Input::GetKey(eKeyCode::Right))
 		{
 			Transform* tr = GetComponent<Transform>();
@@ -52,11 +53,13 @@ namespace newbie
 
 		/*if (Input::GetKey(eKeyCode::Right))
 		{
-			Transform* tr = GetComponent<Transform>();
+			Transform* tr = GetComponent<Transform>();n
 			Vector2 pos = tr->GetPosition();
 			pos.x += 100.0f * Time::DeltaTime();
 			tr->SetPosition(pos);
 		}*/
+
+		
 	}
 
 	void Player::Render(HDC hdc)

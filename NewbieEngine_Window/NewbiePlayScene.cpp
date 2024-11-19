@@ -7,6 +7,7 @@
 #include "NewbieTitleScene.h"
 #include "NewbieSceneManager.h"
 #include "NewbieObject.h"
+#include "NewbieBackGround.h"
 
 namespace newbie
 {
@@ -21,10 +22,14 @@ namespace newbie
 	{
 		// BackGround 유닛 추가
 		{
-			bg = object::Instantiate<Player>
-				(enums::eLayerType::BackGround, Vector2(0.0f, 0.0f));
+			bg = object::Instantiate<BackGround>(newbie::enums::eLayerType::BackGround, Vector2(0, 0));
 			SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
 			sr->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\BackGroundImage.png");
+			
+			player = object::Instantiate<Player>(newbie::enums::eLayerType::Player, Vector2(0, 0));
+			SpriteRenderer* sr2 = player->AddComponent<SpriteRenderer>();
+			sr2->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\cha.png");
+			
 
 			// 게임 오브젝트 생성 후 레이어와 게임 오브젝트 init
 			Scene::Initialize();

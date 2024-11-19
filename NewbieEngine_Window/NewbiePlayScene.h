@@ -1,5 +1,6 @@
 #pragma once
 #include "NewbieScene.h"
+#include "NewbieBackGround.h"
 
 namespace newbie
 {
@@ -18,7 +19,7 @@ namespace newbie
 		void OnExit()  override;
 
 	private:
-		class Player* bg;
+		class BackGround* bg;
 		class Player* player;
 	};
 }

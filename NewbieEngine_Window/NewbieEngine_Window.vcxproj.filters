@@ -13,7 +13,9 @@
     <ClInclude Include="NewbiePlayer.h">
       <Filter>Content</Filter>
     </ClInclude>
-    <ClInclude Include="NewbieBackGround.h" />
+    <ClInclude Include="NewbieBackGround.h">
+      <Filter>Content</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -33,6 +35,8 @@
     <ClCompile Include="NewbieTitleScene.cpp">
       <Filter>Scenes</Filter>
     </ClCompile>
-    <ClCompile Include="NewbieBackGround.cpp" />
+    <ClCompile Include="NewbieBackGround.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
