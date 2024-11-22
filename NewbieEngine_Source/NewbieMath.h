@@ -6,6 +6,9 @@ namespace newbie
 	{
 		struct Vector2
 		{
+			static Vector2 One;
+			static Vector2 Zero;
+
 			float x;
 			float y;
 		

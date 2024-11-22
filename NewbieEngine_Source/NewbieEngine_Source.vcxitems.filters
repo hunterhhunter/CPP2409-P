@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTransform.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp">
       <Filter>Common</Filter>
@@ -33,11 +32,18 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp">
       <Filter>High Level Interface</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResource.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResources.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTexture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResource.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResources.cpp">
+      <Filter>Resources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
       <Filter>Common</Filter>
@@ -75,10 +81,18 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieEnums.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResource.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResources.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieObject.h">
       <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTexture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResources.h">
+      <Filter>Resources</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -99,6 +113,12 @@
     </Filter>
     <Filter Include="GameObject">
       <UniqueIdentifier>{95d6cd06-0677-4e80-a07b-74085233a522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{77e3cefa-5a45-4570-841a-0448c3c8e968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a797b595-d92c-4397-a517-a0213a4c24ff}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

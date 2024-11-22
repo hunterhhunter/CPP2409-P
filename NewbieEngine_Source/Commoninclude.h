@@ -1,6 +1,7 @@
 #pragma once
 
 // ������ϸ��� �����Ͽ� load�ؼ� ����ϴ� �������
+#include <assert.h>
 
 #include<Windows.h>
 #include<vector>

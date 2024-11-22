@@ -8,6 +8,8 @@
 #include "NewbieSceneManager.h"
 #include "NewbieObject.h"
 #include "NewbieBackGround.h"
+#include "NewbieTexture.h"
+#include "NewbieResources.h"
 
 namespace newbie
 {
@@ -22,14 +24,19 @@ namespace newbie
 	{
 		// BackGround 유닛 추가
 		{
-			bg = object::Instantiate<BackGround>(newbie::enums::eLayerType::BackGround, Vector2(0, 0));
+			//bg = object::Instantiate<BackGround>(newbie::enums::eLayerType::BackGround, Vector2(0, 0));
+			//SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
+			//sr->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\BackGroundImage.png");
+			//
+			//player = object::Instantiate<Player>(newbie::enums::eLayerType::Player, Vector2(300, 300));
+			//SpriteRenderer* sr2 = player->AddComponent<SpriteRenderer>();
+			//sr2->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\cha.png");
+
+			// 오브젝트 생성 전 리소스 로드
+			bg = object::Instantiate<BackGround>(enums::eLayerType::Player);
 			SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
-			sr->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\BackGroundImage.png");
-			
-			player = object::Instantiate<Player>(newbie::enums::eLayerType::Player, Vector2(0, 0));
-			SpriteRenderer* sr2 = player->AddComponent<SpriteRenderer>();
-			sr2->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\cha.png");
-			
+			graphics::Texture* bg = Resources::Find<graphics::Texture>(L"BG");
+			sr->SetTexture(bg);
 
 			// 게임 오브젝트 생성 후 레이어와 게임 오브젝트 init
 			Scene::Initialize();

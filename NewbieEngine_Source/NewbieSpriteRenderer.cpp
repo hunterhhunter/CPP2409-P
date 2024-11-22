@@ -1,13 +1,14 @@
 #include "NewbieSpriteRenderer.h"
 #include "NewbieGameObject.h"
 #include "NewbieTransform.h"
+#include "NewbieTexture.h"
 
 namespace newbie
 {
 	SpriteRenderer::SpriteRenderer()
-		: mImage(nullptr)
-		, mWidth(0)
-		, mHeight(0)
+		: Component()
+		, mTexture(nullptr)
+		, mSize(Vector2::One)
 	{
 	}
 
@@ -29,19 +30,32 @@ namespace newbie
 
 	void SpriteRenderer::Render(HDC hdc)
 	{
+		if (mTexture == nullptr)
+			assert(false);
+		
 		// 위치정보 불러오기
 		Transform* tr = GetOwner()->GetComponent<Transform>();
 		Vector2 pos = tr->GetPosition();
 
-		// Gdiplus Graphics
-		Gdiplus::Graphics graphics(hdc);
-		graphics.DrawImage(mImage, Gdiplus::Rect(pos.x, pos.y, mWidth, mHeight));
-	}
-
-	void SpriteRenderer::ImageLoad(const std::wstring& path)
-	{
-		mImage = Gdiplus::Image::FromFile(path.c_str());
-		mWidth = mImage->GetWidth();
-		mHeight = mImage->GetHeight();
+		// Bmp 파일 처리
+		if (mTexture->GetTextureType() == graphics::Texture::eTextureType::Bmp)
+		{
+			TransparentBlt(hdc, pos.x, pos.y,
+				mTexture->GetWidth() * mSize.x, mTexture->GetHeight() * mSize.y,
+				mTexture->GetHdc(), 0, 0,
+				mTexture->GetWidth(), mTexture->GetHeight(), RGB(255, 0, 255));
+		}
+		// 이미지 파일인 경우
+		else if (mTexture->GetTextureType() == graphics::Texture::eTextureType::Png)
+		{
+			Gdiplus::Graphics graphics(hdc);
+			graphics.DrawImage(mTexture->GetImage(),
+				Gdiplus::Rect(
+					pos.x, pos.y,
+					mTexture->GetWidth() * mSize.x, 
+					mTexture->GetHeight()*mSize.y
+				)
+			);
+		}
 	}
 }

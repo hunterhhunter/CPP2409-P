@@ -1,1 +1,70 @@
-﻿  MakeEngine.vcxproj -> C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Debug\MakeEngine.exe
+﻿  Entity.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieApplication.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(39,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(39,30): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+  NewbieComponent.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieGameObject.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieInput.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieLayer.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieMath.cpp
+  NewbieResource.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieResources.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(12,27): error C2039: 'fine': 'std::map<std::wstring,newbie::Resource *,std::less<std::wstring>,std::allocator<std::pair<const std::wstring,newbie::Resource *>>>'의 멤버가 아닙니다.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(36,16):
+  'std::map<std::wstring,newbie::Resource *,std::less<std::wstring>,std::allocator<std::pair<const std::wstring,newbie::Resource *>>>' 선언을 참조하십시오.
+  C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(10,13):
+  이 진단은 컴파일러 생성 함수 'T *newbie::Resources::Find(const std::wstring &)'에서 수행되었습니다.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(13,16): error C3861: 'mResource': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(10,13):
+  이 진단은 컴파일러 생성 함수 'T *newbie::Resources::Find(const std::wstring &)'에서 수행되었습니다.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(13,16): error C2065: 'mResource': 선언되지 않은 식별자입니다.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(10,13):
+  이 진단은 컴파일러 생성 함수 'T *newbie::Resources::Find(const std::wstring &)'에서 수행되었습니다.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(31,4): error C3861: 'mResorces': 식별자를 찾을 수 없습니다.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(19,13):
+  이 진단은 컴파일러 생성 함수 'T *newbie::Resources::Load(const std::wstring &,const std::wstring &)'에서 수행되었습니다.
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(31,4): error C2065: 'mResorces': 선언되지 않은 식별자입니다.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResources.h(19,13):
+  이 진단은 컴파일러 생성 함수 'T *newbie::Resources::Load(const std::wstring &,const std::wstring &)'에서 수행되었습니다.
+  
+  NewbieScene.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieSceneManager.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieSpriteRenderer.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(44,59): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(44,26): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(43,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(43,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(56,27): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(55,27): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(54,16): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(54,9): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieTexture.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieTime.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.cpp(42,11): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieTransform.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  main.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  코드를 생성하고 있습니다...

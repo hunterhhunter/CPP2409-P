@@ -14,6 +14,7 @@ namespace newbie {
 		void Updata();		// 먼저 업데이트
 		void LateUpdate();	// 나중에 업데이트
 		void Render();		// 그리는 건 전부 여기
+		HDC GetHDC() { return mHdc; }
 
 	private:
 		void clearRenderTarget();

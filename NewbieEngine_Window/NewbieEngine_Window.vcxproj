@@ -129,6 +129,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="NewbieBackGround.h" />
+    <ClInclude Include="NewbieLoadResources.h" />
     <ClInclude Include="NewbieLoadScenes.h" />
     <ClInclude Include="NewbiePlayer.h" />
     <ClInclude Include="NewbiePlayScene.h" />
