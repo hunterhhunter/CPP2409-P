@@ -1,6 +1,7 @@
 #include "NewbieTransform.h"
 
 newbie::Transform::Transform()
+	: Component(enums::eComponentType::Transform)
 {
 }
 

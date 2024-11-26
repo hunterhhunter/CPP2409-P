@@ -132,12 +132,14 @@
     <ClInclude Include="NewbieLoadResources.h" />
     <ClInclude Include="NewbieLoadScenes.h" />
     <ClInclude Include="NewbiePlayer.h" />
+    <ClInclude Include="NewbiePlayerScript.h" />
     <ClInclude Include="NewbiePlayScene.h" />
     <ClInclude Include="NewbieTitleScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewbieBackGround.cpp" />
     <ClCompile Include="NewbiePlayer.cpp" />
+    <ClCompile Include="NewbiePlayerScript.cpp" />
     <ClCompile Include="NewbiePlayScene.cpp" />
     <ClCompile Include="NewbieTitleScene.cpp" />
   </ItemGroup>

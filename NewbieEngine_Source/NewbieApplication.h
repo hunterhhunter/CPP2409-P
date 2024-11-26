@@ -15,6 +15,8 @@ namespace newbie {
 		void LateUpdate();	// 나중에 업데이트
 		void Render();		// 그리는 건 전부 여기
 		HDC GetHDC() { return mHdc; }
+		UINT GetWidth() { return mWidth; }
+		UINT GetHeight() { return mHeight; }
 
 	private:
 		void clearRenderTarget();

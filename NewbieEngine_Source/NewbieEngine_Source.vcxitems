@@ -17,6 +17,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Entity.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCamera.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieEnums.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieGameObject.h" />
@@ -24,10 +25,12 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieLayer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieMath.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResource.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResources.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScene.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSceneManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScript.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTexture.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTime.h" />
@@ -36,15 +39,18 @@
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCamera.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieGameObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieInput.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieMath.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResource.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResources.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScene.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSceneManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScript.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTexture.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTime.cpp" />

@@ -17,6 +17,9 @@
       <Filter>Content</Filter>
     </ClInclude>
     <ClInclude Include="NewbieLoadResources.h" />
+    <ClInclude Include="NewbiePlayerScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -24,6 +27,9 @@
     </Filter>
     <Filter Include="Content">
       <UniqueIdentifier>{1341f3eb-03ba-42a9-8a26-3619c0d77918}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script">
+      <UniqueIdentifier>{910e3666-da5c-488c-9180-36aa9117c8fd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +44,9 @@
     </ClCompile>
     <ClCompile Include="NewbieBackGround.cpp">
       <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbiePlayerScript.cpp">
+      <Filter>Script</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

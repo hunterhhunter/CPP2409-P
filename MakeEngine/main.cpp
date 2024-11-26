@@ -6,6 +6,7 @@
 
 #include "../NewbieEngine_Source/NewbieApplication.h"
 #include "../NewbieEngine_Window/NewbieLoadScenes.h"
+#include "../NewbieEngine_Window/NewbieLoadResources.h"
 
 newbie::Application application;
 
@@ -130,8 +131,8 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 {
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
-   const UINT width = 1600;
-   const UINT height = 900;
+   const UINT width = 672;
+   const UINT height = 846;
 
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, width, height, nullptr, nullptr, hInstance, nullptr);
@@ -150,6 +151,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    Gdiplus::GdiplusStartup(&gpToken, &gpsi, NULL);
 
    //load Scenes
+   newbie::LoadResources();
    newbie::LoadScenes();
 
    return TRUE;

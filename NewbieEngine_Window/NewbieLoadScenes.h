@@ -9,6 +9,6 @@ namespace newbie
 	{
 		SceneManager::CreateScene<TitleScene>(L"TitleScene");
 		SceneManager::CreateScene<PlayScene>(L"PlayScene");
-		SceneManager::LoadScene(L"TitleScene");
+		SceneManager::LoadScene(L"PlayScene");
 	}
 }

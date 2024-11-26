@@ -2,11 +2,12 @@
 #include "NewbieGameObject.h"
 #include "NewbieTransform.h"
 #include "NewbieTexture.h"
+#include "NewbieRenderer.h"
 
 namespace newbie
 {
 	SpriteRenderer::SpriteRenderer()
-		: Component()
+		: Component(enums::eComponentType::SpriteRenderer)
 		, mTexture(nullptr)
 		, mSize(Vector2::One)
 	{
@@ -36,6 +37,8 @@ namespace newbie
 		// 위치정보 불러오기
 		Transform* tr = GetOwner()->GetComponent<Transform>();
 		Vector2 pos = tr->GetPosition();
+
+		pos = renderer::mainCamera->CaluatePosition(pos);
 
 		// Bmp 파일 처리
 		if (mTexture->GetTextureType() == graphics::Texture::eTextureType::Bmp)

@@ -9,7 +9,22 @@ namespace newbie
 	{
 		Resources::Load<graphics::Texture>(
 			L"BG",
-			L"C:/Users/slugg/Documents/GitHub/CPP2409-P/Resources/BackGroundImage.png"
+			L"../Resources/BackGroundImage.png"
+		);
+		
+		Resources::Load<graphics::Texture>(
+			L"PLAYER",
+			L"../Resources/cha.png"
+		);
+
+		Resources::Load<graphics::Texture>(
+			L"Map",
+			L"../Resources/img/map/map_pure.png"
+		);
+
+		Resources::Load<graphics::Texture>(
+			L"PackMan",
+			L"../Resources/img/pacman/0.png"
 		);
 	}
 		

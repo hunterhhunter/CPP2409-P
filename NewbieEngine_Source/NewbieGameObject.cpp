@@ -8,6 +8,7 @@ namespace newbie
 {
 	GameObject::GameObject()
 	{
+		mComponents.resize((UINT)enums::eComponentType::End);
 		initializeTransform();
 	}
 
@@ -24,6 +25,8 @@ namespace newbie
 	{
 		for (Component* comp : mComponents)
 		{
+			if (comp == nullptr)
+				continue;
 			comp->Initialize();
 		}
 	}
@@ -32,6 +35,8 @@ namespace newbie
 	{
 		for (Component* comp : mComponents)
 		{
+			if (comp == nullptr)
+				continue;
 			comp->Update();
 		}
 	}
@@ -39,6 +44,8 @@ namespace newbie
 	{
 		for (Component* comp : mComponents)
 		{
+			if (comp == nullptr)
+				continue;
 			comp->LateUpdate();
 		}
 	}
@@ -47,6 +54,8 @@ namespace newbie
 	{
 		for (Component* comp : mComponents)
 		{
+			if (comp == nullptr)
+				continue;
 			comp->Render(hdc);
 		}
 	}

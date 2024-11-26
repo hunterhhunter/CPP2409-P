@@ -23,7 +23,7 @@ namespace newbie
 			T* comp = new T();
 			comp->Initialize();
 			comp->SetOwner(this);
-			mComponents.push_back(comp);
+			mComponents[(UINT)comp->GetType()] = comp;
 
 			return comp;
 		}

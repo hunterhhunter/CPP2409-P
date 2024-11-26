@@ -7,22 +7,22 @@ namespace newbie
 
 	Scene* SceneManager::LoadScene(const std::wstring& name)
 	{
-		// mActiveSceneÀÌ Á¸ÀçÇÒ ¶§
+		// mActiveSceneï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
 		if (mActiveScene)
 			mActiveScene->OnExit();
 
-		// SceneÀ» °Ë»ö
+		// Sceneï¿½ï¿½ ï¿½Ë»ï¿½
 		std::map<std::wstring, Scene*>::iterator iter = mScene.find(name);
 
-		// Ã£´Â SceneÀÌ ¾øÀ» ¶§ nullptr ¹ÝÈ¯
+		// Ã£ï¿½ï¿½ Sceneï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ nullptr ï¿½ï¿½È¯
 		if (iter == mScene.end())
 			return nullptr;
 
-		// °Ë»öµÈ ¾ÀÀ» ÇöÀç È°¼ºÈ­µÈ ¾ÀÀ¸·Î ¼³Á¤
+		// ï¿½Ë»ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 		mActiveScene = iter->second;
 		mActiveScene->OnEnter();
 
-		// È°¼ºÈ­µÈ ¾À °´Ã¼¸¦ ¹ÝÈ¯
+		// È°ï¿½ï¿½È­ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½Ã¼ï¿½ï¿½ ï¿½ï¿½È¯
 		return iter->second;
 	}
 

@@ -9,8 +9,8 @@ namespace newbie
 		template <typename T>
 		static T* Find(const std::wstring& key)
 		{
-			auto iter = mResources.fine(key);
-			if (iter == mResource.end())
+			auto iter = mResources.find(key);
+			if (iter == mResources.end())
 				return nullptr;
 			return dynamic_cast<T*>(iter->second);
 		}
@@ -28,7 +28,7 @@ namespace newbie
 
 			resource->SetName(key);
 			resource->SetPath(path);
-			mResorces.insert(std::make_pair(key, resource));
+			mResources.insert(std::make_pair(key, resource));
 
 			return resource;
 		}

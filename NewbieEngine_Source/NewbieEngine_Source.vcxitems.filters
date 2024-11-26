@@ -42,6 +42,9 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResources.cpp">
       <Filter>Resources</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieRenderer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScript.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h" />
@@ -94,6 +97,9 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResources.h">
       <Filter>Resources</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieRenderer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScript.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">

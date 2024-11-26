@@ -24,7 +24,7 @@ namespace newbie
 	{
 		Scene::Initialize();
 
-		Player* bg = new Player();
+		/*Player* bg = new Player();
 		Transform* tr = bg->AddComponent<Transform>();
 		tr->SetPosition(Vector2(0, 0));
 		tr->SetName(L"TR");
@@ -33,7 +33,7 @@ namespace newbie
 		sr->SetName(L"SR");
 		sr->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\BackGroundImage2.png");
 
-		AddGameObject(bg, enums::eLayerType::BackGround);
+		AddGameObject(bg, enums::eLayerType::BackGround);*/
 	}
 
 	void TitleScene::Update()

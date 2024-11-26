@@ -10,6 +10,9 @@
 #include "NewbieBackGround.h"
 #include "NewbieTexture.h"
 #include "NewbieResources.h"
+#include "NewbiePlayerScript.h"
+#include "NewbieCamera.h"
+#include "NewbieRenderer.h"
 
 namespace newbie
 {
@@ -22,25 +25,27 @@ namespace newbie
 
 	void PlayScene::Initialize()
 	{
-		// BackGround 유닛 추가
-		{
-			//bg = object::Instantiate<BackGround>(newbie::enums::eLayerType::BackGround, Vector2(0, 0));
-			//SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
-			//sr->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\BackGroundImage.png");
-			//
-			//player = object::Instantiate<Player>(newbie::enums::eLayerType::Player, Vector2(300, 300));
-			//SpriteRenderer* sr2 = player->AddComponent<SpriteRenderer>();
-			//sr2->ImageLoad(L"C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\Resources\\cha.png");
+		// main Camera
+		GameObject* camera = object::Instantiate<GameObject>(enums::eLayerType::None, Vector2(344.0f, 442.0f));
+		Camera* cameraComp = camera->AddComponent<Camera>();
+		renderer::mainCamera = cameraComp;
 
-			// 오브젝트 생성 전 리소스 로드
-			bg = object::Instantiate<BackGround>(enums::eLayerType::Player);
-			SpriteRenderer* sr = bg->AddComponent<SpriteRenderer>();
-			graphics::Texture* bg = Resources::Find<graphics::Texture>(L"BG");
-			sr->SetTexture(bg);
+		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
+		SpriteRenderer* sr = mPlayer->AddComponent<SpriteRenderer>();
+		sr->SetSize(Vector2(3.0f, 3.0f));
+		mPlayer->AddComponent<PlayerScript>();
 
-			// 게임 오브젝트 생성 후 레이어와 게임 오브젝트 init
-			Scene::Initialize();
-		}
+		graphics::Texture* packmanTexture = Resources::Find<graphics::Texture>(L"PackMan");
+		sr->SetTexture(packmanTexture);
+
+		GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::BackGround);
+		SpriteRenderer* bgSr = bg->AddComponent<SpriteRenderer>();
+		bgSr->SetSize(Vector2(3.0f, 3.0f));
+
+		graphics::Texture* bgTexture = Resources::Find<graphics::Texture>(L"Map");
+		bgSr->SetTexture(bgTexture);
+
+		Scene::Initialize();
 	}
 
 	void PlayScene::Update()

@@ -20,7 +20,7 @@ namespace newbie
 
 	private:
 		class BackGround* bg;
-		class Player* player;
+		class Player* mPlayer;
 	};
 }
 

@@ -19,5 +19,14 @@ namespace newbie
 			Prefab,
 			End,
 		};
+
+		enum class eComponentType
+		{
+			Transform,
+			SpriteRenderer,
+			Script,
+			Camera,
+			End,
+		};
 	}
 }
