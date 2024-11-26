@@ -16,6 +16,7 @@ namespace newbie
 		{
 			Texture,
 			AudioClip,
+			Animation,
 			Prefab,
 			End,
 		};
@@ -24,6 +25,7 @@ namespace newbie
 		{
 			Transform,
 			SpriteRenderer,
+			Animator,
 			Script,
 			Camera,
 			End,

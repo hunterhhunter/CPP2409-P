@@ -1,5 +1,7 @@
 #pragma once
 #include "Commoninclude.h"
+using namespace newbie::math;
+
 
 namespace newbie {
 	// 디버깅 되는 모든 객체가 상속받을 객체

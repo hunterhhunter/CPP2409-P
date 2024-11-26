@@ -1,5 +1,13 @@
-﻿  NewbiePlayScene.cpp
+﻿  NewbieAnimation.cpp
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(81,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(80,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(79,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(78,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(76,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(75,20): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(74,16): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(74,9): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   NewbieTitleScene.cpp
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   코드를 생성하고 있습니다...

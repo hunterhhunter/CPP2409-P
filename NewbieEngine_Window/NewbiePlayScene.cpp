@@ -13,6 +13,7 @@
 #include "NewbiePlayerScript.h"
 #include "NewbieCamera.h"
 #include "NewbieRenderer.h"
+#include "NewbieAnimator.h"
 
 namespace newbie
 {
@@ -30,18 +31,27 @@ namespace newbie
 		Camera* cameraComp = camera->AddComponent<Camera>();
 		renderer::mainCamera = cameraComp;
 
+		// Make Player
 		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
-		SpriteRenderer* sr = mPlayer->AddComponent<SpriteRenderer>();
-		sr->SetSize(Vector2(3.0f, 3.0f));
+		/*SpriteRenderer* sr = mPlayer->AddComponent<SpriteRenderer>();
+		sr->SetSize(Vector2(3.0f, 3.0f));*/
 		mPlayer->AddComponent<PlayerScript>();
 
-		graphics::Texture* packmanTexture = Resources::Find<graphics::Texture>(L"PackMan");
-		sr->SetTexture(packmanTexture);
+		// Set Player Texture
+		graphics::Texture* packmanTexture = Resources::Find<graphics::Texture>(L"Cat");
 
+		// Add Player Animation
+		Animator* animator = mPlayer->AddComponent<Animator>();
+		animator->CreateAnimation(L"CatFrontMove", packmanTexture
+			, Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.5f);
+		animator->PlayAnimation(L"CatFrontMove", true);
+
+		// Make BackGround
 		GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::BackGround);
 		SpriteRenderer* bgSr = bg->AddComponent<SpriteRenderer>();
 		bgSr->SetSize(Vector2(3.0f, 3.0f));
 
+		// BackGround Texture
 		graphics::Texture* bgTexture = Resources::Find<graphics::Texture>(L"Map");
 		bgSr->SetTexture(bgTexture);
 

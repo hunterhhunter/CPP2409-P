@@ -16,6 +16,8 @@
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)Entity.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimator.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieApplication.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCamera.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h" />
@@ -38,6 +40,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimator.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieApplication.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCamera.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp" />

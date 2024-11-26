@@ -26,6 +26,11 @@ namespace newbie
 			L"PackMan",
 			L"../Resources/img/pacman/0.png"
 		);
+
+		Resources::Load<graphics::Texture>(
+			L"Cat",
+			L"../Resources/ChickenAlpha.bmp"
+		);
 	}
 		
 }
