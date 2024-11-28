@@ -14,6 +14,8 @@
 #include "NewbieCamera.h"
 #include "NewbieRenderer.h"
 #include "NewbieAnimator.h"
+#include "NewbieCat.h"
+#include "NewbieCatScript.h"
 
 namespace newbie
 {
@@ -32,7 +34,7 @@ namespace newbie
 		renderer::mainCamera = cameraComp;
 
 		// Make Player
-		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
+		mPlayer = object::Instantiate<Player>(enums::eLayerType::Particle);
 		/*SpriteRenderer* sr = mPlayer->AddComponent<SpriteRenderer>();
 		sr->SetSize(Vector2(3.0f, 3.0f));*/
 		mPlayer->AddComponent<PlayerScript>();
@@ -40,20 +42,70 @@ namespace newbie
 		// Set Player Texture
 		graphics::Texture* packmanTexture = Resources::Find<graphics::Texture>(L"Cat");
 
-		// Add Player Animation
+		//// Add Player Animation
 		Animator* animator = mPlayer->AddComponent<Animator>();
-		animator->CreateAnimation(L"CatFrontMove", packmanTexture
-			, Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.5f);
-		animator->PlayAnimation(L"CatFrontMove", true);
+		/*animator->CreateAnimation(L"CatFrontMove", packmanTexture
+			, Vector2(222.0f, 222.0f), Vector2(386.0f, 246.0f), Vector2::Zero, 8, 0.1f);*/
+		/*animator->PlayAnimation(L"CatFrontMove", true);*/
 
-		// Make BackGround
-		GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::BackGround);
-		SpriteRenderer* bgSr = bg->AddComponent<SpriteRenderer>();
-		bgSr->SetSize(Vector2(3.0f, 3.0f));
+		animator->CreateAnimation(L"DownWalk", packmanTexture
+			, Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f)
+			, Vector2::Zero, 4, 0.1f);
+		animator->CreateAnimation(L"RightWalk", packmanTexture
+			, Vector2(0.0f, 32.0f), Vector2(32.0f, 32.0f)
+			, Vector2::Zero, 4, 0.1f);
+		animator->CreateAnimation(L"UpWalk", packmanTexture
+			, Vector2(0.0f, 64.0f), Vector2(32.0f, 32.0f)
+			, Vector2::Zero, 4, 0.1f);
+		animator->CreateAnimation(L"LeftWalk", packmanTexture
+			, Vector2(0.0f, 96.0f), Vector2(32.0f, 32.0f)
+			, Vector2::Zero, 4, 0.1f);
+		animator->CreateAnimation(L"SitDown", packmanTexture
+			, Vector2(0.0f, 128.0f), Vector2(32.0f, 32.0f)
+			, Vector2::Zero, 4, 0.1f);
+		animator->CreateAnimation(L"Grooming", packmanTexture
+			, Vector2(0.0f, 160.0f), Vector2(32.0f, 32.0f)
+			, Vector2::Zero, 4, 0.1f);
 
-		// BackGround Texture
-		graphics::Texture* bgTexture = Resources::Find<graphics::Texture>(L"Map");
-		bgSr->SetTexture(bgTexture);
+		animator->PlayAnimation(L"SitDown", false);
+
+		 mPlayer->GetComponent<Transform>()->SetPosition(Vector2(100.0f, 100.0f));
+		 mPlayer->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
+		
+
+		//// Make BackGround
+		//GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::Player);
+		//SpriteRenderer* bgSr = bg->AddComponent<SpriteRenderer>();
+		//bgSr->SetSize(Vector2(1.1f, 1.1f));
+
+		//// BackGround Texture
+		//graphics::Texture* bgTexture = Resources::Find<graphics::Texture>(L"Bubble");
+		//bgSr->SetTexture(bgTexture);
+
+		 // make Cat
+		 Cat* cat = object::Instantiate<Cat>(enums::eLayerType::Player);
+		 cat->AddComponent<CatScript>();
+
+		 graphics::Texture* catTex = Resources::Find<graphics::Texture>(L"Cat");
+		 Animator* catAnimator = cat->AddComponent<Animator>();
+		 catAnimator->CreateAnimation(L"DownWalk", catTex
+			 , Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+		 catAnimator->CreateAnimation(L"RightWalk", catTex
+			 , Vector2(0.0f, 32.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+		 catAnimator->CreateAnimation(L"UpWalk", catTex
+			 , Vector2(0.0f, 64.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+		 catAnimator->CreateAnimation(L"LeftWalk", catTex
+			 , Vector2(0.0f, 96.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+		 catAnimator->CreateAnimation(L"SitDown", catTex
+			 , Vector2(0.0f, 128.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+		 catAnimator->CreateAnimation(L"Grooming", catTex
+			 , Vector2(0.0f, 160.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+		 catAnimator->CreateAnimation(L"LayDown", catTex
+			 , Vector2(0.0f, 192.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+
+		 catAnimator->PlayAnimation(L"SitDown", false);
+		 cat->GetComponent<Transform>()->SetPosition(Vector2(200.0f, 200.0f));
+		 cat->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
 
 		Scene::Initialize();
 	}

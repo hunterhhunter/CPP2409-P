@@ -20,6 +20,12 @@
     <ClInclude Include="NewbiePlayerScript.h">
       <Filter>Script</Filter>
     </ClInclude>
+    <ClInclude Include="NewbieCatScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieCat.h">
+      <Filter>Content</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -47,6 +53,12 @@
     </ClCompile>
     <ClCompile Include="NewbiePlayerScript.cpp">
       <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieCatScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieCat.cpp">
+      <Filter>Content</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

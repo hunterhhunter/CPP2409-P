@@ -129,6 +129,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="NewbieBackGround.h" />
+    <ClInclude Include="NewbieCat.h" />
+    <ClInclude Include="NewbieCatScript.h" />
     <ClInclude Include="NewbieLoadResources.h" />
     <ClInclude Include="NewbieLoadScenes.h" />
     <ClInclude Include="NewbiePlayer.h" />
@@ -138,6 +140,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewbieBackGround.cpp" />
+    <ClCompile Include="NewbieCat.cpp" />
+    <ClCompile Include="NewbieCatScript.cpp" />
     <ClCompile Include="NewbiePlayer.cpp" />
     <ClCompile Include="NewbiePlayerScript.cpp" />
     <ClCompile Include="NewbiePlayScene.cpp" />

@@ -18,27 +18,7 @@ namespace newbie
 
 	void Input::Update()
 	{
-		for (size_t i = 0; i < Keys.size(); i++)
-		{
-			// 키가 눌리면
-			if (GetAsyncKeyState(ASCII[i]) & 0x8000)
-			{	
-				// 눌린 키 찾기
-				if (Keys[i].bPressed == true) // 과거에도 눌려있었을 때
-					Keys[i].state = eKeyState::Pressed;
-				else // 새로 누르는 상태
-					Keys[i].state = eKeyState::Down;
-				Keys[i].bPressed = true;
-			}
-			else // 키가 안눌림
-			{
-				if (Keys[i].bPressed = true) // 이전에 누르다가 놓은 상태
-					Keys[i].state = eKeyState::Up;
-				else // 아예 눌리지 않은 상태
-					Keys[i].state = eKeyState::None;
-				Keys[i].bPressed = false;
-			}
-		}
+		updateKeys();
 	}
 
 	void Input::createKeys() {
@@ -87,6 +67,8 @@ namespace newbie
 		// 눌려있는지 확인 후 업데이트
 		if (key.bPressed == true)
 			key.state = eKeyState::Pressed;
+		else
+			key.state = eKeyState::Down;
 		key.bPressed = true;
 	}
 

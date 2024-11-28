@@ -55,8 +55,12 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTransform.cpp">
       <Filter>Component</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimation.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimator.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimator.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimation.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
@@ -122,8 +126,12 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h">
       <Filter>Component</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimation.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimator.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimator.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimation.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">
@@ -149,6 +157,9 @@
     </Filter>
     <Filter Include="Resources">
       <UniqueIdentifier>{a797b595-d92c-4397-a517-a0213a4c24ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{847c0a7a-5885-4b49-b31d-e6e881991689}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

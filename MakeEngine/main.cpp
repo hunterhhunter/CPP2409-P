@@ -154,6 +154,9 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    newbie::LoadResources();
    newbie::LoadScenes();
 
+   int a = 0;
+   srand((unsigned int)(&a));
+
    return TRUE;
 }
 

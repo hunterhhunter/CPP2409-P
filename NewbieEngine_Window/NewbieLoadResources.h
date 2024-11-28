@@ -31,6 +31,17 @@ namespace newbie
 			L"Cat",
 			L"../Resources/ChickenAlpha.bmp"
 		);
+
+		Resources::Load<graphics::Texture>(
+			L"Bubble",
+			L"../Resources/Bubble.png"
+		);
+
+		Resources::Load<graphics::Texture>(
+			L"MapleEffect",
+			L"../Resources/ezgif.com-gif-maker.png.png"
+		);
+
 	}
 		
 }
