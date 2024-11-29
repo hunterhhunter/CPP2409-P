@@ -8,9 +8,10 @@ namespace newbie
 	public:
 		enum class eState
 		{
-			SitDown,
 			Walk,
+			Idle,
 			Sleep,
+			GiveWater,
 			Attack,
 		};
 
@@ -23,8 +24,9 @@ namespace newbie
 		void Render(HDC hdc) override;
 
 	private:
-		void sitDown();
+		void idle();
 		void move();
+		void giveWater();
 
 	private:
 		eState mState;

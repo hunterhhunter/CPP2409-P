@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <string>
 #include <map>
+#include <functional>
 
 #include "NewbieMath.h"
 

@@ -1,69 +1,18 @@
-﻿  Entity.cpp
+﻿  NewbieInput.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieAnimation.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(92,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(91,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(90,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(89,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(87,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(86,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(85,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(84,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(120,18): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(119,18): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(118,21): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(117,21): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(115,22): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(114,22): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(113,14): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(112,14): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  NewbieAnimator.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieApplication.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(39,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(39,30): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
-  NewbieCamera.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCamera.cpp(27,39): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCamera.cpp(28,40): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  NewbieComponent.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieGameObject.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieInput.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieLayer.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieRenderer.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieResource.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieResources.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieScene.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieSceneManager.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieScript.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieSpriteRenderer.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(50,37): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(49,36): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(48,34): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(48,27): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(70,36): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(69,37): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(68,16): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(68,9): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  NewbieTexture.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  NewbieTime.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.cpp(42,11): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-  NewbieTransform.cpp
-  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
-  코드를 생성하고 있습니다...
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp(108,30): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp(109,30): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   NewbieEngine.vcxproj -> C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Debug\NewbieEngine.lib

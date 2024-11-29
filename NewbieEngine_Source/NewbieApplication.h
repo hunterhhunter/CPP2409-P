@@ -14,6 +14,8 @@ namespace newbie {
 		void Updata();		// 먼저 업데이트
 		void LateUpdate();	// 나중에 업데이트
 		void Render();		// 그리는 건 전부 여기
+
+		HWND GetHwnd() { return mHwnd; }
 		HDC GetHDC() { return mHdc; }
 		UINT GetWidth() { return mWidth; }
 		UINT GetHeight() { return mHeight; }
@@ -37,6 +39,7 @@ namespace newbie {
 		
 		// 플레이어
 		// std::vector<GameObject*> mGameObjects;
+		
 	};
 }
 	

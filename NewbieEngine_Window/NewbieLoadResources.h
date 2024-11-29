@@ -42,6 +42,10 @@ namespace newbie
 			L"../Resources/ezgif.com-gif-maker.png.png"
 		);
 
+		Resources::Load<graphics::Texture>(
+			L"Player",
+			L"../Resources/Player.bmp"
+		);
 	}
 		
 }

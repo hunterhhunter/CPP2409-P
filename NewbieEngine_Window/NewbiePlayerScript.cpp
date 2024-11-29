@@ -8,7 +8,7 @@
 namespace newbie
 {
 	PlayerScript::PlayerScript()
-		: mState(PlayerScript::eState::SitDown)
+		: mState(PlayerScript::eState::Idle)
 		, mAnimator(nullptr)
 	{
 
@@ -32,13 +32,16 @@ namespace newbie
 
 		switch (mState)
 		{
-		case newbie::PlayerScript::eState::SitDown:
-			sitDown();
+		case newbie::PlayerScript::eState::Idle:
+			idle();
 			break;
 		case newbie::PlayerScript::eState::Walk:
 			move();
 			break;
 		case newbie::PlayerScript::eState::Sleep:
+			break;
+		case newbie::PlayerScript::eState::GiveWater:
+			giveWater();
 			break;
 		case newbie::PlayerScript::eState::Attack:
 			break;
@@ -57,29 +60,13 @@ namespace newbie
 
 	}
 
-	void PlayerScript::sitDown()
+	void PlayerScript::idle()
 	{
-		if (Input::GetKey(eKeyCode::D))
+		if (Input::GetKey(eKeyCode::LButton))
 		{
-			mState = PlayerScript::eState::Walk;
-			mAnimator->PlayAnimation(L"RightWalk");
-		}
-		if (Input::GetKey(eKeyCode::A))
-		{
-			mState = PlayerScript::eState::Walk;
-			mAnimator->PlayAnimation(L"LeftWalk");
-		}
-
-		if (Input::GetKey(eKeyCode::W))
-		{
-			mState = PlayerScript::eState::Walk;
-			mAnimator->PlayAnimation(L"UpWalk");
-		}
-
-		if (Input::GetKey(eKeyCode::S))
-		{
-			mState = PlayerScript::eState::Walk;
-			mAnimator->PlayAnimation(L"DownWalk");
+			mState = PlayerScript::eState::GiveWater;
+			mAnimator->PlayAnimation(L"FrontGiveWater", false);
+			Vector2 mousePos = Input::GetMousePosition();
 		}
 
 	}
@@ -114,8 +101,17 @@ namespace newbie
 		if (Input::GetKeyUp(eKeyCode::D) || Input::GetKeyUp(eKeyCode::A)
 			|| Input::GetKeyUp(eKeyCode::W) || Input::GetKeyUp(eKeyCode::S))
 		{
-			mState = PlayerScript::eState::SitDown;
+			mState = PlayerScript::eState::Idle;
 			mAnimator->PlayAnimation(L"SitDown", false);
+		}
+	}
+
+	void PlayerScript::giveWater()
+	{
+		if (mAnimator->IsComplete())
+		{
+			mState = eState::Idle;
+			mAnimator->PlayAnimation(L"Idle", false);
 		}
 	}
 }
