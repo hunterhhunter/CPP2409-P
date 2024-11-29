@@ -2,6 +2,7 @@
 #include "NewbieInput.h"
 #include "NewbieTime.h"
 #include "NewbieSceneManager.h"
+#include "NewbieResources.h"
 
 namespace newbie
 {
@@ -114,5 +115,11 @@ namespace newbie
 
 		// BackBuffer에 있는걸 원본 Buffer에 복사
 		copyRenderTarget(mBackHdc, mHdc);
+	}
+
+	void Application::Release()
+	{
+		SceneManager::Release();
+		Resources::Release();
 	}
 }

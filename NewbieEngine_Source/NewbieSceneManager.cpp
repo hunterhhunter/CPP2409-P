@@ -44,4 +44,14 @@ namespace newbie
 	{
 		mActiveScene->Render(hdc);
 	}
+
+	void SceneManager::Release()
+	{
+		// 각 씬들 메모리에서 제거
+		for (auto& iter : mScene)
+		{
+			delete iter.second;
+			iter.second = nullptr;
+		}
+	}
 }

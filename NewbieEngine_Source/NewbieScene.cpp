@@ -9,6 +9,12 @@ namespace newbie
 	}
 	Scene::~Scene()
 	{
+		// 씬 내의 Layer 제거
+		for (Layer* layer : mLayers)
+		{
+			delete layer;
+			layer = nullptr;
+		}
 	}
 	void Scene::Initialize()
 	{

@@ -9,7 +9,14 @@ namespace newbie
 	}
 	Layer::~Layer()
 	{
+		for (GameObject* gameObj : mGameObjects)
+		{
+			if (gameObj == nullptr)
+				continue;
 
+			delete gameObj;
+			gameObj = nullptr;
+		}
 	}
 	
 	void Layer::Initialize()

@@ -32,6 +32,18 @@ namespace newbie
 
 			return resource;
 		}
+
+		static void Release()
+		{
+			// 메모리 초기화 함수
+			// Resource 객체 메모리 상에서 제거
+			for (auto& iter : mResources)
+			{
+				delete iter.second;
+				iter.second = nullptr;
+			}
+		}
+
 		private:
 			static std::map<std::wstring, Resource*> mResources;
 	};

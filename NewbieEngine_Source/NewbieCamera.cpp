@@ -36,9 +36,12 @@ namespace newbie
 
 			mLookPosition = tr->GetPosition();
 		}
+		else
+		{
+			Transform* cameraTr = GetOwner()->GetComponent<Transform>();
+			mLookPosition = cameraTr->GetPosition();
+		}
 
-		Transform* cameraTr = GetOwner()->GetComponent<Transform>();
-		mLookPosition = cameraTr->GetPosition();
 		mDistance = mLookPosition - (mResolution / 2.0f);
 	}
 
