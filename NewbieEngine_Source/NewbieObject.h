@@ -34,5 +34,10 @@ namespace newbie
 
 			return gameObject;
 		}
+
+		static void Destroy(GameObject* obj)
+		{
+			obj->Death();
+		}
 	}
 }

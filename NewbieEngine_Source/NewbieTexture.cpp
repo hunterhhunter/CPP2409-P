@@ -1,5 +1,6 @@
 #include "NewbieTexture.h"
 #include "NewbieApplication.h"
+#include "NewbieResources.h"
 
 // 해당 전역변수가 존재함을 알리는 extern 키워드
 extern newbie::Application application;
@@ -8,8 +9,34 @@ namespace newbie
 {
 	namespace graphics
 	{
+		Texture* Texture::Create(const std::wstring& name, UINT width, UINT height)
+		{
+			Texture* image = Resources::Find<Texture>(name);
+			if (image)
+				return image;
+
+			image = new Texture();
+			image->SetName(name);
+			image->SetHeight(height);
+			image->SetWidth(width);
+
+			HDC hdc = application.GetHdc();
+			HWND hwnd = application.GetHwnd();
+
+			image->mBitmap = CreateCompatibleBitmap(hdc, width, height);
+			image->mHdc = CreateCompatibleDC(hdc);
+
+			HBITMAP oldBitmap = (HBITMAP)SelectObject(image->mHdc, image->mBitmap);
+			DeleteObject(oldBitmap);
+
+			Resources::Insert(name + L"Image", image);
+
+			return image;
+		}
+
 		Texture::Texture()
 			:Resource(enums::eResourceType::Texture)
+			, mbAlpha(false)
 		{
 		}
 
@@ -40,7 +67,7 @@ namespace newbie
 				mHeight = info.bmHeight;
 
 				// bmp 보여줄 창 가져오기 (현재 application의 메인 화면)
-				HDC mainDC = application.GetHDC();
+				HDC mainDC = application.GetHdc();
 				mHdc = CreateCompatibleDC(mainDC);
 
 				// 화면에 보여주기

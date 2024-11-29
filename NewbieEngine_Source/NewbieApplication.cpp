@@ -70,6 +70,7 @@ namespace newbie
 		Updata();
 		LateUpdate();
 		Render();
+		Destroy();
 	}
 
 	void Application::clearRenderTarget()
@@ -115,6 +116,11 @@ namespace newbie
 
 		// BackBuffer에 있는걸 원본 Buffer에 복사
 		copyRenderTarget(mBackHdc, mHdc);
+	}
+
+	void Application::Destroy()
+	{
+		SceneManager::Destroy();
 	}
 
 	void Application::Release()

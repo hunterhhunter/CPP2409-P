@@ -65,13 +65,14 @@ namespace newbie
 
 		 // make Cat
 		 Cat* cat = object::Instantiate<Cat>(enums::eLayerType::Player);
+		 cat->SetActive(true);
 		 cat->AddComponent<CatScript>();
 
 		 cameraComp->SetTarget(cat);
 
 		 graphics::Texture* catTex = Resources::Find<graphics::Texture>(L"Cat");
 		 Animator* catAnimator = cat->AddComponent<Animator>();
-		 catAnimator->CreateAnimation(L"DownWalk", catTex
+		 /* catAnimator->CreateAnimation(L"DownWalk", catTex
 			 , Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
 		 catAnimator->CreateAnimation(L"RightWalk", catTex
 			 , Vector2(0.0f, 32.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
@@ -84,9 +85,9 @@ namespace newbie
 		 catAnimator->CreateAnimation(L"Grooming", catTex
 			 , Vector2(0.0f, 160.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
 		 catAnimator->CreateAnimation(L"LayDown", catTex
-			 , Vector2(0.0f, 192.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
+			 , Vector2(0.0f, 192.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);*/
 
-		 catAnimator->PlayAnimation(L"SitDown", false);
+		 // catAnimator->PlayAnimation(L"SitDown", false);
 		 cat->GetComponent<Transform>()->SetPosition(Vector2(200.0f, 200.0f));
 		 cat->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
 

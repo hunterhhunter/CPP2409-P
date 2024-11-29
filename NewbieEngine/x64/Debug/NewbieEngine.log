@@ -1,4 +1,210 @@
-﻿  NewbieSceneManager.cpp
+﻿  Entity.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/Entity.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/Entity.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieAnimation.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTexture.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTransform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimation.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(105,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(104,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(103,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(102,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(100,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(99,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(98,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(97,13): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(133,18): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(132,18): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(131,21): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(130,21): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(128,22): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(127,22): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(126,14): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp(125,14): warning C4244: '인수': 'float'에서 'INT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieAnimator.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimator.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimator.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTexture.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieAnimator.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimator.cpp(123,36): warning C4267: '인수': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimator.cpp(129,47): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimator.cpp(129,35): warning C4244: '인수': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieApplication.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieApplication.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(40,23): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp(40,30): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+  NewbieCamera.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieCamera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieCamera.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieCamera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTransform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieCamera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieCamera.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCamera.cpp(27,39): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCamera.cpp(28,40): warning C4244: '=': 'UINT'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieComponent.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieComponent.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieComponent.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieGameObject.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieGameObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieGameObject.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieGameObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieGameObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTransform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieGameObject.cpp'을(를) 컴파일하는 중)
+  
+  NewbieInput.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieInput.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp(108,30): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp(109,30): warning C4244: '=': 'LONG'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieLayer.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieLayer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieLayer.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieLayer.cpp'을(를) 컴파일하는 중)
+  
+  NewbieRenderer.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieRenderer.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieRenderer.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieResource.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieResource.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieResource.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieResource.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieResources.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieResources.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  NewbieScene.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieScene.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieScene.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieScene.cpp'을(를) 컴파일하는 중)
+  
+  NewbieSceneManager.cpp
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 '../NewbieEngine_Source/NewbieSceneManager.cpp'을(를) 컴파일하는 중)
@@ -13,6 +219,14 @@ C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 '../NewbieEngine_Source/NewbieSceneManager.cpp'을(를) 컴파일하는 중)
   
+  NewbieScript.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieScript.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieScript.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   NewbieSpriteRenderer.cpp
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
@@ -66,5 +280,26 @@ C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
   (소스 파일 '../NewbieEngine_Source/NewbieTexture.cpp'을(를) 컴파일하는 중)
   
+  NewbieTime.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieTime.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieTime.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTime.cpp(42,11): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  NewbieTransform.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTransform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieTransform.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieTransform.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 '../NewbieEngine_Source/NewbieTransform.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
   코드를 생성하고 있습니다...
   NewbieEngine.vcxproj -> C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Debug\NewbieEngine.lib

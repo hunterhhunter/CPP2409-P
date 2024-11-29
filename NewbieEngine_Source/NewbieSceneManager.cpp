@@ -54,4 +54,8 @@ namespace newbie
 			iter.second = nullptr;
 		}
 	}
+	void SceneManager::Destroy()
+	{
+		mActiveScene->Destroy();
+	}
 }

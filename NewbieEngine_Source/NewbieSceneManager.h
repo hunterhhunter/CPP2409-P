@@ -28,6 +28,7 @@ namespace newbie
 		static void LateUpdate();
 		static void Render(HDC hdc);
 		static void Release();
+		static void Destroy();
 
 
 	private:

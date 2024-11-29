@@ -10,6 +10,7 @@
 #include <string>
 #include <map>
 #include <functional>
+#include <filesystem>
 
 #include "NewbieMath.h"
 
