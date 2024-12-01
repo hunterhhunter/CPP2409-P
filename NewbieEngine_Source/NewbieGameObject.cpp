@@ -6,6 +6,18 @@
 
 namespace newbie
 {
+	namespace object
+	{
+		void Destroy(GameObject* gameObject)
+		{
+			if (gameObject != nullptr)
+				gameObject->death();
+		}
+	}
+}
+
+namespace newbie
+{
 	GameObject::GameObject()
 		: mState(eState::Active)
 	{

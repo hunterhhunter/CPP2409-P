@@ -3,6 +3,7 @@
 #include "NewbieTime.h"
 #include "NewbieSceneManager.h"
 #include "NewbieResources.h"
+#include "NewbieColliderManager.h"
 
 namespace newbie
 {
@@ -27,7 +28,80 @@ namespace newbie
 		createBuffer(width, height);
 		initializeEtc();
 
+		ColliderManager::Initialize();
 		SceneManager::Initialize();
+	}
+
+	void Application::Run()
+	{
+		Updata();
+		LateUpdate();
+		Render();
+		Destroy();
+	}
+
+	void Application::Updata()
+	{
+		// 상태업데이트시 사용 (이동, 입력 등)
+		// 11.13 - Input클래스로 입력 업데이트
+		Input::Update();
+		// 11.14 - TIme 클래스 Update
+		Time::Update();
+		ColliderManager::Update();
+		
+		// SceneManager가 Update
+		SceneManager::Update();
+	}
+
+	void Application::LateUpdate()
+	{
+		ColliderManager::LateUpdate();
+		SceneManager::LateUpdate();
+	}
+
+	void Application::Render()
+	{
+		// Rendering 되는 함수 
+		clearRenderTarget();
+
+		// Time Rendering
+		Time::Render(mBackHdc);
+
+		ColliderManager::Render(mBackHdc);
+
+
+		// GameObject Render도 SceneManager가
+		SceneManager::Render(mBackHdc);
+
+		// BackBuffer에 있는걸 원본 Buffer에 복사
+		copyRenderTarget(mBackHdc, mHdc);
+	}
+
+	void Application::Destroy()
+	{
+		SceneManager::Destroy();
+	}
+
+	void Application::Release()
+	{
+		SceneManager::Release();
+		Resources::Release();
+	}
+
+	void Application::clearRenderTarget()
+	{
+		HBRUSH grayBrush = (HBRUSH)CreateSolidBrush(RGB(128, 128, 128));
+		HBRUSH oldBrush = (HBRUSH)SelectObject(mBackHdc, grayBrush);
+		Rectangle(mBackHdc, -1, -1, 1601, 901);
+		(HBRUSH)SelectObject(mBackHdc, oldBrush);
+		DeleteObject(grayBrush);
+	}
+
+	void Application::copyRenderTarget(HDC source, HDC dest)
+	{
+		// source에서 dest로 복사
+		BitBlt(dest, 0, 0, mWidth, mHeight
+			, source, 0, 0, SRCCOPY);
 	}
 
 	void Application::adjustWindowRect(HWND hwnd, UINT width, UINT height)
@@ -63,69 +137,5 @@ namespace newbie
 	{
 		Input::Initialize();
 		Time::Initialize();
-	}
-
-	void Application::Run()
-	{
-		Updata();
-		LateUpdate();
-		Render();
-		Destroy();
-	}
-
-	void Application::clearRenderTarget()
-	{
-		// 1픽셀 키워서 선 안보이게 하기
-		Rectangle(mBackHdc, -1, -1, 1610, 910);
-	}
-
-	void Application::copyRenderTarget(HDC source, HDC dest)
-	{
-		// source에서 dest로 복사
-		BitBlt(dest, 0, 0, mWidth, mHeight
-			, source, 0, 0, SRCCOPY);
-	}
-
-	void Application::Updata()
-	{
-		// 상태업데이트시 사용 (이동, 입력 등)
-		// 11.13 - Input클래스로 입력 업데이트
-		Input::Update();
-		// 11.14 - TIme 클래스 Update
-		Time::Update();
-		
-		// SceneManager가 Update
-		SceneManager::Update();
-	}
-
-	void Application::LateUpdate()
-	{
-		SceneManager::LateUpdate();
-	}
-
-	void Application::Render()
-	{
-		// Rendering 되는 함수 
-		clearRenderTarget();
-
-		// Time Rendering
-		Time::Render(mBackHdc);
-
-		// GameObject Render도 SceneManager가
-		SceneManager::Render(mBackHdc);
-
-		// BackBuffer에 있는걸 원본 Buffer에 복사
-		copyRenderTarget(mBackHdc, mHdc);
-	}
-
-	void Application::Destroy()
-	{
-		SceneManager::Destroy();
-	}
-
-	void Application::Release()
-	{
-		SceneManager::Release();
-		Resources::Release();
 	}
 }

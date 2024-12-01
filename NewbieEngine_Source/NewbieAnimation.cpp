@@ -18,12 +18,10 @@ namespace newbie
 		, mTime(0.0f)
 		, mbComplete(false)
 	{
-
 	}
 
 	Animation::~Animation()
 	{
-
 	}
 
 	HRESULT Animation::Load(const std::wstring& path)
@@ -33,18 +31,14 @@ namespace newbie
 
 	void Animation::Update()
 	{
-		// if animation finished, return
 		if (mbComplete)
 			return;
 
 		mTime += Time::DeltaTime();
-		
-		// When mTime is bigger then duration of mAnimationSheet[mIndex], 
-		// reset Time
+
 		if (mAnimationSheet[mIndex].duration < mTime)
 		{
 			mTime = 0.0f;
-			// if mIndex overflow, finish Animation
 			if (mIndex < mAnimationSheet.size() - 1)
 				mIndex++;
 			else
@@ -54,7 +48,10 @@ namespace newbie
 
 	void Animation::Render(HDC hdc)
 	{
-		// 알파블렌드를 쓰는 조건: 해당 이미지 알파채널이 있어야함
+		// 알파블렌드를 쓸수 있는 조건 : 해당이미지 알파채널이 있어야한다.
+		//AlphaBlend(125, );
+
+
 		if (mTexture == nullptr)
 			return;
 
@@ -69,52 +66,57 @@ namespace newbie
 
 		Sprite sprite = mAnimationSheet[mIndex];
 		graphics::Texture::eTextureType type = mTexture->GetTextureType();
-
 		if (type == graphics::Texture::eTextureType::Bmp)
 		{
-			//BLENDFUNCTION func = {};
-			//func.BlendOp = AC_SRC_OVER;
-			//func.BlendFlags = 0;
-			//func.AlphaFormat = AC_SRC_ALPHA;
-			//func.SourceConstantAlpha = 225; // 0(transparent) ~ 255(Opaque)
-
 			HDC imgHdc = mTexture->GetHdc();
 
-			/*AlphaBlend(hdc
-				, pos.x - (sprite.size.x / 2.0f)
-				, pos.y - (sprite.size.y / 2.0f)
-				, sprite.size.x * scale.x
-				, sprite.size.y * scale.y
-				, imgHdc
-				, sprite.leftTop.x
-				, sprite.leftTop.y
-				, sprite.size.x
-				, sprite.size.y
-				, func);*/
+			if (mTexture->IsAlpha())
+			{
+				BLENDFUNCTION func = {};
+				func.BlendOp = AC_SRC_OVER;
+				func.BlendFlags = 0;
+				func.AlphaFormat = AC_SRC_ALPHA;
+				func.SourceConstantAlpha = 255; // 0(transparent) ~ 255(Opaque)
 
-			// 알파 채널이 없을 때 마지막 인자의 색과 동일한 색을 투명처리
-			TransparentBlt(hdc
-				, pos.x - (sprite.size.x / 2.0f)
-				, pos.y - (sprite.size.y / 2.0f)
-				, sprite.size.x * scale.x
-				, sprite.size.y * scale.y
-				, imgHdc
-				, sprite.leftTop.x
-				, sprite.leftTop.y
-				, sprite.size.x
-				, sprite.size.y
-				, RGB(255, 255, 255));
+				AlphaBlend(hdc
+					, pos.x - (sprite.size.x / 2.0f) + sprite.offset.x
+					, pos.y - (sprite.size.y / 2.0f) + sprite.offset.y
+					, sprite.size.x * scale.x
+					, sprite.size.y * scale.y
+					, imgHdc
+					, sprite.leftTop.x
+					, sprite.leftTop.y
+					, sprite.size.x
+					, sprite.size.y
+					, func);
+			}
+			else
+			{
+				TransparentBlt(hdc
+					, pos.x - (sprite.size.x / 2.0f) + sprite.offset.x
+					, pos.y - (sprite.size.y / 2.0f) + sprite.offset.y
+					, sprite.size.x * scale.x
+					, sprite.size.y * scale.y
+					, imgHdc
+					, sprite.leftTop.x
+					, sprite.leftTop.y
+					, sprite.size.x
+					, sprite.size.y
+					, RGB(255, 0, 255));
+
+				Rectangle(hdc, pos.x, pos.y, pos.x + 10, pos.y + 10);
+			}
 		}
 		else if (type == graphics::Texture::eTextureType::Png)
 		{
-			// make Pexel Color of what i want transparent
+			// 내가 원하는 픽셀을 투명화 시킬
 			Gdiplus::ImageAttributes imgAtt = {};
 
-			// Color range of Pexel to be made transparent
+			// 투명화 시킬 픽셀의 색 범위
 			imgAtt.SetColorKey(Gdiplus::Color(230, 230, 230), Gdiplus::Color(255, 255, 255));
 
 			Gdiplus::Graphics graphics(hdc);
-			
+
 			graphics.TranslateTransform(pos.x, pos.y);
 			graphics.RotateTransform(rot);
 			graphics.TranslateTransform(-pos.x, -pos.y);
@@ -122,7 +124,7 @@ namespace newbie
 			graphics.DrawImage(mTexture->GetImage()
 				, Gdiplus::Rect
 				(
-					  pos.x - (sprite.size.x / 2.0f)
+					pos.x - (sprite.size.x / 2.0f)
 					, pos.y - (sprite.size.y / 2.0f)
 					, sprite.size.x * scale.x
 					, sprite.size.y * scale.y
@@ -132,18 +134,15 @@ namespace newbie
 				, sprite.size.x
 				, sprite.size.y
 				, Gdiplus::UnitPixel
-				, &imgAtt
+				, /*&imgAtt*/nullptr
 			);
 		}
 	}
 
-	void Animation::CreateAnimation(const std::wstring& name, 
-		graphics::Texture* spriteSheet,
-		Vector2 leftTop, Vector2 size, Vector2 offset,
-		UINT spriteLegth, float duration)
+	void Animation::CreateAnimation(const std::wstring& name, graphics::Texture* spriteSheet
+		, Vector2 leftTop, Vector2 size, Vector2 offset, UINT spriteLegth, float duration)
 	{
 		mTexture = spriteSheet;
-
 		for (size_t i = 0; i < spriteLegth; i++)
 		{
 			Sprite sprite = {};

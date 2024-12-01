@@ -4,10 +4,20 @@
 
 namespace newbie
 {
+	namespace object
+	{
+		void Destroy(GameObject* gameObject);
+	}
+}
+
+namespace newbie
+{
 	// Actor
 	class GameObject
 	{
 	public:
+		friend void object::Destroy(GameObject* obj);
+
 		enum class eState
 		{
 			Active,
@@ -51,7 +61,7 @@ namespace newbie
 			return component;
 		}
 
-		eState GetActive() { return mState; }
+		eState GetState() { return mState; }
 		void SetActive(bool power)
 		{
 			if (power == true)
@@ -59,10 +69,13 @@ namespace newbie
 			if (power == false)
 				mState = eState::Paused;
 		}
-		void Death() { mState = eState::Dead; }
+		bool IsActive() { return mState == eState::Active; }
+
+		bool IsDead() { return mState == eState::Dead; }
 
 	private:
 		void initializeTransform();
+		void death() { mState = eState::Dead; }
 
 	private:
 		eState mState;

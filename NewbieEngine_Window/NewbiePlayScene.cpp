@@ -16,6 +16,8 @@
 #include "NewbieAnimator.h"
 #include "NewbieCat.h"
 #include "NewbieCatScript.h"
+#include "NewbieBoxCollider2D.h"
+#include "NewbieColliderManager.h"
 
 namespace newbie
 {
@@ -28,14 +30,18 @@ namespace newbie
 
 	void PlayScene::Initialize()
 	{
+
+		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Animal, true);
 		// main Camera
 		GameObject* camera = object::Instantiate<GameObject>(enums::eLayerType::None, Vector2(344.0f, 442.0f));
 		Camera* cameraComp = camera->AddComponent<Camera>();
 		renderer::mainCamera = cameraComp;
 
 		// Make Player
-		mPlayer = object::Instantiate<Player>(enums::eLayerType::Particle);
+		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
 		PlayerScript* playerScript = mPlayer->AddComponent<PlayerScript>();
+		BoxCollider2D* collider = mPlayer->AddComponent<BoxCollider2D>();
+		collider->SetOffset(Vector2(-50.0f, -50.0f));
 
 		// Set Player Texture
 		graphics::Texture* playerTex = Resources::Find<graphics::Texture>(L"Player");
@@ -49,9 +55,10 @@ namespace newbie
 
 		playerAnimator->PlayAnimation(L"Idle", false);
 
-		playerAnimator->GetCompleteEvent(L"FrontGiveWater") = std::bind(&PlayerScript::AttackEffect, playerScript);
+		// 유저가 물줄시 고양이 생성 이벤트
+		//playerAnimator->GetCompleteEvent(L"FrontGiveWater") = std::bind(&PlayerScript::AttackEffect, playerScript);
 
-		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(100.0f, 100.0f));
+		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(300.0f, 250.0f));
 		 // mPlayer->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
 		
 		//// Make BackGround
@@ -64,15 +71,19 @@ namespace newbie
 		//bgSr->SetTexture(bgTexture);
 
 		 // make Cat
-		 Cat* cat = object::Instantiate<Cat>(enums::eLayerType::Player);
-		 cat->SetActive(true);
+		 Cat* cat = object::Instantiate<Cat>(enums::eLayerType::Animal);
+		 // cat->SetActive(true);
 		 cat->AddComponent<CatScript>();
 
-		 cameraComp->SetTarget(cat);
+		 // cameraComp->SetTarget(cat);
 
 		 graphics::Texture* catTex = Resources::Find<graphics::Texture>(L"Cat");
 		 Animator* catAnimator = cat->AddComponent<Animator>();
-		 /* catAnimator->CreateAnimation(L"DownWalk", catTex
+
+		 BoxCollider2D* boxCatCollider = cat->AddComponent<BoxCollider2D>();
+		 boxCatCollider->SetOffset(Vector2(-50.0f, -50.0f));
+
+		 catAnimator->CreateAnimation(L"DownWalk", catTex
 			 , Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
 		 catAnimator->CreateAnimation(L"RightWalk", catTex
 			 , Vector2(0.0f, 32.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
@@ -85,9 +96,10 @@ namespace newbie
 		 catAnimator->CreateAnimation(L"Grooming", catTex
 			 , Vector2(0.0f, 160.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
 		 catAnimator->CreateAnimation(L"LayDown", catTex
-			 , Vector2(0.0f, 192.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);*/
+			 , Vector2(0.0f, 192.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
 
-		 // catAnimator->PlayAnimation(L"SitDown", false);
+		 catAnimator->PlayAnimation(L"SitDown", false);
+
 		 cat->GetComponent<Transform>()->SetPosition(Vector2(200.0f, 200.0f));
 		 cat->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
 

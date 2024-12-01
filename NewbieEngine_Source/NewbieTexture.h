@@ -30,6 +30,7 @@ namespace newbie
 			eTextureType GetTextureType() { return mType; }
 			// png파일의 경우 이미지 로드
 			Gdiplus::Image* GetImage() { return mImage; }
+			bool IsAlpha() { return mbAlpha; }
 
 
 		private:

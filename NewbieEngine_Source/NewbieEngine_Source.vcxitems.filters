@@ -61,6 +61,17 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimation.cpp">
       <Filter>Animation</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieBoxCollider2D.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCircleCollider2D.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCollider.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\NewbieEngine\NewbieDestroy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
@@ -132,6 +143,17 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimation.h">
       <Filter>Animation</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCollider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieBoxCollider2D.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCircleCollider2D.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">

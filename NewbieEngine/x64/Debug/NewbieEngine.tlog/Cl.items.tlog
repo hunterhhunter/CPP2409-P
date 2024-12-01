@@ -2,7 +2,10 @@ C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.cpp;C:\User
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimation.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieAnimation.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieAnimator.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieAnimator.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieApplication.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieApplication.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieBoxCollider2D.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieBoxCollider2D.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCamera.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieCamera.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCircleCollider2D.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieCircleCollider2D.obj
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieCollider.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieCollider.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieComponent.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieComponent.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieGameObject.obj
 C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp;C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine\x64\Debug\NewbieInput.obj

@@ -4,7 +4,7 @@
 #include "NewbieTime.h"
 #include "NewbieGameObject.h"
 #include "NewbieAnimator.h"
-
+#include "NewbieObject.h"
 
 namespace newbie
 {
@@ -12,6 +12,9 @@ namespace newbie
 		: mState(CatScript::eState::SitDown)
 		, mAnimator(nullptr)
 		, mTime(0.0f)
+		, mDeathTime(0.0f)
+		, mDest(Vector2::Zero)
+		, mRadian(0.0f)
 	{
 	}
 
@@ -27,6 +30,12 @@ namespace newbie
 
 	void CatScript::Update()
 	{
+		mDeathTime += Time::DeltaTime();
+		if (mDeathTime > 6.0f)
+		{
+
+		}
+
 		if (mAnimator == nullptr)
 		{
 			mAnimator = GetOwner()->GetComponent<Animator>();
@@ -67,12 +76,24 @@ namespace newbie
 		mTime += Time::DeltaTime();
 		if (mTime > 3.0f)
 		{
-			mState = CatScript::eState::Walk;
-			int direction = (rand() % 4);
-			mDirection = (eDirection)direction;
-			PlayWalkAnimationByDirection(mDirection);
-			mTime = 0.0f;
+
 		}
+
+		Transform* tr = GetOwner()->GetComponent<Transform>();
+		Vector2 pos = tr->GetPosition();
+
+		// 마우스 위치 방향으로 회전 후 마우스 위치로 이동 (벡터의 뺄셈)
+		//Transform* plTr = mPlayer->GetComponent<Transform>();
+		//Vector2 dest = mDest - plTr->GetPosition();
+		//dest.normalize();
+
+		//float rotDegree = Vector2::Dot(dest, Vector2::Right); // cos theta
+		//rotDegree = acosf(rotDegree);
+		//
+		//rotDegree = ConvertDegree(rotDegree);
+		//pos += dest * (100.0f * Time::DeltaTime());
+
+		//tr->SetPosition(pos);
 	}
 
 	void CatScript::move()

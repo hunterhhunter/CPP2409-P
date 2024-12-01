@@ -10,7 +10,6 @@ namespace newbie
 		, mActiveAnimation(nullptr)
 		, mbLoop(false)
 	{
-
 	}
 
 	Animator::~Animator()
@@ -20,6 +19,7 @@ namespace newbie
 			delete iter.second;
 			iter.second = nullptr;
 		}
+
 		for (auto& iter : mEvents)
 		{
 			delete iter.second;
@@ -29,7 +29,6 @@ namespace newbie
 
 	void Animator::Initialize()
 	{
-
 	}
 
 	void Animator::Update()
@@ -37,13 +36,15 @@ namespace newbie
 		if (mActiveAnimation)
 		{
 			mActiveAnimation->Update();
-			Events* events = FindEvents(mActiveAnimation->GetName());
+
+			Events* events
+				= FindEvents(mActiveAnimation->GetName());
 
 			if (mActiveAnimation->IsComplete() == true)
 			{
 				if (events)
 					events->completeEvent();
-				
+
 				if (mbLoop == true)
 					mActiveAnimation->Reset();
 			}
@@ -52,7 +53,6 @@ namespace newbie
 
 	void Animator::LateUpdate()
 	{
-
 	}
 
 	void Animator::Render(HDC hdc)
@@ -67,68 +67,24 @@ namespace newbie
 		, Vector2 size, Vector2 offset
 		, UINT spriteLegth, float duration)
 	{
-		// 새로운 애니메이션 생성
 		Animation* animation = nullptr;
-		// 기존 애니메이션 검색
 		animation = FindAnimation(name);
 		if (animation != nullptr)
 			return;
-		// 없으면 새로 생성
+
 		animation = new Animation();
 		animation->SetName(name);
-
-		// 정보로 애니메이션 생성
 		animation->CreateAnimation(name, spriteSheet
 			, leftTop, size, offset, spriteLegth, duration);
-		// 애니메이터로 현재 Animator객체(this) 설정
+
 		animation->SetAnimator(this);
 
 		Events* events = new Events();
 		mEvents.insert(std::make_pair(name, events));
 
-		// vector에 insert
 		mAnimations.insert(std::make_pair(name, animation));
 	}
 
-	void Animator::CreateAnimationByFolder(const std::wstring& name, const std::wstring& path, Vector2 offset, float duration)
-	{
-		Animation* animation = nullptr;
-		animation = FindAnimation(name);
-		if (animation != nullptr)
-			return;
-
-		int fileCount = 0;
-		std::filesystem::path fs(path);
-		std::vector<graphics::Texture*> images = {};
-		for (auto& p : std::filesystem::recursive_directory_iterator(fs))
-		{
-			std::wstring fileName = p.path().filename();
-			std::wstring fullName = p.path();
-
-			graphics::Texture* texture = Resources::Load<graphics::Texture>(fileName, fullName);
-			images.push_back(texture);
-			fileCount++;
-		}
-
-
-		UINT sheetWidth = images[0]->GetWidth() * fileCount;
-		UINT sheetHeight = images[0]->GetHeight() * fileCount;
-		graphics::Texture* spriteSheet = graphics::Texture::Create(name, sheetWidth, sheetHeight);
-
-		UINT imageWidth = images[0]->GetWidth();
-		UINT imageHeight = images[0]->GetHeight();
-
-		for (size_t i = 0; i < images.size(); i++)
-		{
-			BitBlt(spriteSheet->GetHdc(), i * imageWidth, 0
-				, imageWidth, imageHeight
-				, images[i]->GetHdc(), 0, 0, SRCCOPY);
-		}
-
-		CreateAnimation(name, spriteSheet
-			, Vector2(0.0f, 0.0f), Vector2(imageWidth, imageHeight)
-			, offset, fileCount, duration);
-	}
 
 	Animation* Animator::FindAnimation(const std::wstring& name)
 	{
@@ -145,14 +101,19 @@ namespace newbie
 		if (animation == nullptr)
 			return;
 
+
 		if (mActiveAnimation)
 		{
-			Events* currentEvents = FindEvents(mActiveAnimation->GetName());
+			Events* currentEvents
+				= FindEvents(mActiveAnimation->GetName());
+
 			if (currentEvents)
 				currentEvents->endEvent();
 		}
 
-		Events* nextEvents = FindEvents(animation->GetName());
+
+		Events* nextEvents
+			= FindEvents(animation->GetName());
 
 		if (nextEvents)
 			nextEvents->startEvent();

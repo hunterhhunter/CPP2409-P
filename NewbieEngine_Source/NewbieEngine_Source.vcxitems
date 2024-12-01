@@ -19,8 +19,13 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimation.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimator.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieApplication.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieBoxCollider2D.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCamera.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCircleCollider2D.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCollider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieEnums.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieGameObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieInput.h" />
@@ -39,11 +44,16 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\NewbieEngine\NewbieDestroy.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimation.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimator.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieApplication.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieBoxCollider2D.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCamera.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCircleCollider2D.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCollider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieGameObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieInput.cpp" />

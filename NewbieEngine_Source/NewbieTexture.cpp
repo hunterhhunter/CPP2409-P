@@ -26,6 +26,11 @@ namespace newbie
 			image->mBitmap = CreateCompatibleBitmap(hdc, width, height);
 			image->mHdc = CreateCompatibleDC(hdc);
 
+			HBRUSH transparentBrush = (HBRUSH)GetStockObject(NULL_BRUSH);
+			HBRUSH oldBrush = (HBRUSH)SelectObject(hdc, transparentBrush);
+			Rectangle(image->mHdc, -1, -1, image->GetWidth() + 1, image->GetHeight() + 1);
+			SelectObject(hdc, oldBrush);
+
 			HBITMAP oldBitmap = (HBITMAP)SelectObject(image->mHdc, image->mBitmap);
 			DeleteObject(oldBitmap);
 
@@ -66,9 +71,15 @@ namespace newbie
 				mWidth = info.bmWidth;
 				mHeight = info.bmHeight;
 
+				if (info.bmBitsPixel == 32)
+					mbAlpha = true;
+				else if (info.bmBitsPixel == 24)
+					mbAlpha = false;
+
 				// bmp 보여줄 창 가져오기 (현재 application의 메인 화면)
 				HDC mainDC = application.GetHdc();
 				mHdc = CreateCompatibleDC(mainDC);
+
 
 				// 화면에 보여주기
 				HBITMAP oldBitmap = (HBITMAP)SelectObject(mHdc, mBitmap);
