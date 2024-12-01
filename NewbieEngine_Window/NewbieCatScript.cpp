@@ -1,10 +1,10 @@
 #include "NewbieCatScript.h"
-#include "NewbieInput.h"
-#include "NewbieTransform.h"
-#include "NewbieTime.h"
-#include "NewbieGameObject.h"
-#include "NewbieAnimator.h"
-#include "NewbieObject.h"
+#include "../NewbieEngine_Source/NewbieInput.h"
+#include "../NewbieEngine_Source/NewbieTransform.h"
+#include "../NewbieEngine_Source/NewbieTime.h"
+#include "../NewbieEngine_Source/NewbieGameObject.h"
+#include "../NewbieEngine_Source/NewbieAnimator.h"
+#include "../NewbieEngine_Source/NewbieObject.h"
 
 namespace newbie
 {

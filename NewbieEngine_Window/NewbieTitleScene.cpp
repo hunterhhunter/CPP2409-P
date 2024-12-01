@@ -1,12 +1,12 @@
 #include "NewbieTitleScene.h"
 #include "NewbiePlayScene.h"
-#include "NewbieGameObject.h"
+#include "../NewbieEngine_Source/NewbieGameObject.h"
 #include "NewbiePlayer.h"
-#include "NewbieTransform.h"
-#include "NewbieSpriteRenderer.h"
-#include "NewbieInput.h"
+#include "../NewbieEngine_Source/NewbieTransform.h"
+#include "../NewbieEngine_Source/NewbieSpriteRenderer.h"
+#include "../NewbieEngine_Source/NewbieInput.h"
 #include "NewbieTitleScene.h"
-#include "NewbieSceneManager.h"
+#include "../NewbieEngine_Source/NewbieSceneManager.h"
 
 namespace newbie
 {

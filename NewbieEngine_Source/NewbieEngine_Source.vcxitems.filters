@@ -71,7 +71,6 @@
       <Filter>Component</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\NewbieEngine\NewbieDestroy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
@@ -153,7 +152,6 @@
       <Filter>Component</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">

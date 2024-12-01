@@ -55,9 +55,7 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
-  <ImportGroup Label="Shared">
-    <Import Project="..\NewbieEngine_Source\NewbieEngine_Source.vcxitems" Label="Shared" />
-  </ImportGroup>
+  <ImportGroup Label="Shared" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
@@ -112,7 +110,7 @@
       <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp20</LanguageStandard>
-      <LanguageStandard_C>stdclatest</LanguageStandard_C>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalOptions>/Zc:__cplusplus %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
@@ -156,9 +154,6 @@
     <Image Include="small.ico" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\NewbieEngine\NewbieEngine.vcxproj">
-      <Project>{cbebca42-71e4-4971-bfce-393296287e46}</Project>
-    </ProjectReference>
     <ProjectReference Include="..\NewbieEngine_Window\NewbieEngine_Window.vcxproj">
       <Project>{908d8cf2-6cd8-47c4-8a6f-311bbafc282f}</Project>
     </ProjectReference>

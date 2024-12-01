@@ -6,10 +6,9 @@
 #include "NewbieSceneManager.h"
 #include "NewbieTransform.h"
 
-namespace newbie
+namespace newbie::object
 {
-	namespace object
-	{
+
 		template <typename T>
 		static T* Instantiate(newbie::enums::eLayerType type)
 		{
@@ -41,5 +40,4 @@ namespace newbie
 				return;
 			gameObject->Death();
 		}*/
-	}
 }

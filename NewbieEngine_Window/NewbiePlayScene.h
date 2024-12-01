@@ -1,5 +1,5 @@
 #pragma once
-#include "NewbieScene.h"
+#include "../NewbieEngine_Source/NewbieScene.h"
 #include "NewbieBackGround.h"
 
 namespace newbie

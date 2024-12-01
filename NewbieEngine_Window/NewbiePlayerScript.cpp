@@ -1,13 +1,13 @@
 #include "NewbiePlayerScript.h"
-#include "NewbieInput.h"
-#include "NewbieTransform.h"
-#include "NewbieTime.h"
-#include "NewbieGameObject.h"
-#include "NewbieAnimator.h"
+#include "../NewbieEngine_Source/NewbieInput.h"
+#include "../NewbieEngine_Source/NewbieTransform.h"
+#include "../NewbieEngine_Source/NewbieTime.h"
+#include "../NewbieEngine_Source/NewbieGameObject.h"
+#include "../NewbieEngine_Source/NewbieAnimator.h"
 #include "NewbieCat.h"
 #include "NewbieCatScript.h"
-#include "NewbieObject.h"
-#include "NewbieResources.h"
+#include "../NewbieEngine_Source/NewbieObject.h"
+#include "../NewbieEngine_Source/NewbieResources.h"
 
 namespace newbie
 {
@@ -95,6 +95,19 @@ namespace newbie
 
 		Vector2 mousePos = Input::GetMousePosition();
 		catSrc->mDest = mousePos;
+	}
+
+	void PlayerScript::OnCollisionEnter(Collider* other)
+	{
+		other->GetOwner()->GetComponent<Transform>()->SetPosition(Vector2(400.0f, 500.0f));
+	}
+
+	void PlayerScript::OnCollisionStay(Collider* other)
+	{
+	}
+
+	void PlayerScript::OnCollisionExit(Collider* other)
+	{
 	}
 
 	void PlayerScript::idle()

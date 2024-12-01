@@ -1,13 +1,10 @@
 #include "NewbieDestroy.h"
 #include "NewbieGameObject.h"
 
-namespace newbie
+namespace newbie::object
 {
-	namespace object
+	void Destroy(GameObject* obj)
 	{
-		void Destroy(GameObject* obj)
-		{
-			obj->death();
-		}
+		obj->Death();
 	}
 }

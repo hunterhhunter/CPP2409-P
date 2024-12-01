@@ -15,6 +15,5 @@ class BoxCollider2D : public Collider
 		virtual void Render(HDC hdc);
 
 	private:
-		Vector2 mSize;
 	};
 }

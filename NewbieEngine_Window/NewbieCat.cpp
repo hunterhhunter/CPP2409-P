@@ -1,7 +1,7 @@
 #include "NewbieCat.h"
-#include "NewbieInput.h"
-#include "NewbieTransform.h"
-#include "NewbieTime.h"
+#include "../NewbieEngine_Source/NewbieInput.h"
+#include "../NewbieEngine_Source/NewbieTransform.h"
+#include "../NewbieEngine_Source/NewbieTime.h"
 
 namespace newbie
 {

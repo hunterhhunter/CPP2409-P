@@ -1,23 +1,23 @@
 #include "NewbiePlayScene.h"
-#include "NewbieGameObject.h"
+#include "../NewbieEngine_Source/NewbieGameObject.h"
 #include "NewbiePlayer.h"
-#include "NewbieTransform.h"
-#include "NewbieSpriteRenderer.h"
-#include "NewbieInput.h"
+#include "../NewbieEngine_Source/NewbieTransform.h"
+#include "../NewbieEngine_Source/NewbieSpriteRenderer.h"
+#include "../NewbieEngine_Source/NewbieInput.h"
 #include "NewbieTitleScene.h"
-#include "NewbieSceneManager.h"
-#include "NewbieObject.h"
+#include "../NewbieEngine_Source/NewbieSceneManager.h"
+#include "../NewbieEngine_Source/NewbieObject.h"
 #include "NewbieBackGround.h"
-#include "NewbieTexture.h"
-#include "NewbieResources.h"
+#include "../NewbieEngine_Source/NewbieTexture.h"
+#include "../NewbieEngine_Source/NewbieResources.h"
 #include "NewbiePlayerScript.h"
-#include "NewbieCamera.h"
-#include "NewbieRenderer.h"
-#include "NewbieAnimator.h"
+#include "../NewbieEngine_Source/NewbieCamera.h"
+#include "../NewbieEngine_Source/NewbieRenderer.h"
+#include "../NewbieEngine_Source/NewbieAnimator.h"
 #include "NewbieCat.h"
 #include "NewbieCatScript.h"
-#include "NewbieBoxCollider2D.h"
-#include "NewbieColliderManager.h"
+#include "../NewbieEngine_Source/NewbieBoxCollider2D.h"
+#include "../NewbieEngine_Source/NewbieColliderManager.h"
 
 namespace newbie
 {
@@ -30,7 +30,6 @@ namespace newbie
 
 	void PlayScene::Initialize()
 	{
-
 		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Animal, true);
 		// main Camera
 		GameObject* camera = object::Instantiate<GameObject>(enums::eLayerType::None, Vector2(344.0f, 442.0f));

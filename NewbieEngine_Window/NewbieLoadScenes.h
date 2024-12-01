@@ -1,5 +1,5 @@
 #pragma once
-#include "NewbieSceneManager.h"
+#include "../NewbieEngine_Source/NewbieSceneManager.h"
 #include "NewbiePlayScene.h"
 #include "NewbieTitleScene.h"
 
