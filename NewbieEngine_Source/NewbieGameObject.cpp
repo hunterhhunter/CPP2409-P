@@ -4,17 +4,17 @@
 #include "NewbieTime.h"
 #include "NewbieTransform.h"
 
-namespace newbie
-{
-	namespace object
-	{
-		void Destroy(GameObject* gameObject)
-		{
-			if (gameObject != nullptr)
-				gameObject->death();
-		}
-	}
-}
+//namespace newbie
+//{
+//	namespace object
+//	{
+//		void Destroy(GameObject* gameObject)
+//		{
+//			if (gameObject != nullptr)
+//				gameObject->death();
+//		}
+//	}
+//}
 
 namespace newbie
 {

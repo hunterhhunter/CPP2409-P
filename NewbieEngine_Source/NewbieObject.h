@@ -35,11 +35,11 @@ namespace newbie
 			return gameObject;
 		}
 
-		/*static void Destroy(GameObject* gameObject)
+		static void Destroy(GameObject* gameObject)
 		{
 			if (gameObject == nullptr)
 				return;
 			gameObject->Death();
-		}*/
+		}
 	}
 }

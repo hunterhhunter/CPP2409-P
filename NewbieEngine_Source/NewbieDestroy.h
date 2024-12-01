@@ -1,9 +1,7 @@
 #pragma once
 
-namespace newbie
+namespace newbie::object
 {
-	namespace object
-	{
-		static void Destroy(class GameObject* obj);
-	}
+	static void Destroy(class GameObject* obj);
+
 }

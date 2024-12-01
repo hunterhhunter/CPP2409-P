@@ -2,13 +2,13 @@
 #include "Commoninclude.h"
 #include "NewbieComponent.h"
 
-namespace newbie
-{
-	namespace object
-	{
-		void Destroy(GameObject* gameObject);
-	}
-}
+//namespace newbie
+//{
+//	namespace object
+//	{
+//		void Destroy(GameObject* gameObject);
+//	}
+//}
 
 namespace newbie
 {
@@ -16,7 +16,7 @@ namespace newbie
 	class GameObject
 	{
 	public:
-		friend void object::Destroy(GameObject* obj);
+		//friend void object::Destroy(GameObject* obj);
 
 		enum class eState
 		{
@@ -70,6 +70,7 @@ namespace newbie
 				mState = eState::Paused;
 		}
 		bool IsActive() { return mState == eState::Active; }
+		void Death() { mState = eState::Dead; }
 
 		bool IsDead() { return mState == eState::Dead; }
 
