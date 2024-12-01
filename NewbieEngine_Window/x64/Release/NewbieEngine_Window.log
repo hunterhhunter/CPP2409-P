@@ -1,0 +1,29 @@
+﻿  NewbiePlayScene.cpp
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Entity.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\Commoninclude.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieGameObject.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTransform.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieTexture.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieResource.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\slugg\Documents\GitHub\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'NewbiePlayScene.cpp'을(를) 컴파일하는 중)
+  
+NewbieCamera.obj : error LNK2001: 확인할 수 없는 외부 기호 "class newbie::Application application" (?application@@3VApplication@newbie@@A)
+MSVCRT.lib(exe_main.obj) : error LNK2001: 확인할 수 없는 외부 기호 main
+C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Release\NewbieEngine_Window.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
