@@ -103,7 +103,7 @@ namespace newbie
 				, sprite.leftTop.y
 				, sprite.size.x
 				, sprite.size.y
-				, RGB(255, 255, 255));
+				, RGB(255, 0, 255));
 		}
 		else if (type == graphics::Texture::eTextureType::Png)
 		{

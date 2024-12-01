@@ -29,7 +29,7 @@ namespace newbie
 
 		Resources::Load<graphics::Texture>(
 			L"Cat",
-			L"../Resources/ChickenAlpha.bmp"
+			L"C:/Users/slugg/Documents/GitHub/CPP2409-P/Resources/ChickenAlpha.bmp"
 		);
 
 		Resources::Load<graphics::Texture>(
@@ -44,7 +44,7 @@ namespace newbie
 
 		Resources::Load<graphics::Texture>(
 			L"Player",
-			L"../Resources/Player.bmp"
+			L"C:/Users/slugg/Documents/GitHub/CPP2409-P/Resources/Player.bmp"
 		);
 	}
 		
