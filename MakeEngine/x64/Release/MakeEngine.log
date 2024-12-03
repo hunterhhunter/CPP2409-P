@@ -1,3 +1,0 @@
-﻿main.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: __cdecl newbie::PlayScene::PlayScene(void)" (??0PlayScene@newbie@@QEAA@XZ)
-main.obj : error LNK2001: 확인할 수 없는 외부 기호 "public: __cdecl newbie::TitleScene::TitleScene(void)" (??0TitleScene@newbie@@QEAA@XZ)
-C:\Users\slugg\Documents\GitHub\CPP2409-P\MakeEngine\x64\Release\MakeEngine.exe : fatal error LNK1120: 2개의 확인할 수 없는 외부 참조입니다.
