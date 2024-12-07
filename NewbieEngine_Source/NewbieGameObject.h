@@ -1,13 +1,11 @@
 #pragma once
 #include "Commoninclude.h"
 #include "NewbieComponent.h"
+#include "NewbieCollider.h"
 
-namespace newbie
+namespace newbie::object
 {
-	namespace object
-	{
-		void Destroy(GameObject* gameObject);
-	}
+	void Destroy(GameObject* gameObject);
 }
 
 namespace newbie

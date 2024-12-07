@@ -45,8 +45,8 @@ namespace newbie
 
 		static void Release()
 		{
-			// ¸Þ¸ð¸® ÃÊ±âÈ­ ÇÔ¼ö
-			// Resource °´Ã¼ ¸Þ¸ð¸® »ó¿¡¼­ Á¦°Å
+			// ï¿½Þ¸ï¿½ ï¿½Ê±ï¿½È­ ï¿½Ô¼ï¿½
+			// Resource ï¿½ï¿½Ã¼ ï¿½Þ¸ï¿½ ï¿½ó¿¡¼ï¿½ ï¿½ï¿½ï¿½ï¿½
 			for (auto& iter : mResources)
 			{
 				delete iter.second;

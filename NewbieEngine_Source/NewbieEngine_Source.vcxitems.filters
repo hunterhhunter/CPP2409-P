@@ -28,9 +28,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTime.cpp">
       <Filter>Helpers</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp">
-      <Filter>High Level Interface</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp">
       <Filter>Rendering</Filter>
     </ClCompile>
@@ -71,7 +68,9 @@
       <Filter>Component</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\NewbieEngine\NewbieDestroy.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
@@ -103,9 +102,6 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTime.h">
       <Filter>Helpers</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieLayer.h">
-      <Filter>High Level Interface</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieEnums.h">
       <Filter>Common</Filter>
@@ -154,6 +150,9 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieLayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">

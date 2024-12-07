@@ -44,7 +44,6 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="$(MSBuildThisFileDirectory)..\NewbieEngine\NewbieDestroy.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)Entity.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimation.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieAnimator.cpp" />

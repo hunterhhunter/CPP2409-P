@@ -27,8 +27,8 @@ namespace newbie
 		adjustWindowRect(hwnd, width, height);
 		createBuffer(width, height);
 		initializeEtc();
-
 		ColliderManager::Initialize();
+
 		SceneManager::Initialize();
 	}
 
@@ -47,8 +47,8 @@ namespace newbie
 		Input::Update();
 		// 11.14 - TIme 클래스 Update
 		Time::Update();
-		ColliderManager::Update();
 		
+		ColliderManager::Update();
 		// SceneManager가 Update
 		SceneManager::Update();
 	}

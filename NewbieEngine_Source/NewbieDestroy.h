@@ -1,9 +1,10 @@
 #pragma once
-
-namespace newbie
-{
-	namespace object
+#include "NewbieGameObject.h"
+namespace newbie::object
+{	
+	static void Destroy(class GameObject* obj)
 	{
-		static void Destroy(class GameObject* obj);
+		if (obj != nullptr)
+			obj->death();
 	}
 }
