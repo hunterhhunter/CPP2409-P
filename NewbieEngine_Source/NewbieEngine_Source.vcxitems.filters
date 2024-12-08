@@ -23,7 +23,7 @@
       <Filter>Helpers</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp">
-      <Filter>Rendering</Filter>
+      <Filter>Renderer</Filter>
     </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResource.cpp">
       <Filter>Resources</Filter>
@@ -79,6 +79,9 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieDontDestroyOnLoad.cpp">
       <Filter>Scene</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTilemapRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
@@ -109,7 +112,7 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h">
-      <Filter>Rendering</Filter>
+      <Filter>Renderer</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResource.h">
       <Filter>Resources</Filter>
@@ -168,6 +171,9 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDontDestroyOnLoad.h">
       <Filter>Scene</Filter>
     </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTilemapRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">
@@ -188,9 +194,6 @@
     <Filter Include="GameObject">
       <UniqueIdentifier>{95d6cd06-0677-4e80-a07b-74085233a522}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Rendering">
-      <UniqueIdentifier>{77e3cefa-5a45-4570-841a-0448c3c8e968}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Resources">
       <UniqueIdentifier>{a797b595-d92c-4397-a517-a0213a4c24ff}</UniqueIdentifier>
     </Filter>
@@ -199,6 +202,9 @@
     </Filter>
     <Filter Include="Manager">
       <UniqueIdentifier>{1d344c57-bbb0-4b22-b99c-e4fcea046033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{77e3cefa-5a45-4570-841a-0448c3c8e968}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

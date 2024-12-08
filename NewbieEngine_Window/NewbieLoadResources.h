@@ -46,6 +46,11 @@ namespace newbie
 			L"Player",
 			L"../Resources/Player.bmp"
 		);
+
+		Resources::Load<graphics::Texture>(
+			L"SpringFloor",
+			L"../Resources/SpringFloor.bmp"
+		);
 	}
 		
 }

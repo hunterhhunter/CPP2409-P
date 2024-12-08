@@ -1,3 +1,19 @@
-﻿  NewbieObject.cpp
+﻿  NewbieTilemapRenderer.cpp
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(62,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(61,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(60,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(60,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(58,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(57,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(56,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(56,11): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(74,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(73,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(72,41): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(72,17): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(70,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(69,30): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(68,18): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp(68,11): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   NewbieEngine.vcxproj -> C:\Users\slugg\CPP2409-P\MakeEngine\x64\Debug\NewbieEngine.lib

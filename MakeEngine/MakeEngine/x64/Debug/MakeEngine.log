@@ -1,3 +1,7 @@
-﻿  NewbieObject.cpp
+﻿  main.cpp
   C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\slugg\CPP2409-P\MakeEngine\main.cpp(172,10): warning C4311: '형식 캐스트': 'int *'에서 'unsigned int'(으)로 포인터가 잘립니다.
+C:\Users\slugg\CPP2409-P\MakeEngine\main.cpp(172,10): warning C4302: '형식 캐스트': 'int *'에서 'unsigned int'(으)로 잘립니다.
+C:\Users\slugg\CPP2409-P\MakeEngine\main.cpp(178,41): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
+C:\Users\slugg\CPP2409-P\MakeEngine\main.cpp(178,63): warning C4838: 'UINT'에서 'LONG'(으)로의 변환에는 축소 변환이 필요합니다.
   MakeEngine.vcxproj -> C:\Users\slugg\CPP2409-P\MakeEngine\x64\Debug\MakeEngine.exe

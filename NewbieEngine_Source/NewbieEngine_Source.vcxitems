@@ -41,6 +41,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScript.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTexture.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTilemapRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTime.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTransform.h" />
   </ItemGroup>
@@ -69,6 +70,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScript.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTexture.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTilemapRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTime.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTransform.cpp" />
   </ItemGroup>

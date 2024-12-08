@@ -144,7 +144,9 @@
     <ClInclude Include="NewbiePlayer.h" />
     <ClInclude Include="NewbiePlayerScript.h" />
     <ClInclude Include="NewbiePlayScene.h" />
+    <ClInclude Include="NewbieTile.h" />
     <ClInclude Include="NewbieTitleScene.h" />
+    <ClInclude Include="NewbieToolScene.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NewbieBackGround.cpp" />
@@ -153,7 +155,9 @@
     <ClCompile Include="NewbiePlayer.cpp" />
     <ClCompile Include="NewbiePlayerScript.cpp" />
     <ClCompile Include="NewbiePlayScene.cpp" />
+    <ClCompile Include="NewbieTile.cpp" />
     <ClCompile Include="NewbieTitleScene.cpp" />
+    <ClCompile Include="NewbieToolScene.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

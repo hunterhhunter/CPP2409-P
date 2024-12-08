@@ -26,6 +26,8 @@
     <ClInclude Include="NewbieCat.h">
       <Filter>Content</Filter>
     </ClInclude>
+    <ClInclude Include="NewbieToolScene.h" />
+    <ClInclude Include="NewbieTile.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -60,5 +62,7 @@
     <ClCompile Include="NewbieCat.cpp">
       <Filter>Content</Filter>
     </ClCompile>
+    <ClCompile Include="NewbieToolScene.cpp" />
+    <ClCompile Include="NewbieTile.cpp" />
   </ItemGroup>
 </Project>

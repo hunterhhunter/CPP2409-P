@@ -7,6 +7,7 @@ namespace newbie
 		{
 			None,
 			BackGround,
+			Tile,
 			Animal,
 			Player,
 			Particle,

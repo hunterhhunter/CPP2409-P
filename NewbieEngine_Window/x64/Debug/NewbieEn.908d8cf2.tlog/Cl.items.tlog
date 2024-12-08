@@ -22,6 +22,7 @@ C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieSceneManager.cpp;C:\Users\slu
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieScript.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieScript.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieSpriteRenderer.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieSpriteRenderer.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTexture.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTexture.obj
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTilemapRenderer.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTilemapRenderer.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTime.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTime.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieTransform.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTransform.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbieBackGround.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieBackGround.obj
@@ -30,4 +31,6 @@ C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbieCatScript.cpp;C:\Users\slugg\
 C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbiePlayer.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbiePlayer.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbiePlayerScript.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbiePlayerScript.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbiePlayScene.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbiePlayScene.obj
+C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbieTile.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTile.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbieTitleScene.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieTitleScene.obj
+C:\Users\slugg\CPP2409-P\NewbieEngine_Window\NewbieToolScene.cpp;C:\Users\slugg\CPP2409-P\NewbieEngine_Window\x64\Debug\NewbieToolScene.obj
