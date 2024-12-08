@@ -22,6 +22,7 @@ namespace newbie
 
 		static Scene* LoadScene(const std::wstring& name);
 		static Scene* GetActiveScene() { return mActiveScene; }
+		static Scene* GetDontDestroyOnLoad() { return mDontDestroyOnLoad; }
 
 		static void Initialize();
 		static void Update();
@@ -34,6 +35,7 @@ namespace newbie
 	private:
 		static std::map<std::wstring, Scene*> mScene; // 씬 map 자료형
 		static Scene* mActiveScene; // 실행시킬 씬
+		static Scene* mDontDestroyOnLoad;
 	};
 }
 

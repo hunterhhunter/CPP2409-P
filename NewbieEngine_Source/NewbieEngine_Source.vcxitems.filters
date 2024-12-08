@@ -7,12 +7,6 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieMath.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp">
-      <Filter>Component</Filter>
-    </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSceneManager.cpp">
-      <Filter>Scene</Filter>
-    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScene.cpp">
       <Filter>Scene</Filter>
     </ClCompile>
@@ -64,11 +58,25 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCircleCollider2D.cpp">
       <Filter>Component</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieObject.cpp">
+      <Filter>High Level Interface</Filter>
+    </ClCompile>
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCollider.cpp">
       <Filter>Component</Filter>
     </ClCompile>
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp" />
-    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp">
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp">
+      <Filter>High Level Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieDontDestroyOnLoad.cpp">
       <Filter>Scene</Filter>
     </ClCompile>
   </ItemGroup>
@@ -81,12 +89,6 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieMath.h">
       <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h">
-      <Filter>Component</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSceneManager.h">
-      <Filter>Scene</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScene.h">
       <Filter>Scene</Filter>
@@ -105,9 +107,6 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieEnums.h">
       <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieObject.h">
-      <Filter>Component</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSpriteRenderer.h">
       <Filter>Rendering</Filter>
@@ -139,18 +138,34 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieAnimation.h">
       <Filter>Animation</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCollider.h">
-      <Filter>Component</Filter>
-    </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieBoxCollider2D.h">
       <Filter>Component</Filter>
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCircleCollider2D.h">
       <Filter>Component</Filter>
     </ClInclude>
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h" />
-    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieLayer.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieObject.h">
+      <Filter>High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieCollider.h">
+      <Filter>Component</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h">
+      <Filter>High Level Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDontDestroyOnLoad.h">
       <Filter>Scene</Filter>
     </ClInclude>
   </ItemGroup>
@@ -181,6 +196,9 @@
     </Filter>
     <Filter Include="Animation">
       <UniqueIdentifier>{847c0a7a-5885-4b49-b31d-e6e881991689}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{1d344c57-bbb0-4b22-b99c-e4fcea046033}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

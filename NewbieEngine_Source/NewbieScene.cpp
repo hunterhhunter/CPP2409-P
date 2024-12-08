@@ -70,6 +70,12 @@ namespace newbie
 		mLayers[(UINT)type]->AddGameObject(gameObject);
 	}
 
+	void Scene::EraseGameObject(GameObject* gameObj)
+	{
+		eLayerType layerType = gameObj->GetLayerType();
+		mLayers[(UINT)layerType]->EraseGameObject(gameObj);
+	}
+
 	void Scene::createLayers()
 	{
 		mLayers.resize((UINT)enums::eLayerType::Max);

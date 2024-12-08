@@ -75,7 +75,7 @@ namespace newbie
 	{
 		std::vector<GameObject*> deleteObjects = {};
 		findDeadGameObjects(deleteObjects);
-		eraseGameObject();
+		eraseDeadGameObject();
 		deleteGameObjects(deleteObjects);
 	}
 
@@ -105,8 +105,19 @@ namespace newbie
 		}
 	}
 
-	void Layer::eraseGameObject()
+	void Layer::EraseGameObject(GameObject* eraseGameObj)
 	{
+		// 람다함수, [=]는 값으로 캡처해 내부에서 읽기
+		// 반환이 true면 삭제
+		std::erase_if(mGameObjects, [=](GameObject* gameObj)
+			{
+				return gameObj == eraseGameObj;
+			});
+	}
+
+	void Layer::eraseDeadGameObject()
+	{
+		// [] 내부 값 캡처 X -> 메서드만 호출할 것이기 때문
 		std::erase_if(mGameObjects,
 			[](GameObject* gameObj)
 			{

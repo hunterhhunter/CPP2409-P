@@ -3,22 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadScenes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}|MakeEngine.vcxproj|C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}|MakeEngine.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -27,10 +64,58 @@
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -39,100 +124,22 @@
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}|MakeEngine.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UM\\DINPUT.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieEnums.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -144,20 +151,58 @@
       "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{908D8CF2-6CD8-47C4-8A6F-311BBAFC282F}|..\\NewbieEngine_Window\\NewbieEngine_Window.vcxproj|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2D72CF2-98B5-4759-88E7-815F7A945308}|..\\NewbieEngine_Source\\NewbieEngine_Source.vcxitems|C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}|MakeEngine.vcxproj|C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08A3C955-B54B-4CAB-A6CC-B8D1D1761EC9}|MakeEngine.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine\\NewbieDestroy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -371,6 +416,9 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -380,7 +428,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -388,33 +436,448 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewbiePlayerScript.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayerScript.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h",
-              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayerScript.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T07:36:52.075Z",
+              "DocumentIndex": 3,
+              "Title": "NewbieSceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieSceneManager.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieSceneManager.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAACYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:55:27.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NewbieScript.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScript.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScript.cpp",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "NewbieSceneManager.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieSceneManager.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieSceneManager.h",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T07:29:01.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NewbieObject.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieObject.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieObject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T07:33:14.344Z",
+              "WhenOpened": "2024-12-08T01:30:06.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NewbieObject.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieObject.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieObject.h",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T07:28:04.342Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "NewbieScene.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScene.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScene.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:54:45.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NewbiePlayScene.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayScene.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp*",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayScene.cpp*",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T07:02:38.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NewbieLoadScenes.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadScenes.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieLoadScenes.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadScenes.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieLoadScenes.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T04:21:50.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NewbiePlayScene.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayScene.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T07:02:32.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAAIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-17T08:33:35.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NewbiePlayerScript.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayerScript.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayerScript.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T07:36:52.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NewbieBackGround.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieBackGround.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieBackGround.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T04:21:39.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NewbieTitleScene.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieTitleScene.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieTitleScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T01:56:48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "NewbieCat.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieCat.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieCat.h",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T04:21:40.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "NewbiePlayer.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayer.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T04:21:45.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NewbieCatScript.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieCatScript.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieCatScript.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T07:00:57.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "NewbieCircleCollider2D.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T01:52:26.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NewbieCamera.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCamera.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCamera.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T02:33:38.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NewbieCircleCollider2D.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:46:58.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NewbieColliderManager.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieColliderManager.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieColliderManager.cpp",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAALYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T07:04:22.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NewbieColliderManager.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieColliderManager.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieColliderManager.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T07:04:13.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NewbiePlayerScript.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
+              "ViewState": "AgIAAIoAAAAAAAAAAAAAAKIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T07:01:39.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NewbieCatScript.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieCatScript.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieCatScript.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T07:00:09.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewbieCat.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieCat.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieCat.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T04:21:43.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "NewbieDontDestroyOnLoad.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T02:08:48.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "NewbieLayer.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieLayer.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieLayer.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:51:49.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NewbieScene.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScene.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScene.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:55:17.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "NewbieDontDestroyOnLoad.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieDontDestroyOnLoad.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T02:06:53.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NewbieSpriteRenderer.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAvwF0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T07:03:03.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NewbieComponent.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieComponent.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieComponent.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-04T07:28:08.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NewbieApplication.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieApplication.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieApplication.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:42:33.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "NewbieTime.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTime.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTime.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:56:42.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NewbieInput.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieInput.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieInput.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:51:01.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "NewbieDestroy.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieDestroy.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieDestroy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:47:15.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NewbieGameObject.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieGameObject.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieGameObject.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:50:08.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NewbieGameObject.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieGameObject.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieGameObject.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:49:37.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "NewbieTransform.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTransform.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTransform.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:56:14.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
               "Title": "NewbieScript.h",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.h",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScript.h",
@@ -422,142 +885,311 @@
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScript.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T07:32:56.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T07:32:56.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NewbiePlayScene.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayScene.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayScene.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T07:02:38.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NewbiePlayerScript.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAAAMoAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T07:01:39.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NewbieColliderManager.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieColliderManager.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieColliderManager.cpp",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAuwIgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T07:04:22.063Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NewbieColliderManager.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieColliderManager.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieColliderManager.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T07:04:13.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NewbieGameObject.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieGameObject.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieGameObject.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:50:08.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "NewbieSceneManager.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieSceneManager.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieSceneManager.h",
+              "DocumentIndex": 37,
+              "Title": "NewbieRenderer.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieRenderer.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieRenderer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T07:29:01.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T04:20:07.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NewbieCollider.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCollider.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCollider.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:45:02.961Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 38,
               "Title": "NewbieCollider.h",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.h",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCollider.h",
               "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.h",
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCollider.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:45:04.089Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:45:04.089Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 39,
               "Title": "NewbieBoxCollider2D.h",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.h",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieBoxCollider2D.h",
               "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.h",
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieBoxCollider2D.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:46:18.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:46:18.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 40,
+              "Title": "NewbieMath.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieMath.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieMath.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:36:38.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "NewbieMath.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieMath.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieMath.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:36:34.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "NewbieEnums.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieEnums.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieEnums.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieEnums.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieEnums.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T01:31:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Entity.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\Entity.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\Entity.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:49:17.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Entity.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\Entity.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\Entity.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:49:22.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Commoninclude.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\Commoninclude.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\Commoninclude.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:37:18.118Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "NewbieAnimator.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimator.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimator.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:40:36.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "NewbieAnimator.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimator.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimator.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:39:44.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "NewbieAnimation.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimation.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimation.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:39:25.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "NewbieAnimation.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimation.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimation.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:38:34.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
               "Title": "NewbieBoxCollider2D.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp",
               "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp",
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:46:27.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:46:27.431Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 51,
+              "Title": "NewbieLayer.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieLayer.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieLayer.cpp",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:52:00.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "NewbieResources.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieResources.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieResources.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:53:56.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "NewbieResources.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieResources.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieResources.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:54:27.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "NewbieTexture.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTexture.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTexture.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-08T04:04:38.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "NewbieTexture.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTexture.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTexture.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:56:56.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "NewbieResource.h",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieResource.h",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieResource.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-07T06:54:26.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NewbieInput.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieInput.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieInput.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:51:10.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "NewbieComponent.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieComponent.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieComponent.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T04:03:49.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "NewbieTitleScene.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieTitleScene.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieTitleScene.cpp",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAEUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-08T01:56:45.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "NewbieCollider.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCollider.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCollider.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T06:45:02.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "NewbieScript.cpp",
+              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp",
+              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScript.cpp",
+              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp",
+              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScript.cpp",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-07T07:33:14.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 138,
               "Title": "dinput.h",
               "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\um\\dinput.h",
@@ -570,46 +1202,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "NewbieDestroy.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieDestroy.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieDestroy.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:47:15.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NewbieGameObject.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieGameObject.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieGameObject.cpp",
-              "ViewState": "AgIAADIAAAAAAAAAAAAuwEEAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:49:37.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "NewbieObject.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieObject.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T07:28:04.342Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 62,
               "Title": "NewbieApplication.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.cpp",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieApplication.cpp",
@@ -617,129 +1210,11 @@
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieApplication.cpp",
               "ViewState": "AgIAAE4AAAAAAAAAAAAwwGAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:41:35.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:41:35.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "NewbieSpriteRenderer.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAvwF0AAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T07:03:03.53Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "NewbiePlayScene.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbiePlayScene.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h",
-              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbiePlayScene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T07:02:32.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Commoninclude.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\Commoninclude.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\Commoninclude.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:37:18.118Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "NewbieCatScript.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieCatScript.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h",
-              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieCatScript.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T07:00:57.749Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "NewbieCatScript.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Window\\NewbieCatScript.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Window\\NewbieCatScript.cpp",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAF0AAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T07:00:09.334Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "NewbieResources.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieResources.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieResources.h",
-              "ViewState": "AgIAACwAAAAAAAAAAAAewDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:53:56.248Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NewbieAnimation.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimation.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimation.cpp",
-              "ViewState": "AgIAADQAAAAAAAAAAAAwwDsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:38:34.845Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "NewbieTexture.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTexture.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTexture.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:56:56.046Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "NewbieTime.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTime.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTime.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:56:42.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 63,
               "Title": "NewbieTime.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.cpp",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTime.cpp",
@@ -747,12 +1222,11 @@
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTime.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:56:40.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:56:40.742Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 64,
               "Title": "NewbieTransform.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.cpp",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTransform.cpp",
@@ -760,181 +1234,11 @@
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTransform.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:56:20.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:56:20.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "NewbieTransform.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieTransform.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieTransform.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:56:14.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "NewbieSceneManager.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieSceneManager.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieSceneManager.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:55:27.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "NewbieScene.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScene.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScene.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:55:17.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "NewbieScene.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieScene.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieScene.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:54:45.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "NewbieResources.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieResources.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieResources.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:54:27.478Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "NewbieResource.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieResource.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieResource.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:54:26.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "NewbieLayer.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieLayer.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieLayer.cpp",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAAAG0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:52:00.216Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "NewbieLayer.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieLayer.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieLayer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:51:49.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "NewbieInput.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieInput.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieInput.cpp",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:51:10.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "NewbieInput.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieInput.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieInput.h",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:51:01.108Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Entity.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\Entity.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\Entity.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:49:22.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "Entity.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\Entity.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\Entity.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\Entity.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:49:17.259Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "NewbieCircleCollider2D.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:46:58.416Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 65,
               "Title": "NewbieCamera.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.cpp",
               "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieCamera.cpp",
@@ -942,102 +1246,11 @@
               "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieCamera.cpp",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:46:37.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T06:46:37.419Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "NewbieApplication.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieApplication.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieApplication.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:42:33.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "NewbieAnimator.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimator.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimator.h",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:40:36.824Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "NewbieAnimator.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimator.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimator.cpp",
-              "ViewState": "AgIAAI4AAAAAAAAAAAAuwJ8AAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:39:44.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "NewbieAnimation.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieAnimation.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieAnimation.h",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:39:25.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "NewbieMath.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieMath.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieMath.h",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAEoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-07T06:36:38.821Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "NewbieMath.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieMath.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieMath.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T06:36:34.637Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
-              "Title": "NewbieComponent.h",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h",
-              "RelativeDocumentMoniker": "..\\NewbieEngine_Source\\NewbieComponent.h",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h",
-              "RelativeToolTip": "..\\NewbieEngine_Source\\NewbieComponent.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-04T07:28:08.71Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 67,
               "Title": "NewbieDestroy.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine\\NewbieDestroy.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine\\NewbieDestroy.cpp",
@@ -1049,7 +1262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 68,
               "Title": "NewbieDestroy.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieDestroy.h",
@@ -1061,7 +1274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 69,
               "Title": "NewbieGameObject.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.cpp",
@@ -1073,7 +1286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 66,
               "Title": "NewbieLayer.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.cpp",
@@ -1084,19 +1297,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 70,
               "Title": "NewbieGameObject.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
               "ToolTip": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
               "RelativeToolTip": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieGameObject.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-13T05:21:04.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 71,
               "Title": "NewbieObject.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieObject.h",
@@ -1108,7 +1320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 72,
               "Title": "NewbieCatScript.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.cpp",
@@ -1120,7 +1332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 73,
               "Title": "NewbieLayer.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieLayer.h",
@@ -1132,7 +1344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 74,
               "Title": "NewbieApplication.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.cpp",
@@ -1144,7 +1356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 75,
               "Title": "NewbieApplication.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieApplication.h",
@@ -1156,7 +1368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 76,
               "Title": "NewbiePlayScene.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.cpp",
@@ -1168,7 +1380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 77,
               "Title": "NewbieBackGround.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.h",
@@ -1180,7 +1392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 78,
               "Title": "NewbieColliderManager.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.cpp",
@@ -1192,7 +1404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 79,
               "Title": "NewbieColliderManager.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColliderManager.h",
@@ -1204,7 +1416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 80,
               "Title": "NewbieTime.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.cpp",
@@ -1216,7 +1428,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 81,
               "Title": "Commoninclude.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\Commoninclude.h",
@@ -1228,7 +1440,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 82,
               "Title": "NewbieSpriteRenderer.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.h",
@@ -1240,7 +1452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 83,
               "Title": "NewbieResource.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.h",
@@ -1252,7 +1464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 84,
               "Title": "NewbieResources.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.cpp",
@@ -1264,7 +1476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 85,
               "Title": "NewbieCat.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.h",
@@ -1276,7 +1488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 86,
               "Title": "NewbiePlayer.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.cpp",
@@ -1288,7 +1500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 87,
               "Title": "NewbiePlayerScript.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.h",
@@ -1300,7 +1512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 88,
               "Title": "NewbiePlayerScript.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayerScript.cpp",
@@ -1312,7 +1524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 89,
               "Title": "NewbieTexture.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.cpp",
@@ -1324,7 +1536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 90,
               "Title": "NewbieTexture.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTexture.h",
@@ -1336,7 +1548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 91,
               "Title": "NewbieEnums.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieEnums.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieEnums.h",
@@ -1348,7 +1560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 92,
               "Title": "NewbieAnimation.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.cpp",
@@ -1360,7 +1572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 93,
               "Title": "NewbieBoxCollider2D.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.cpp",
@@ -1372,7 +1584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 94,
               "Title": "NewbieCircleCollider2D.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.cpp",
@@ -1384,7 +1596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 95,
               "Title": "NewbieBoxCollider2D.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieBoxCollider2D.h",
@@ -1396,7 +1608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 96,
               "Title": "NewbieCircleCollider2D.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCircleCollider2D.h",
@@ -1408,7 +1620,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 97,
               "Title": "NewbieCollider.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.cpp",
@@ -1420,7 +1632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 98,
               "Title": "NewbieCollider.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCollider.h",
@@ -1432,7 +1644,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 99,
               "Title": "NewbieColider.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColider.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColider.cpp",
@@ -1444,7 +1656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 100,
               "Title": "NewbieColider.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColider.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieColider.h",
@@ -1456,7 +1668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 101,
               "Title": "NewbieCatScript.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCatScript.h",
@@ -1468,7 +1680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 102,
               "Title": "NewbieMath.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.h",
@@ -1480,7 +1692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 103,
               "Title": "NewbieMath.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieMath.cpp",
@@ -1492,7 +1704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 104,
               "Title": "NewbieTime.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTime.h",
@@ -1504,7 +1716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 105,
               "Title": "NewbieInput.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.h",
@@ -1516,7 +1728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 106,
               "Title": "NewbieTransform.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.h",
@@ -1528,7 +1740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 107,
               "Title": "NewbieSpriteRenderer.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSpriteRenderer.cpp",
@@ -1540,7 +1752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 108,
               "Title": "NewbieAnimation.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimation.h",
@@ -1552,7 +1764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 109,
               "Title": "NewbieAnimator.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.cpp",
@@ -1564,7 +1776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 110,
               "Title": "NewbieAnimator.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieAnimator.h",
@@ -1576,7 +1788,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 111,
               "Title": "NewbieTitleScene.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.h",
@@ -1588,7 +1800,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 112,
               "Title": "NewbiePlayScene.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayScene.h",
@@ -1600,7 +1812,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 113,
               "Title": "Entity.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\Entity.cpp",
@@ -1612,7 +1824,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 114,
               "Title": "filesystem",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\experimental\\filesystem",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\experimental\\filesystem",
@@ -1620,11 +1832,12 @@
               "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\include\\experimental\\filesystem",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAABwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-01T04:58:18.112Z"
+              "WhenOpened": "2024-12-01T04:58:18.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 115,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\Entity.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\Entity.h",
@@ -1636,7 +1849,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 116,
               "Title": "NewbieComponent.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.h",
@@ -1648,7 +1861,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 117,
               "Title": "NewbieSceneManager.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.cpp",
@@ -1660,7 +1873,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 118,
               "Title": "NewbieSceneManager.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieSceneManager.h",
@@ -1672,7 +1885,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 104,
+              "DocumentIndex": 119,
               "Title": "NewbieScene.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.cpp",
@@ -1684,7 +1897,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 105,
+              "DocumentIndex": 120,
               "Title": "NewbieScene.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScene.h",
@@ -1696,7 +1909,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 106,
+              "DocumentIndex": 121,
               "Title": "NewbieResources.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResources.h",
@@ -1708,19 +1921,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\slugg\\CPP2409-P\\MakeEngine\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAADQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-17T08:33:35.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 107,
+              "DocumentIndex": 122,
               "Title": "NewbiePlayer.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbiePlayer.h",
@@ -1732,7 +1933,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 108,
+              "DocumentIndex": 123,
               "Title": "NewbieCamera.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.cpp",
@@ -1744,7 +1945,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 109,
+              "DocumentIndex": 124,
               "Title": "NewbieCamera.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieCamera.h",
@@ -1756,7 +1957,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 110,
+              "DocumentIndex": 125,
               "Title": "NewbieInput.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieInput.cpp",
@@ -1768,7 +1969,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 111,
+              "DocumentIndex": 126,
               "Title": "NewbieLoadResources.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadResources.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadResources.h",
@@ -1780,7 +1981,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 112,
+              "DocumentIndex": 127,
               "Title": "NewbieCat.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieCat.cpp",
@@ -1792,7 +1993,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 113,
+              "DocumentIndex": 128,
               "Title": "NewbieTitleScene.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieTitleScene.cpp",
@@ -1804,7 +2005,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 114,
+              "DocumentIndex": 129,
               "Title": "NewbieLoadScenes.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadScenes.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieLoadScenes.h",
@@ -1816,7 +2017,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 115,
+              "DocumentIndex": 130,
               "Title": "NewbieTransform.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieTransform.cpp",
@@ -1828,7 +2029,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 116,
+              "DocumentIndex": 131,
               "Title": "NewbieRenderer.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.cpp",
@@ -1840,7 +2041,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 117,
+              "DocumentIndex": 132,
               "Title": "NewbieScript.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.h",
@@ -1852,7 +2053,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 118,
+              "DocumentIndex": 133,
               "Title": "NewbieRenderer.h",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.h",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieRenderer.h",
@@ -1864,7 +2065,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 119,
+              "DocumentIndex": 134,
               "Title": "NewbieScript.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieScript.cpp",
@@ -1876,7 +2077,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 120,
+              "DocumentIndex": 135,
               "Title": "NewbieComponent.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieComponent.cpp",
@@ -1888,7 +2089,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 121,
+              "DocumentIndex": 136,
               "Title": "NewbieResource.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Source\\NewbieResource.cpp",
@@ -1900,7 +2101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 122,
+              "DocumentIndex": 137,
               "Title": "NewbieBackGround.cpp",
               "DocumentMoniker": "C:\\Users\\slugg\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.cpp",
               "RelativeDocumentMoniker": "..\\..\\Documents\\GitHub\\CPP2409-P\\NewbieEngine_Window\\NewbieBackGround.cpp",

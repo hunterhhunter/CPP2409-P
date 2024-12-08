@@ -1,5 +1,4 @@
 #pragma once
-
 namespace newbie
 {
 	namespace enums
@@ -31,6 +30,13 @@ namespace newbie
 			SpriteRenderer,
 			Animator,
 			Camera,
+			End,
+		};
+
+		enum class eColliderType
+		{
+			Circle2D,
+			Rect2D,
 			End,
 		};
 	}

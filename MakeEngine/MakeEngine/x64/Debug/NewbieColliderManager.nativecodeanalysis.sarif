@@ -1,0 +1,147 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34435.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiecollidermanager.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "d1d0e993f95f5fa8fc0bd3b07d6090a126f9175540e3bf2a83667a2361402c8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiecollidermanager.h"
+          },
+          "hashes": {
+            "sha-256": "3baa2f6934272d9a9a256b842add8423ebcd75e12b6b8af8b185b7e3164d21fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/commoninclude.h"
+          },
+          "hashes": {
+            "sha-256": "d59442449585b568c89ff017fc623f831624638676f7fa7738f829032c2f4dc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbieenums.h"
+          },
+          "hashes": {
+            "sha-256": "713ea411e4b93eca5656561ce4af6ebf58fc2c24136b82a3b1056bfbec2fb936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiemath.h"
+          },
+          "hashes": {
+            "sha-256": "f33db55594311e02dde1a6dede72eea1dcbe1cafe5b9bba24ee476d5d6ee0dce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbieboxcollider2d.h"
+          },
+          "hashes": {
+            "sha-256": "05d0e283a4b216f76c5fc315e939b4f206e44e9db60fedd4ddd077971f6a8b46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiecollider.h"
+          },
+          "hashes": {
+            "sha-256": "a4cf00fde81854e79a634c056ca5c8e24fe392762ac37af492a534183177a295"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiecomponent.h"
+          },
+          "hashes": {
+            "sha-256": "a0775431bef3a9c9439ff6cb1ef527717931e5a594fc743ceb1dd3a4f95c452a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/entity.h"
+          },
+          "hashes": {
+            "sha-256": "5cf75a30fc76ef85c31d038a7031d8a45b37afb4687b2c697a2fb67dfc5d4833"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiecirclecollider2d.h"
+          },
+          "hashes": {
+            "sha-256": "8296c1ee95fac9b7baa07a63a40676a05c5cb77c20973addae2a6368a3525e36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiescene.h"
+          },
+          "hashes": {
+            "sha-256": "aa330caf8e0950945fae2042f07cc4a44d1f547d2d367b71ae2d357b5bd03fd3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiegameobject.h"
+          },
+          "hashes": {
+            "sha-256": "79665013dd1066e987851cef067c43e0aa52c5167138b1bf6bf1ac80cef32185"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbielayer.h"
+          },
+          "hashes": {
+            "sha-256": "041abd74466c7951261a370d42d5af4a64bb9cd653d63bbb5d4c82d71bb5fc82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiescenemanager.h"
+          },
+          "hashes": {
+            "sha-256": "b4d54a36821811386579fe7793f41fee3ec96d6c44672d0ffbd23dfb55499097"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbietransform.h"
+          },
+          "hashes": {
+            "sha-256": "ab8956b92437d9d1bfd28f302e2bd26c3e8a752a47cf3ccd1e16fc58ad8dad8d"
+          }
+        }
+      ]
+    }
+  ]
+}

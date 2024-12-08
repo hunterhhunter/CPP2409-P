@@ -8,7 +8,9 @@ C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieCircleCollider2D.cpp;C:\Users
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieCollider.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieCollider.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieColliderManager.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieColliderManager.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieComponent.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieComponent.obj
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieDontDestroyOnLoad.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieDontDestroyOnLoad.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieGameObject.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieGameObject.obj
+C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieObject.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieObject.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieInput.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieInput.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieLayer.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieLayer.obj
 C:\Users\slugg\CPP2409-P\NewbieEngine_Source\NewbieMath.cpp;C:\Users\slugg\CPP2409-P\MakeEngine\MakeEngine\x64\Debug\NewbieMath.obj

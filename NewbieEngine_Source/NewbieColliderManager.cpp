@@ -143,12 +143,46 @@ namespace newbie
 		// size 1,1 일 기본크기가 100픽셀
 		Vector2 leftSize = left->GetSize() * 100.0f;
 		Vector2 rightSize = right->GetSize() * 100.0f;
+
 		//AABB 충돌
-		if (fabs(leftPos.x - rightPos.x) < fabs(leftSize.x / 2.0f + rightSize.x / 2.0f)
-			&& fabs(leftPos.y - rightPos.y) < fabs(leftSize.y / 2.0f + rightSize.y / 2.0f))
+		enums::eColliderType leftType = left->GetColliderType();
+		enums::eColliderType rightType = right->GetColliderType();
+
+		// Rect - Rect
+		if (leftType == enums::eColliderType::Rect2D
+				&& rightType == enums::eColliderType::Rect2D)
 		{
-			return true;
+			// 사각형 가로 세로 충돌검사
+			if (fabs(leftPos.x - rightPos.x) < fabs(leftSize.x / 2.0f + rightSize.x / 2.0f)
+				&& fabs(leftPos.y - rightPos.y) < fabs(leftSize.y / 2.0f + rightSize.y / 2.0f))
+			{
+				return true;
+			}
 		}
+
+		// Circle - Circle
+		if (leftType == enums::eColliderType::Circle2D
+			&& rightType == enums::eColliderType::Circle2D)
+		{
+			Vector2 leftCirclePos = leftPos + (leftSize / 2.0f); // 반지름 계산
+			Vector2 rightCirclePos = rightPos + (rightSize / 2.0f);
+
+			float distance = (leftCirclePos - rightCirclePos).length();
+
+			// 닿거나 들어온 경우
+			if (distance <= (leftSize.x / 2.0f + rightSize.x / 2.0f))
+			{
+				return true;
+			}
+		}
+
+		// Circle - Rect
+		if ((leftType == enums::eColliderType::Circle2D && rightType == enums::eColliderType::Rect2D)
+			|| (leftType == enums::eColliderType::Rect2D && rightType == enums::eColliderType::Circle2D))
+		{
+			
+		}
+
 		return false;
 	}
 }

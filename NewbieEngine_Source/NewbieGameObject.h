@@ -71,6 +71,9 @@ namespace newbie
 
 		bool IsDead() { return mState == eState::Dead; }
 
+		void SetLayerType(eLayerType layerType) { mLayerType = layerType; }
+		eLayerType GetLayerType() { return mLayerType; }
+
 	private:
 		void initializeTransform();
 		void death() { mState = eState::Dead; }
@@ -78,5 +81,6 @@ namespace newbie
 	private:
 		eState mState;
 		std::vector<Component*> mComponents;
+		eLayerType mLayerType;
 	};
 }

@@ -26,6 +26,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieColliderManager.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieComponent.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDestroy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieDontDestroyOnLoad.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieEnums.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieGameObject.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieInput.h" />
@@ -54,7 +55,9 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieCollider.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieColliderManager.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieComponent.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieDontDestroyOnLoad.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieGameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieObject.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieInput.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieLayer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieMath.cpp" />

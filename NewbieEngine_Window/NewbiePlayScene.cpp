@@ -1,23 +1,24 @@
 #include "NewbiePlayScene.h"
-#include "NewbieGameObject.h"
+#include "../NewbieEngine_Source/NewbieGameObject.h"
 #include "NewbiePlayer.h"
-#include "NewbieTransform.h"
-#include "NewbieSpriteRenderer.h"
-#include "NewbieInput.h"
+#include "../NewbieEngine_Source/NewbieTransform.h"
+#include "../NewbieEngine_Source/NewbieSpriteRenderer.h"
+#include "../NewbieEngine_Source/NewbieInput.h"
 #include "NewbieTitleScene.h"
-#include "NewbieSceneManager.h"
-#include "NewbieObject.h"
+#include "../NewbieEngine_Source/NewbieSceneManager.h"
+#include "../NewbieEngine_Source/NewbieObject.h"
 #include "NewbieBackGround.h"
-#include "NewbieTexture.h"
-#include "NewbieResources.h"
+#include "../NewbieEngine_Source/NewbieTexture.h"
+#include "../NewbieEngine_Source/NewbieResources.h"
 #include "NewbiePlayerScript.h"
-#include "NewbieCamera.h"
-#include "NewbieRenderer.h"
-#include "NewbieAnimator.h"
+#include "../NewbieEngine_Source/NewbieCamera.h"
+#include "../NewbieEngine_Source/NewbieRenderer.h"
+#include "../NewbieEngine_Source/NewbieAnimator.h"
 #include "NewbieCat.h"
 #include "NewbieCatScript.h"
-#include "NewbieBoxCollider2D.h"
-#include "NewbieColliderManager.h"
+#include "../NewbieEngine_Source/NewbieBoxCollider2D.h"
+#include "../NewbieEngine_Source/NewbieCircleCollider2D.h"
+#include "../NewbieEngine_Source/NewbieColliderManager.h"
 
 namespace newbie
 {
@@ -39,8 +40,10 @@ namespace newbie
 
 		// Make Player
 		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
+		object::DontDestroyOnLoad(mPlayer);
+
 		PlayerScript* playerScript = mPlayer->AddComponent<PlayerScript>();
-		BoxCollider2D* collider = mPlayer->AddComponent<BoxCollider2D>();
+		CircleCollider2D* collider = mPlayer->AddComponent<CircleCollider2D>();
 		collider->SetOffset(Vector2(-50.0f, -50.0f));
 
 		// Set Player Texture
@@ -80,7 +83,7 @@ namespace newbie
 		 graphics::Texture* catTex = Resources::Find<graphics::Texture>(L"Cat");
 		 Animator* catAnimator = cat->AddComponent<Animator>();
 
-		 BoxCollider2D* boxCatCollider = cat->AddComponent<BoxCollider2D>();
+		 CircleCollider2D* boxCatCollider = cat->AddComponent<CircleCollider2D>();
 		 boxCatCollider->SetOffset(Vector2(-50.0f, -50.0f));
 
 		 catAnimator->CreateAnimation(L"DownWalk", catTex

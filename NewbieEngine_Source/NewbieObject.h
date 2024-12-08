@@ -10,10 +10,13 @@ namespace newbie
 {
 	namespace object
 	{
+		// 하나의 게임 오브젝트 생성하는 템플릿
+		// 현재 씬에 삽입됨
 		template <typename T>
 		static T* Instantiate(newbie::enums::eLayerType type)
 		{
 			T* gameObject = new T();
+			gameObject->SetLayerType(type);
 			Scene* activeScene = SceneManager::GetActiveScene();
 			Layer* layer = activeScene->GetLayer(type);
 			layer->AddGameObject(gameObject);
@@ -21,10 +24,12 @@ namespace newbie
 			return gameObject;
 		}
 
+		// 정적 Instantiate
 		template <typename T>
 		static T* Instantiate(newbie::enums::eLayerType type, math::Vector2 position)
 		{
 			T* gameObject = new T();
+			gameObject->SetLayerType(type);
 			Scene* activeScene = SceneManager::GetActiveScene();
 			Layer* layer = activeScene->GetLayer(type);
 			layer->AddGameObject(gameObject);
@@ -35,11 +40,14 @@ namespace newbie
 			return gameObject;
 		}
 
-		/*static void Destroy(GameObject* gameObject)
+		static void DontDestroyOnLoad(GameObject* gameObject)
 		{
-			if (gameObject == nullptr)
-				return;
-			gameObject->Death();
-		}*/
+			Scene* activeScene = SceneManager::GetActiveScene();
+			activeScene->EraseGameObject(gameObject);
+
+			// 해당 게임 오브젝트를 DontDestroy씬으로 넣기
+			Scene* dontDestroyOnLoad = SceneManager::GetDontDestroyOnLoad();
+			dontDestroyOnLoad->AddGameObject(gameObject, gameObject->GetLayerType());
+		}
 	}
 }
