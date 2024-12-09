@@ -11,7 +11,7 @@ namespace newbie::object
 namespace newbie
 {
 	// Actor
-	class GameObject
+	class GameObject : public Entity
 	{
 	public:
 		friend void object::Destroy(GameObject* obj);

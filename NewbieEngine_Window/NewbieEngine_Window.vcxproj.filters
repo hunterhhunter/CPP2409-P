@@ -35,6 +35,12 @@
     <ClInclude Include="NewbieTile.h">
       <Filter>Content</Filter>
     </ClInclude>
+    <ClInclude Include="NewbieFloor.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieFloorScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -77,6 +83,12 @@
     </ClCompile>
     <ClCompile Include="NewbieTile.cpp">
       <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieFloor.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieFloorScript.cpp">
+      <Filter>Script</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 #include "NewbieScene.h"
+#include "NewbieColliderManager.h"
 
 namespace newbie
 {
@@ -92,6 +93,6 @@ namespace newbie
 
 	void Scene::OnExit()
 	{
-
+		ColliderManager::Clear();
 	}
 }

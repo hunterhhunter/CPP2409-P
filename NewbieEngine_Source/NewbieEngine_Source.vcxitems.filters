@@ -82,6 +82,9 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieTilemapRenderer.cpp">
       <Filter>Renderer</Filter>
     </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieRigidbody.cpp">
+      <Filter>Component</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="$(MSBuildThisFileDirectory)Commoninclude.h">
@@ -173,6 +176,9 @@
     </ClInclude>
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieTilemapRenderer.h">
       <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieRigidbody.h">
+      <Filter>Component</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

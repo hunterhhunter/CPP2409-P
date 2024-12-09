@@ -7,6 +7,8 @@
 #include "../NewbieEngine_Source/NewbieApplication.h"
 #include "../NewbieEngine_Source/NewbieResources.h"
 #include "../NewbieEngine_Source/NewbieTexture.h"
+#include "../NewbieEngine_Source/NewbieSceneManager.h"
+
 
 #include "../NewbieEngine_Window/NewbieLoadScenes.h"
 #include "../NewbieEngine_Window/NewbieLoadResources.h"
@@ -145,8 +147,8 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
       CW_USEDEFAULT, 0, width, height, nullptr, nullptr, hInstance, nullptr);
 
-   HWND ToolHWnd = CreateWindowW(L"TILEWINDOW", L"TileWindow", WS_OVERLAPPEDWINDOW,
-       0, 0, width, height, nullptr, nullptr, hInstance, nullptr);
+   //HWND ToolHWnd = CreateWindowW(L"TILEWINDOW", L"TileWindow", WS_OVERLAPPEDWINDOW,
+   //    0, 0, width, height, nullptr, nullptr, hInstance, nullptr);
 
    // 어플리케이션 initailize
    application.Initialize(hWnd, width, height);
@@ -172,20 +174,28 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    srand((unsigned int)(&a));
 
    //Tile 윈도우 크기 조정
-   newbie::graphics::Texture* texture
-       = newbie::Resources::Find<newbie::graphics::Texture>(L"SpringFloor");
+   newbie::Scene* activeScene = newbie::SceneManager::GetActiveScene();
 
-   RECT rect = { 0, 0, texture->GetWidth(), texture->GetHeight() };
-   AdjustWindowRect(&rect, WS_OVERLAPPEDWINDOW, false);
+   std::wstring name = activeScene->GetName();
 
-   UINT toolWidth = rect.right - rect.left;
-   UINT toolHeight = rect.bottom - rect.top;
+   if (name == L"ToolScene")
+   {
+       HWND ToolHWnd = CreateWindowW(L"TILEWINDOW", L"TileWindow", WS_OVERLAPPEDWINDOW,
+           0, 0, width, height, nullptr, nullptr, hInstance, nullptr);
+       //Tile 윈도우 크기 조정 -- TOOL
+       newbie::graphics::Texture* texture
+           = newbie::Resources::Find<newbie::graphics::Texture>(L"SpringFloor");
 
-   SetWindowPos(ToolHWnd, nullptr, width, 0, toolWidth, toolHeight, 0);
-   ShowWindow(ToolHWnd, true);
-   UpdateWindow(ToolHWnd);
+       RECT rect = { 0, 0, texture->GetWidth(), texture->GetHeight() };
+       AdjustWindowRect(&rect, WS_OVERLAPPEDWINDOW, false);
 
+       UINT toolWidth = rect.right - rect.left;
+       UINT toolHeight = rect.bottom - rect.top;
 
+       SetWindowPos(ToolHWnd, nullptr, width, 0, toolWidth, toolHeight, 0);
+       ShowWindow(ToolHWnd, true);
+       UpdateWindow(ToolHWnd);
+   }
    return TRUE;
 }
 

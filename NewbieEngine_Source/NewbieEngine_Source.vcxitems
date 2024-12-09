@@ -36,6 +36,7 @@
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieRenderer.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResource.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieResources.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)NewbieRigidbody.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScene.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieSceneManager.h" />
     <ClInclude Include="$(MSBuildThisFileDirectory)NewbieScript.h" />
@@ -65,6 +66,7 @@
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieRenderer.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResource.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieResources.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)NewbieRigidbody.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScene.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieSceneManager.cpp" />
     <ClCompile Include="$(MSBuildThisFileDirectory)NewbieScript.cpp" />

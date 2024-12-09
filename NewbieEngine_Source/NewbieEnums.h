@@ -9,6 +9,7 @@ namespace newbie
 			BackGround,
 			Tile,
 			Animal,
+			Floor,
 			Player,
 			Particle,
 			Max = 16,
@@ -27,6 +28,7 @@ namespace newbie
 		{
 			Transform,
 			Collider,
+			Rigidbody,
 			Script,
 			SpriteRenderer,
 			Animator,

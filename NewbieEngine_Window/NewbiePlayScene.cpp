@@ -21,6 +21,9 @@
 #include "../NewbieEngine_Source/NewbieColliderManager.h"
 #include "NewbieTile.h"
 #include "NewbieTilemapRenderer.h"
+#include "NewbieRigidbody.h"
+#include "NewbieFloor.h"
+#include "NewbieFloorScript.h"
 
 namespace newbie
 {
@@ -34,32 +37,6 @@ namespace newbie
 	void PlayScene::Initialize()
 	{
 
-		FILE* pFile = nullptr;
-		_wfopen_s(&pFile, L"..\\Resources\\Test", L"rb");
-
-		while (true)
-		{
-			int idxX = 0;
-			int idxY = 0;
-			int posX = 0;
-			int posY = 0;
-			if (fread(&idxX, sizeof(int), 1, pFile) == NULL)
-				break;
-			if (fread(&idxY, sizeof(int), 1, pFile) == NULL)
-				break;
-			if (fread(&posX, sizeof(int), 1, pFile) == NULL)
-				break;
-			if (fread(&posY, sizeof(int), 1, pFile) == NULL)
-				break;
-			Tile* tile = object::Instantiate<Tile>(eLayerType::Tile, Vector2(posX, posY));
-			TilemapRenderer* tmr = tile->AddComponent<TilemapRenderer>();
-			tmr->SetTexture(Resources::Find<graphics::Texture>(L"SpringFloor"));
-			tmr->SetIndex(Vector2(idxX, idxY));
-			//mTiles.push_back(tile);
-		}
-		fclose(pFile);
-
-		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Animal, true);
 		// main Camera
 		GameObject* camera = object::Instantiate<GameObject>(enums::eLayerType::None, Vector2(344.0f, 442.0f));
 		Camera* cameraComp = camera->AddComponent<Camera>();
@@ -70,7 +47,7 @@ namespace newbie
 		object::DontDestroyOnLoad(mPlayer);
 
 		PlayerScript* playerScript = mPlayer->AddComponent<PlayerScript>();
-		CircleCollider2D* collider = mPlayer->AddComponent<CircleCollider2D>();
+		BoxCollider2D* collider = mPlayer->AddComponent<BoxCollider2D>();
 		collider->SetOffset(Vector2(-50.0f, -50.0f));
 
 		// Set Player Texture
@@ -90,6 +67,16 @@ namespace newbie
 
 		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(300.0f, 250.0f));
 		 // mPlayer->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
+
+		Rigidbody* playerRigidbody =  mPlayer->AddComponent<Rigidbody>();
+		playerRigidbody->SetMass(1.5f);
+		playerRigidbody->SetFriction(30.0f);
+
+		Floor* floor = object::Instantiate<Floor>(eLayerType::Floor, Vector2(100.0f, 600.0f));
+		floor->SetName(L"Floor");
+		BoxCollider2D* floorCol = floor->AddComponent<BoxCollider2D>();
+		floorCol->SetSize(Vector2(3.0f, 1.0f));
+		floor->AddComponent<FloorScript>();
 		
 		//// Make BackGround
 		//GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::Player);
@@ -99,39 +86,6 @@ namespace newbie
 		//// BackGround Texture
 		//graphics::Texture* bgTexture = Resources::Find<graphics::Texture>(L"Bubble");
 		//bgSr->SetTexture(bgTexture);
-
-		 // make Cat
-		 Cat* cat = object::Instantiate<Cat>(enums::eLayerType::Animal);
-		 // cat->SetActive(true);
-		 cat->AddComponent<CatScript>();
-
-		 // cameraComp->SetTarget(cat);
-
-		 graphics::Texture* catTex = Resources::Find<graphics::Texture>(L"Cat");
-		 Animator* catAnimator = cat->AddComponent<Animator>();
-
-		 CircleCollider2D* boxCatCollider = cat->AddComponent<CircleCollider2D>();
-		 boxCatCollider->SetOffset(Vector2(-50.0f, -50.0f));
-
-		 catAnimator->CreateAnimation(L"DownWalk", catTex
-			 , Vector2(0.0f, 0.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-		 catAnimator->CreateAnimation(L"RightWalk", catTex
-			 , Vector2(0.0f, 32.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-		 catAnimator->CreateAnimation(L"UpWalk", catTex
-			 , Vector2(0.0f, 64.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-		 catAnimator->CreateAnimation(L"LeftWalk", catTex
-			 , Vector2(0.0f, 96.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-		 catAnimator->CreateAnimation(L"SitDown", catTex
-			 , Vector2(0.0f, 128.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-		 catAnimator->CreateAnimation(L"Grooming", catTex
-			 , Vector2(0.0f, 160.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-		 catAnimator->CreateAnimation(L"LayDown", catTex
-			 , Vector2(0.0f, 192.0f), Vector2(32.0f, 32.0f), Vector2::Zero, 4, 0.1f);
-
-		 catAnimator->PlayAnimation(L"SitDown", false);
-
-		 cat->GetComponent<Transform>()->SetPosition(Vector2(200.0f, 200.0f));
-		 cat->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
 
 		Scene::Initialize();
 	}
@@ -160,6 +114,8 @@ namespace newbie
 
 	void PlayScene::OnEnter()
 	{
+		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Animal, true);
+		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Floor, true);
 
 	}
 
