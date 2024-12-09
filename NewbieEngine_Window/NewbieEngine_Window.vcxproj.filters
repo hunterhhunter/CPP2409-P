@@ -26,8 +26,15 @@
     <ClInclude Include="NewbieCat.h">
       <Filter>Content</Filter>
     </ClInclude>
-    <ClInclude Include="NewbieToolScene.h" />
-    <ClInclude Include="NewbieTile.h" />
+    <ClInclude Include="NewbieCameraScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieToolScene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieTile.h">
+      <Filter>Content</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -62,7 +69,14 @@
     <ClCompile Include="NewbieCat.cpp">
       <Filter>Content</Filter>
     </ClCompile>
-    <ClCompile Include="NewbieToolScene.cpp" />
-    <ClCompile Include="NewbieTile.cpp" />
+    <ClCompile Include="NewbieCameraScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieToolScene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieTile.cpp">
+      <Filter>Content</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

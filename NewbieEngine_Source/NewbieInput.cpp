@@ -105,8 +105,14 @@ namespace newbie
 		// 현재 application의 Hwnd(Window)의 상대좌표로 변환
 		ScreenToClient(application.GetHwnd(), &mousePos);
 
-		mMousePosition.x = mousePos.x;
-		mMousePosition.y = mousePos.y;
+		UINT width = application.GetWidth();
+		UINT height = application.GetHeight();
+		mMousePosition.x = -1.0f;
+		mMousePosition.y = -1.0f;
+		if (mousePos.x > 0 && mousePos.x < width)
+			mMousePosition.x = mousePos.x;
+		if (mousePos.y > 0 && mousePos.y < height)
+			mMousePosition.y = mousePos.y;
 	}
 
 	void Input::clearKeys()

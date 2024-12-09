@@ -10,6 +10,7 @@ namespace newbie
 	{
 	public:
 		Vector2 CaluatePosition(Vector2 pos) { return pos - mDistance; }
+		Vector2 CaluateTilePosition(Vector2 pos) { return pos + mDistance; }
 		
 		Camera();
 		~Camera();
