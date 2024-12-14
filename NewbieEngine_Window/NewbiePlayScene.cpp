@@ -45,38 +45,60 @@ namespace newbie
 		// Make Player
 		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
 		object::DontDestroyOnLoad(mPlayer);
-
-		PlayerScript* playerScript = mPlayer->AddComponent<PlayerScript>();
-		BoxCollider2D* collider = mPlayer->AddComponent<BoxCollider2D>();
-		collider->SetOffset(Vector2(-50.0f, -50.0f));
-
-		// Set Player Texture
-		graphics::Texture* playerTex = Resources::Find<graphics::Texture>(L"Player");
-		//// Add Player Animation
-		Animator* playerAnimator = mPlayer->AddComponent<Animator>();
-
-		playerAnimator->CreateAnimation(L"Idle", playerTex,
-			Vector2(2000.0f, 250.0f), Vector2(250.0f, 250.0f), Vector2::Zero, 1, 0.1f);
-		playerAnimator->CreateAnimation(L"FrontGiveWater", playerTex,
-			Vector2(0.0f, 2000.0f), Vector2(250.0f, 250.0f), Vector2::Zero, 12, 0.1f);
-
-		playerAnimator->PlayAnimation(L"Idle", false);
-
-		// 유저가 물줄시 고양이 생성 이벤트
-		//playerAnimator->GetCompleteEvent(L"FrontGiveWater") = std::bind(&PlayerScript::AttackEffect, playerScript);
-
-		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(300.0f, 250.0f));
-		 // mPlayer->GetComponent<Transform>()->SetScale(Vector2(2.0f, 2.0f));
+		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(200.0f, 0.0f));
+		mPlayer->GetComponent<Transform>()->SetScale(Vector2(1.5f, 1.5f));
 
 		Rigidbody* playerRigidbody =  mPlayer->AddComponent<Rigidbody>();
 		playerRigidbody->SetMass(1.5f);
 		playerRigidbody->SetFriction(30.0f);
 
-		Floor* floor = object::Instantiate<Floor>(eLayerType::Floor, Vector2(100.0f, 600.0f));
-		floor->SetName(L"Floor");
-		BoxCollider2D* floorCol = floor->AddComponent<BoxCollider2D>();
-		floorCol->SetSize(Vector2(3.0f, 1.0f));
-		floor->AddComponent<FloorScript>();
+		cameraComp->SetTarget(mPlayer);
+
+		PlayerScript* playerScript = mPlayer->AddComponent<PlayerScript>();
+		BoxCollider2D* collider = mPlayer->AddComponent<BoxCollider2D>();
+		collider->SetOffset(Vector2(-15.0f, -15.0f));
+		collider->SetSize(Vector2(1.0f, 1.0f));
+
+		// Set Player Texture
+		graphics::Texture* playerTex = Resources::Find<graphics::Texture>(L"Mario");
+		//// Add Player Animation
+		Animator* playerAnimator = mPlayer->AddComponent<Animator>();
+
+		playerAnimator->CreateAnimation(L"Idle", playerTex,
+			Vector2(72.0f, 985.0f), Vector2(31.0f, 63.0f), Vector2::Zero, 1, 0.1f);
+		playerAnimator->CreateAnimation(L"RightRun", playerTex,
+			Vector2(204.0f, 987.0f), Vector2(42.0f, 62.0f), Vector2::Zero, 2, 0.25f);
+		playerAnimator->CreateAnimation(L"LeftRun", playerTex,
+			Vector2(206.0f, 1599.0f), Vector2(45.0f, 62.0f), Vector2::Zero, 2, 0.25f);
+
+		playerAnimator->PlayAnimation(L"Idle", false);
+
+		
+
+		Vector2 gap = Vector2(32.0f, 0.0f);
+		for (int row = 0; row < 1; ++row) {
+			for (int col = 0; col < 30; ++col) {
+				Floor* floor = object::Instantiate<Floor>(eLayerType::Floor);
+				Transform* floorTr = floor->AddComponent<Transform>();
+
+				// 위치 설정: 시작 위치 + 간격 * (행, 열)
+				Vector2 position = Vector2(100.0f, 300.0f) + Vector2(col * gap.x, row * gap.y);
+				floorTr->SetPosition(position);
+				floor->SetName(L"Floor");
+
+				// 박스 콜라이더 설정
+				BoxCollider2D* floorCol = floor->AddComponent<BoxCollider2D>();
+				floorCol->SetSize(Vector2(1.0f, 1.0f));
+				floorCol->SetOffset(Vector2(10.0f, 10.0f));
+
+				// 애니메이션 설정
+				/*Animator* floorAnimator = floor->AddComponent<Animator>();
+				floor->AddComponent<FloorScript>();
+				floorAnimator->CreateAnimation(L"BasicTile", playerTex,
+					Vector2(244.0f, 137.0f), Vector2(33.0f, 33.0f), Vector2::Zero, 1, 0.1f);
+				floorAnimator->PlayAnimation(L"BasicTile", false);*/
+			}
+		}
 		
 		//// Make BackGround
 		//GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::Player);

@@ -11,7 +11,7 @@ namespace newbie
 		: Component(enums::eComponentType::Collider)
 		, mType(type)
 		, mID(CollisionID++)
-		, mSize(Vector2::One)
+		, mSize(Vector2(-0.4f, 0.0f))
 	{
 	}
 	Collider::~Collider()

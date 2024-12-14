@@ -22,6 +22,8 @@ namespace newbie
 		Vector2 GetVelocity() { return mVelocity; }
 		void SetFriction(float friction) { mFriction = friction; }
 
+		bool GetGround() { return mbGround; }
+
 	private:
 		bool mbGround;
 		float mMass; // 질량

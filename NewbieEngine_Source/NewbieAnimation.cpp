@@ -104,9 +104,6 @@ namespace newbie
 					, sprite.size.y
 					, RGB(255, 0, 255));
 			}
-
-
-			Rectangle(hdc, pos.x, pos.y, pos.x + 10, pos.y + 10);
 		}
 		else if (type == graphics::Texture::eTextureType::Png)
 		{

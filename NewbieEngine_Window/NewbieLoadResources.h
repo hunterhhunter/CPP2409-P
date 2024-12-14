@@ -51,6 +51,11 @@ namespace newbie
 			L"SpringFloor",
 			L"../Resources/SpringFloor.bmp"
 		);
+
+		Resources::Load<graphics::Texture>(
+			L"Mario",
+			L"../Resources/Mario.bmp"
+		);
 	}
 		
 }

@@ -35,11 +35,11 @@
     <ClInclude Include="NewbieTile.h">
       <Filter>Content</Filter>
     </ClInclude>
-    <ClInclude Include="NewbieFloor.h">
-      <Filter>Script</Filter>
-    </ClInclude>
     <ClInclude Include="NewbieFloorScript.h">
       <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieFloor.h">
+      <Filter>Content</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

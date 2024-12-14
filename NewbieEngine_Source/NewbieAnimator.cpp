@@ -129,7 +129,7 @@ namespace newbie
 		animation = FindAnimation(name);
 		if (animation != nullptr)
 			return;
-		//D:\JunJae\AR50\YamYam_Engine\Resources\Mushroom\1.bmp
+		
 		int fileCount = 0;
 		std::filesystem::path fs(path);
 		std::vector<graphics::Texture*> images = {};
