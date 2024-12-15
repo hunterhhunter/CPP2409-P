@@ -57,16 +57,6 @@ namespace newbie
 
 		}
 		playerRb->SetGround(true);
-
-		//// 영역 충돌했을 때
-		//if (len < scale)
-		//{
-		//	Vector2 playerPos = playerTr->GetPosition();
-		//	// 영역 - 객체위치 - 1해서 지면 위에 뜨도록
-		//	playerPos.y  -= scale - len - 1.0f;
-		//	playerTr->SetPosition(playerPos);
-		//}
-		//playerRb->SetGround(true);
 	}
 	void FloorScript::OnCollisionStay(Collider* other)
 	{
