@@ -4,9 +4,20 @@
 #include "NewbieTime.h"
 #include "NewbieTransform.h"
 
+namespace newbie::object
+{
+		void Destroy(GameObject* gameObject)
+		{
+			if (gameObject != nullptr)
+				gameObject->death();
+		}
+}
+
 namespace newbie
 {
 	GameObject::GameObject()
+		: mState(eState::Active)
+		, mLayerType(eLayerType::None)
 	{
 		mComponents.resize((UINT)enums::eComponentType::End);
 		initializeTransform();

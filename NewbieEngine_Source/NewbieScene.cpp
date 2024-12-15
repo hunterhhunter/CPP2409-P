@@ -1,4 +1,5 @@
 #include "NewbieScene.h"
+#include "NewbieColliderManager.h"
 
 namespace newbie
 {
@@ -55,9 +56,25 @@ namespace newbie
 		}
 	}
 
+	void Scene::Destroy()
+	{
+		for (Layer* layer : mLayers)
+		{
+			if (layer == nullptr)
+				continue;
+			layer->Destroy();
+		}
+	}
+
 	void Scene::AddGameObject(GameObject* gameObject, const enums::eLayerType type)
 	{
 		mLayers[(UINT)type]->AddGameObject(gameObject);
+	}
+
+	void Scene::EraseGameObject(GameObject* gameObj)
+	{
+		eLayerType layerType = gameObj->GetLayerType();
+		mLayers[(UINT)layerType]->EraseGameObject(gameObj);
 	}
 
 	void Scene::createLayers()
@@ -76,6 +93,6 @@ namespace newbie
 
 	void Scene::OnExit()
 	{
-
+		ColliderManager::Clear();
 	}
 }

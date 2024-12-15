@@ -1,0 +1,83 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.42.34435.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbieresources.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "afa79640a622d135432f82401c5a4862724c473f6c705417198bb52ad1c60efb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbieresources.h"
+          },
+          "hashes": {
+            "sha-256": "ade0f538347b7252df56fbf613c6ed00ba8c97f4a80674c3ad6f9c7b55e41cfd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbieresource.h"
+          },
+          "hashes": {
+            "sha-256": "a4b38d07993bc1d1269a0d62f87f66bf107914675f848c7b6aade8eadd515663"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/entity.h"
+          },
+          "hashes": {
+            "sha-256": "5cf75a30fc76ef85c31d038a7031d8a45b37afb4687b2c697a2fb67dfc5d4833"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/commoninclude.h"
+          },
+          "hashes": {
+            "sha-256": "d59442449585b568c89ff017fc623f831624638676f7fa7738f829032c2f4dc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbieenums.h"
+          },
+          "hashes": {
+            "sha-256": "713ea411e4b93eca5656561ce4af6ebf58fc2c24136b82a3b1056bfbec2fb936"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/slugg/cpp2409-p/newbieengine_source/newbiemath.h"
+          },
+          "hashes": {
+            "sha-256": "f33db55594311e02dde1a6dede72eea1dcbe1cafe5b9bba24ee476d5d6ee0dce"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,29 @@
 #pragma once
 #include "Commoninclude.h"
 #include "NewbieComponent.h"
+#include "NewbieCollider.h"
+
+namespace newbie::object
+{
+	void Destroy(GameObject* gameObject);
+}
 
 namespace newbie
 {
 	// Actor
-	class GameObject
+	class GameObject : public Entity
 	{
 	public:
+		friend void object::Destroy(GameObject* obj);
+
+		enum class eState
+		{
+			Active,
+			Paused,
+			Dead,
+			End
+		};
+
 		GameObject();
 		~GameObject();
 
@@ -43,10 +59,28 @@ namespace newbie
 			return component;
 		}
 
-	private:
-		void initializeTransform();
+		eState GetState() { return mState; }
+		void SetActive(bool power)
+		{
+			if (power == true)
+				mState = eState::Active;
+			if (power == false)
+				mState = eState::Paused;
+		}
+		bool IsActive() { return mState == eState::Active; }
+
+		bool IsDead() { return mState == eState::Dead; }
+
+		void SetLayerType(eLayerType layerType) { mLayerType = layerType; }
+		eLayerType GetLayerType() { return mLayerType; }
 
 	private:
+		void initializeTransform();
+		void death() { mState = eState::Dead; }
+
+	private:
+		eState mState;
 		std::vector<Component*> mComponents;
+		eLayerType mLayerType;
 	};
 }

@@ -22,17 +22,21 @@ namespace newbie
 
 		static Scene* LoadScene(const std::wstring& name);
 		static Scene* GetActiveScene() { return mActiveScene; }
+		static Scene* GetDontDestroyOnLoad() { return mDontDestroyOnLoad; }
+		static std::vector<GameObject*> GetGameObjects(eLayerType layer);
 
 		static void Initialize();
 		static void Update();
 		static void LateUpdate();
 		static void Render(HDC hdc);
 		static void Release();
+		static void Destroy();
 
 
 	private:
 		static std::map<std::wstring, Scene*> mScene; // 씬 map 자료형
 		static Scene* mActiveScene; // 실행시킬 씬
+		static Scene* mDontDestroyOnLoad;
 	};
 }
 

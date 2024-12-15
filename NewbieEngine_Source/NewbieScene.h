@@ -15,11 +15,14 @@ namespace newbie
 		virtual void Update();
 		virtual void LateUpdate();
 		virtual void Render(HDC hdc);
+		virtual void Destroy();
 
 		virtual void OnEnter();
 		virtual void OnExit();
+		
 
-		void AddGameObject(GameObject* gameObject, const newbie::enums::eLayerType type);
+		void AddGameObject(GameObject* gameObject, const enums::eLayerType type);
+		void EraseGameObject(GameObject* gameObj);
 		Layer* GetLayer(const enums::eLayerType type) { return mLayers[(UINT)type]; }
 
 	private:
