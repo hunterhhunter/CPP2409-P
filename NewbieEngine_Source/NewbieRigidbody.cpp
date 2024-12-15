@@ -56,12 +56,17 @@ namespace newbie
 
 		// 최대 속도 제한
 		Vector2 gravity = mGravity;
+		// 단위벡터(방향)
 		gravity.normalize();
+		// 중력 방향의 가속도 구하기
 		float dot = Vector2::Dot(mVelocity, gravity);
+		// 중력 방향으로 속도 계산
 		gravity = gravity * dot;
 
+		// 중력 방향이 아닌 방향으로의 속도
 		Vector2 sideVelocity = mVelocity - gravity;
 
+		// 속도 제한
 		if (mLimitedVelocity.y < gravity.length())
 		{
 			gravity.normalize();
