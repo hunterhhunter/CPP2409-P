@@ -18,9 +18,14 @@ namespace newbie
 		void OnEnter() override;
 		void OnExit()  override;
 
+		void CreateEnemy();
+
 	private:
 		class BackGround* bg;
 		class Player* mPlayer;
+
+		float mTime;
+		float liveTime;
 	};
 }
 

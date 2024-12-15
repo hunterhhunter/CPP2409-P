@@ -75,41 +75,34 @@ namespace newbie
 		if (Input::GetKey(eKeyCode::LButton))
 		{
 		}
-
 		Transform* tr = GetOwner()->GetComponent<Transform>();
 		Vector2 pos = tr->GetPosition();
-		Rigidbody* rb = GetOwner()->GetComponent<Rigidbody>();
+		Animator* at = GetOwner()->GetComponent<Animator>();
 
-		if (rb->GetGround() == true)
+		if (Input::GetKey(eKeyCode::D))
 		{
-			if (Input::GetKey(eKeyCode::D))
-			{
-					//pos.x += 100.0f * Time::DeltaTime();
-					rb->AddForce(Vector2(300.0f, 0.0f));
-					// 애니메이션
-					mAnimator->PlayAnimation(L"RightRun", true);
-					mState = newbie::PlayerScript::eState::Walk;
-
-			}
-			if (Input::GetKey(eKeyCode::A))
-			{
-					//pos.x -= 100.0f * Time::DeltaTime();
-					rb->AddForce(Vector2(-300.0f, 0.0f));
-					// 애니메이션
-					mAnimator->PlayAnimation(L"LeftRun", true);
-					mState = newbie::PlayerScript::eState::Walk;
-			}
-			if (Input::GetKey(eKeyCode::W))
-			{
-					Vector2 velocity = rb->GetVelocity();
-					velocity.y = -700.0f;
-					rb->SetVelocity(velocity);
-					rb->SetGround(false);
-			}
+			pos.x += 100.0f * Time::DeltaTime();
+			at->PlayAnimation(L"RightRun", true);
+			mState = newbie::PlayerScript::eState::Walk;
 		}
-		
+		if (Input::GetKey(eKeyCode::A))
+		{
+			pos.x -= 100.0f * Time::DeltaTime();
+			at->PlayAnimation(L"LeftRun", true);
+			mState = newbie::PlayerScript::eState::Walk;
 
-		//tr->SetPosition(pos);
+		}
+		if (Input::GetKey(eKeyCode::W))
+		{
+			pos.y -= 100.0f * Time::DeltaTime();
+			mState = newbie::PlayerScript::eState::Walk;
+		}
+		if (Input::GetKey(eKeyCode::S))
+		{
+			pos.y += 100.0f * Time::DeltaTime();
+			mState = newbie::PlayerScript::eState::Walk;
+		}
+		tr->SetPosition(pos);
 
 	}
 
@@ -118,30 +111,23 @@ namespace newbie
 		Transform* tr = GetOwner()->GetComponent<Transform>();
 		Vector2 pos = tr->GetPosition();
 
-		Rigidbody* rb = GetOwner()->GetComponent<Rigidbody>();
-
-		if (rb->GetGround() == true)
+		if (Input::GetKey(eKeyCode::D))
 		{
-			if (Input::GetKey(eKeyCode::D))
-			{
-				//pos.x += 100.0f * Time::DeltaTime();
-				rb->AddForce(Vector2(200.0f, 0.0f));
-			}
-			if (Input::GetKey(eKeyCode::A))
-			{
-				//pos.x -= 100.0f * Time::DeltaTime();
-				rb->AddForce(Vector2(-200.0f, 0.0f));
-			}
-			if (Input::GetKey(eKeyCode::W))
-			{
-				Vector2 velocity = rb->GetVelocity();
-				velocity.y = -700.0f;
-				rb->SetVelocity(velocity);
-				rb->SetGround(false);
-			}
+			pos.x += 100.0f * Time::DeltaTime();
 		}
-
-		//tr->SetPosition(pos);
+		if (Input::GetKey(eKeyCode::A))
+		{
+			pos.x -= 100.0f * Time::DeltaTime();
+		}
+		if (Input::GetKey(eKeyCode::W))
+		{
+			pos.y -= 100.0f * Time::DeltaTime();
+		}
+		if (Input::GetKey(eKeyCode::S))
+		{
+			pos.y += 100.0f * Time::DeltaTime();
+		}
+		tr->SetPosition(pos);
 
 		if (Input::GetKeyUp(eKeyCode::D) || Input::GetKeyUp(eKeyCode::A)
 			|| Input::GetKeyUp(eKeyCode::W) || Input::GetKeyUp(eKeyCode::S))

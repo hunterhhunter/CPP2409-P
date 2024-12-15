@@ -2,6 +2,11 @@
 #include "NewbieTime.h"
 #include "NewbieTransform.h"
 #include "NewbieGameObject.h"
+#include "NewbieTransform.h"
+#include "NewbieGameObject.h"
+#include "NewbieCamera.h"
+#include "NewbieRenderer.h"
+#include "NewbieBoxCollider2D.h"
 
 namespace newbie
 {
@@ -13,7 +18,7 @@ namespace newbie
 		, mForce(Vector2::Zero)
 		, mVelocity(Vector2::Zero)
 		, mLimitedVelocity(Vector2(200.0f, 1000.0f))
-		, mGravity(Vector2(0.0f, 500.0f))
+		, mGravity(Vector2(0.0f, 800.0f))
 		, mAccelation(Vector2::Zero)
 	{
 	}

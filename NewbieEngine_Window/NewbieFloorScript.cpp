@@ -43,19 +43,30 @@ namespace newbie
 		Collider* floorCol = this->GetOwner()->GetComponent<Collider>();
 
 		// 바닥과 플레이어의 y의 차(절댓값) 계산
-		float len = fabs(playerTr->GetPosition().y - floorTr->GetPosition().y);
+		float yLen = fabs(playerTr->GetPosition().y - floorTr->GetPosition().y);
 		// 영역(절댓값) 계산
-		float scale = fabs(playerCol->GetSize().y * 100 / 2.0f - floorCol->GetSize().y * 100 / 2.0f);
+		float yScale = fabs(playerCol->GetSize().y * 100 / 2.0f - floorCol->GetSize().y * 100 / 2.0f);
 
-		// 영역 충돌했을 때
-		if (len < scale)
+
+		if (yLen < yScale)
 		{
 			Vector2 playerPos = playerTr->GetPosition();
 			// 영역 - 객체위치 - 1해서 지면 위에 뜨도록
-			playerPos.y -= (scale - len) - 1.0f;
+			playerPos.y -= (yScale - yLen) - 1.0f;
 			playerTr->SetPosition(playerPos);
+
 		}
 		playerRb->SetGround(true);
+
+		//// 영역 충돌했을 때
+		//if (len < scale)
+		//{
+		//	Vector2 playerPos = playerTr->GetPosition();
+		//	// 영역 - 객체위치 - 1해서 지면 위에 뜨도록
+		//	playerPos.y  -= scale - len - 1.0f;
+		//	playerTr->SetPosition(playerPos);
+		//}
+		//playerRb->SetGround(true);
 	}
 	void FloorScript::OnCollisionStay(Collider* other)
 	{

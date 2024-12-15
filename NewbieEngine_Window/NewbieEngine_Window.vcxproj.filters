@@ -41,6 +41,7 @@
     <ClInclude Include="NewbieFloor.h">
       <Filter>Content</Filter>
     </ClInclude>
+    <ClInclude Include="NewbieEnemyScript.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -90,5 +91,6 @@
     <ClCompile Include="NewbieFloorScript.cpp">
       <Filter>Script</Filter>
     </ClCompile>
+    <ClCompile Include="NewbieEnemyScript.cpp" />
   </ItemGroup>
 </Project>

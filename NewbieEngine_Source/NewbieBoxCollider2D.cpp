@@ -33,9 +33,19 @@ namespace newbie
 
 		Vector2 offset = GetOffset();
 
-		Rectangle(hdc, pos.x
-			, pos.y
-			, pos.x + offset.x + 100 * GetSize().x
-			, pos.y + offset.y + 100 * GetSize().y);
+		HBRUSH transparentBrush = (HBRUSH)GetStockObject(NULL_BRUSH);
+		HBRUSH oldBrush = (HBRUSH)SelectObject(hdc, transparentBrush);
+
+		HPEN greenPen = CreatePen(PS_SOLID, 2, RGB(0, 255, 0));
+		HPEN oldPen = (HPEN)SelectObject(hdc, greenPen);
+
+		Rectangle(hdc, pos.x + offset.x - (GetSize().x * 100 / 2)
+			, pos.y + offset.y - (GetSize().y * 100 / 2)
+			, pos.x + offset.x + 100 * GetSize().x / 2
+			, pos.y + offset.y + 100 * GetSize().y / 2);
+
+		SelectObject(hdc, oldBrush);
+		SelectObject(hdc, oldPen);
+		DeleteObject(greenPen);
 	}
 }

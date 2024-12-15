@@ -38,6 +38,7 @@ namespace newbie
 
 	private:
 		void sitDown();
+
 		void move();
 		void layDown();
 

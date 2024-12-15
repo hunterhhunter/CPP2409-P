@@ -24,6 +24,15 @@
 #include "NewbieRigidbody.h"
 #include "NewbieFloor.h"
 #include "NewbieFloorScript.h"
+#include "NewbieEnemyScript.h"
+#include "NewbieTime.h"
+#include <random>
+#include <cmath>
+
+std::random_device rd;
+std::mt19937 gen(rd()); // 난수 생성기
+std::uniform_real_distribution<float> angleDist(0.0f, 2.0f * PI); // 각도 θ (0 ~ 2π)
+std::uniform_real_distribution<float> radiusDist(100.0f, 200.0f);    // 반지름 r (100 ~ 200)
 
 namespace newbie
 {
@@ -44,20 +53,16 @@ namespace newbie
 
 		// Make Player
 		mPlayer = object::Instantiate<Player>(enums::eLayerType::Player);
-		object::DontDestroyOnLoad(mPlayer);
-		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(200.0f, 0.0f));
-		mPlayer->GetComponent<Transform>()->SetScale(Vector2(1.5f, 1.5f));
-
-		Rigidbody* playerRigidbody =  mPlayer->AddComponent<Rigidbody>();
-		playerRigidbody->SetMass(1.5f);
-		playerRigidbody->SetFriction(30.0f);
+		mPlayer->GetComponent<Transform>()->SetPosition(Vector2(500.0f, 500.0f));
+		mPlayer->GetComponent<Transform>()->SetScale(Vector2(1.0f, 1.0f));
 
 		cameraComp->SetTarget(mPlayer);
 
 		PlayerScript* playerScript = mPlayer->AddComponent<PlayerScript>();
 		BoxCollider2D* collider = mPlayer->AddComponent<BoxCollider2D>();
-		collider->SetOffset(Vector2(-15.0f, -15.0f));
-		collider->SetSize(Vector2(1.0f, 1.0f));
+		//collider->SetOffset(Vector2(5.0f, 5.0));
+		collider->SetSize(Vector2(0.5f, 0.5f));
+		collider->SetOffset(Vector2(0.0f, 5.0f));
 
 		// Set Player Texture
 		graphics::Texture* playerTex = Resources::Find<graphics::Texture>(L"Mario");
@@ -73,47 +78,23 @@ namespace newbie
 
 		playerAnimator->PlayAnimation(L"Idle", false);
 
-		
-
-		Vector2 gap = Vector2(32.0f, 0.0f);
-		for (int row = 0; row < 1; ++row) {
-			for (int col = 0; col < 30; ++col) {
-				Floor* floor = object::Instantiate<Floor>(eLayerType::Floor);
-				Transform* floorTr = floor->AddComponent<Transform>();
-
-				// 위치 설정: 시작 위치 + 간격 * (행, 열)
-				Vector2 position = Vector2(100.0f, 300.0f) + Vector2(col * gap.x, row * gap.y);
-				floorTr->SetPosition(position);
-				floor->SetName(L"Floor");
-
-				// 박스 콜라이더 설정
-				BoxCollider2D* floorCol = floor->AddComponent<BoxCollider2D>();
-				floorCol->SetSize(Vector2(1.0f, 1.0f));
-				floorCol->SetOffset(Vector2(10.0f, 10.0f));
-
-				// 애니메이션 설정
-				/*Animator* floorAnimator = floor->AddComponent<Animator>();
-				floor->AddComponent<FloorScript>();
-				floorAnimator->CreateAnimation(L"BasicTile", playerTex,
-					Vector2(244.0f, 137.0f), Vector2(33.0f, 33.0f), Vector2::Zero, 1, 0.1f);
-				floorAnimator->PlayAnimation(L"BasicTile", false);*/
-			}
-		}
-		
-		//// Make BackGround
-		//GameObject* bg = object::Instantiate<GameObject>(enums::eLayerType::Player);
-		//SpriteRenderer* bgSr = bg->AddComponent<SpriteRenderer>();
-		//bgSr->SetSize(Vector2(1.1f, 1.1f));
-
-		//// BackGround Texture
-		//graphics::Texture* bgTexture = Resources::Find<graphics::Texture>(L"Bubble");
-		//bgSr->SetTexture(bgTexture);
+		// 적 생성
+		CreateEnemy();
 
 		Scene::Initialize();
 	}
 
 	void PlayScene::Update()
 	{
+		mTime += Time::DeltaTime();
+		
+		if (mTime > 1.0f)
+		{
+			CreateEnemy();
+			mTime = 0;
+		}
+		
+		liveTime += Time::DeltaTime(); // 생존 시간
 		Scene::Update();
 	}
 
@@ -129,21 +110,49 @@ namespace newbie
 
 	void PlayScene::Render(HDC hdc)
 	{
+		wchar_t str[50] = L"";
+		swprintf_s(str, 50, L"Time : %0.2f", liveTime);
+		int len = wcsnlen_s(str, 50);
+
+		TextOut(hdc, 0, 0, str, len);
+
 		Scene::Render(hdc);
-		wchar_t str[50] = L"Play Scene";
-		TextOut(hdc, 0, 0, str, 10);
 	}
 
 	void PlayScene::OnEnter()
 	{
 		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Animal, true);
-		ColliderManager::CollisionLayerCheck(eLayerType::Player, eLayerType::Floor, true);
-
 	}
 
 	void PlayScene::OnExit()
 	{
 		/*Transform* tr = bg->GetComponent<Transform>();
 		tr->SetPosition(Vector2(0, 0));*/
+	}
+	void PlayScene::CreateEnemy()
+	{
+		Transform* tr = mPlayer->GetComponent<Transform>();
+		Vector2 playerPos = tr->GetPosition();
+
+		// 극좌표 생성
+		float angle = angleDist(gen);  // θ
+		float radius = radiusDist(gen); // r
+
+		// 극좌표 -> 직교 좌표로 변환
+		Vector2 newPos = Vector2(
+			playerPos.x + radius * cos(angle),  // x = r * cos(θ)
+			playerPos.y + radius * sin(angle)   // y = r * sin(θ)
+		);
+
+		graphics::Texture* playerTex = Resources::Find<graphics::Texture>(L"Mario");
+		Cat* cat = object::Instantiate<Cat>(enums::eLayerType::Animal);
+		cat->GetComponent<Transform>()->SetPosition(newPos);
+		Script* catScript = cat->AddComponent<EnemyScript>();
+		BoxCollider2D* mbc = cat->AddComponent<BoxCollider2D>();
+		mbc->SetSize(Vector2(0.35f, 0.35f));
+		Animator* mAnimator = cat->AddComponent<Animator>();
+		mAnimator->CreateAnimation(L"Approching", playerTex,
+			Vector2(373.0f, 1322.0f), Vector2(34.0f, 31.0f), Vector2::Zero, 2, 0.25f);
+		mAnimator->PlayAnimation(L"Approching");
 	}
 }

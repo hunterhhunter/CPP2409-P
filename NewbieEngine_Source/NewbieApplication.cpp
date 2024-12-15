@@ -90,7 +90,7 @@ namespace newbie
 
 	void Application::clearRenderTarget()
 	{
-		HBRUSH grayBrush = (HBRUSH)CreateSolidBrush(RGB(128, 128, 128));
+		HBRUSH grayBrush = (HBRUSH)CreateSolidBrush((128, 128, 128));
 		HBRUSH oldBrush = (HBRUSH)SelectObject(mBackHdc, grayBrush);
 		Rectangle(mBackHdc, -1, -1, 1601, 901);
 		(HBRUSH)SelectObject(mBackHdc, oldBrush);

@@ -140,6 +140,7 @@
     <ClInclude Include="NewbieCameraScript.h" />
     <ClInclude Include="NewbieCat.h" />
     <ClInclude Include="NewbieCatScript.h" />
+    <ClInclude Include="NewbieEnemyScript.h" />
     <ClInclude Include="NewbieFloor.h" />
     <ClInclude Include="NewbieFloorScript.h" />
     <ClInclude Include="NewbieLoadResources.h" />
@@ -156,6 +157,7 @@
     <ClCompile Include="NewbieCameraScript.cpp" />
     <ClCompile Include="NewbieCat.cpp" />
     <ClCompile Include="NewbieCatScript.cpp" />
+    <ClCompile Include="NewbieEnemyScript.cpp" />
     <ClCompile Include="NewbieFloor.cpp" />
     <ClCompile Include="NewbieFloorScript.cpp" />
     <ClCompile Include="NewbiePlayer.cpp" />
