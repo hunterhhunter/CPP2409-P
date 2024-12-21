@@ -27,9 +27,9 @@ namespace newbie
 				return v1.x * v2.x + v1.y * v2.y;
 			}
 
-			static float Croos(Vector2 v1, Vector2 v2)
+			static float Cross(Vector2 v1, Vector2 v2)
 			{
-				return v1.x, v2.y - v1.y * v2.x;
+				return v1.x * v2.y - v1.y * v2.x;
 			}
 
 			static Vector2 One;
@@ -111,6 +111,14 @@ namespace newbie
 			{
 				x *= value;
 				y *= value;
+			}
+			
+			bool operator<(Vector2 other) const
+			{
+				if (x != other.x) {
+					return x < other.x; // x ÁÂÇ¥ ºñ±³
+				}
+				return y < other.y; // x ÁÂÇ¥°¡ °°´Ù¸é y ÁÂÇ¥ ºñ±³
 			}
 
 			void clear()

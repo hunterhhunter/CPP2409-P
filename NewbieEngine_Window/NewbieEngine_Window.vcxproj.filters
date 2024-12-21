@@ -41,7 +41,11 @@
     <ClInclude Include="NewbieFloor.h">
       <Filter>Content</Filter>
     </ClInclude>
-    <ClInclude Include="NewbieEnemyScript.h" />
+    <ClInclude Include="NewbieEnemyScript.h">
+      <Filter>Script</Filter>
+    </ClInclude>
+    <ClInclude Include="NewbieQLearningAgent.h" />
+    <ClInclude Include="NewbieEnvironment.h" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Scenes">
@@ -91,6 +95,13 @@
     <ClCompile Include="NewbieFloorScript.cpp">
       <Filter>Script</Filter>
     </ClCompile>
-    <ClCompile Include="NewbieEnemyScript.cpp" />
+    <ClCompile Include="NewbieEnemyScript.cpp">
+      <Filter>Script</Filter>
+    </ClCompile>
+    <ClCompile Include="NewbieQLearningAgent.cpp" />
+    <ClCompile Include="NewbieEnvironment.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NewbieEngine_Window.rc" />
   </ItemGroup>
 </Project>
