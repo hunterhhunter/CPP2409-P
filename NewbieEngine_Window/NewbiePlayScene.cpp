@@ -31,10 +31,6 @@
 #include "NewbieEnvironment.h"
 #include "NewbieQLearningAgent.h"
 
-std::random_device rd;
-std::mt19937 gen(rd()); // 난수 생성기
-std::uniform_real_distribution<float> angleDist(0.0f, 2.0f * PI); // 각도 θ (0 ~ 2π)
-std::uniform_real_distribution<float> radiusDist(100.0f, 200.0f);    // 반지름 r (100 ~ 200)
 
 namespace newbie
 {

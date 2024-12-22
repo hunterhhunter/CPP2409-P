@@ -37,7 +37,7 @@ namespace newbie
 			Vector2 direction = playerPs - pos;
 			direction.normalize();
 
-			float speed = 60.0f;
+			float speed = 80.0f;
 			pos += (direction * speed * Time::DeltaTime());
 			mtr->SetPosition(pos);
 		}
@@ -53,6 +53,7 @@ namespace newbie
 	{
 		Scene* activeScene = SceneManager::GetActiveScene();
 		Layer* playerLayer = activeScene->GetLayer(enums::eLayerType::Player);
+		Layer* envLayer = activeScene->GetLayer(enums::eLayerType::BackGround);
 
 		if (!playerLayer->GetGameObjects().empty())
 		{
@@ -61,7 +62,12 @@ namespace newbie
 
 			if (other == bc)
 			{
-				PostQuitMessage(0);
+				Environment* env = envLayer->GetEnvironment();
+				if (env) {
+					env->ApplyPenalty(-100.0); // 충돌 페널티 기록
+				}
+
+				env->RestartGame();
 			}
 		}
 	}

@@ -31,7 +31,7 @@ namespace newbie
         int action = chooseAction(learnState, epsilon);
 
         // epsilon을 지수적으로 감소
-        epsilon *= 0.995;  // 0.995씩 곱해서 점차 감소
+        epsilon *= 0.999;  // 0.995씩 곱해서 점차 감소
         if (epsilon < 0.1) {
             epsilon = 0.1;  // 최소 epsilon 값 설정
         }
@@ -41,6 +41,7 @@ namespace newbie
         {
             // reward 계산
             reward = env->Step(action);
+            reward += env->GetLastPenalty(); // 페널티를 추가로 반영
 
             Transform* tr = player->GetComponent<Transform>();
 
@@ -51,6 +52,8 @@ namespace newbie
 
             // Q-값 업데이트
             updateQValue(currentState, action, reward, nextState, alpha, gamma);
+
+            learnState = nextState; // 다음 상태로 갱신
         }
     }
 

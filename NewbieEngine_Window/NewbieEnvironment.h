@@ -27,11 +27,22 @@ namespace newbie
 		
 		State GetLearnState() { return learnState; }
 
+		// 페널티 관리
+		void ApplyPenalty(double penalty); // 페널티 기록
+		double GetLastPenalty() const;    // 마지막 페널티 반환
+
+		void RestartGame();
+
+		// 적 삭제 함수
+		void DeleteEnemy(GameObject* enemy = nullptr);
+
 	private:
 		float mTime;
 		// 적 생성 함수
 		void spawnEnemy();
 		State learnState;
+
+		double lastPenalty; // 마지막 페널티 값
 	};
 }
 

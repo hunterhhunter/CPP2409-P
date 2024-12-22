@@ -39,7 +39,7 @@ namespace newbie
 
 	private:
 		std::map<std::pair<Vector2, int>, double> Q; // Q-테이블: 상태-행동 맵
-		int numActions = 5;
+		int numActions = 9;
 		State learnState;
 		double epsilon;
 		const double alpha = 0.1;

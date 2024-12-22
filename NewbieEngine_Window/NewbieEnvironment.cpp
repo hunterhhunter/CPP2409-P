@@ -13,6 +13,7 @@
 #include <cmath>
 #include "NewbieTime.h"
 
+
 std::random_device rd;
 std::mt19937 gen(rd()); // 난수 생성기
 std::uniform_real_distribution<float> angleDist(0.0f, 2.0f * PI); // 각도 θ (0 ~ 2π)
@@ -23,6 +24,7 @@ namespace newbie
     Environment::Environment()
     {
         mTime = 0.0f;
+        lastPenalty = 0.0;
     }
 
     void Environment::Reset() {
@@ -36,16 +38,38 @@ namespace newbie
         else if (action == 1) learnState.playerPosition.y += 100.0f * Time::DeltaTime(); // 아래
         else if (action == 2) learnState.playerPosition.x -= 100.0f * Time::DeltaTime(); // 왼쪽
         else if (action == 3) learnState.playerPosition.x += 100.0f * Time::DeltaTime(); // 오른쪽
-        // 정지(action == 4)는 아무것도 하지 않음
+        else if (action == 4) { // 좌상
+            learnState.playerPosition.x -= 70.7f * Time::DeltaTime();
+            learnState.playerPosition.y -= 70.7f * Time::DeltaTime();
+        }
+        else if (action == 5) { // 우상
+            learnState.playerPosition.x += 70.7f * Time::DeltaTime();
+            learnState.playerPosition.y -= 70.7f * Time::DeltaTime();
+        }
+        else if (action == 6) { // 좌하
+            learnState.playerPosition.x -= 70.7f * Time::DeltaTime();
+            learnState.playerPosition.y += 70.7f * Time::DeltaTime();
+        }
+        else if (action == 7) { // 우하
+            learnState.playerPosition.x += 70.7f * Time::DeltaTime();
+            learnState.playerPosition.y += 70.7f * Time::DeltaTime();
+        }
+
 
         double reward = 1.0; // 기본 생존 보상
+        const double distanceScale = 0.1; // 거리 보상 스케일링 계수
 
         // 적과의 거리 계산 및 보상
         for (auto& enemy : learnState.enemyPositions) {
             double distance = sqrt(pow(learnState.playerPosition.x - enemy.x, 2) + pow(learnState.playerPosition.y - enemy.y, 2));
-            reward -= distance * 0.1; // 거리 보상 (멀수록 보상 감소)
-            if (distance < 1.0) return -100.0; // 충돌 시 큰 음의 보상
+            reward += distance * distanceScale; // 거리가 멀수록 보상 증가
         }
+
+        // 페널티를 보상에 포함
+        reward += lastPenalty;
+
+        // 페널티 초기화 (1회 적용)
+        lastPenalty = 0.0;
 
         return reward;
     }
@@ -103,6 +127,64 @@ namespace newbie
 
     void Environment::Render(HDC hdc)
     {
+    }
+
+    void Environment::ApplyPenalty(double penalty)
+    {
+        lastPenalty = penalty; // 페널티 기록
+    }
+
+    double Environment::GetLastPenalty() const
+    {
+        return lastPenalty; // 마지막 페널티 반환
+    }
+
+    void Environment::RestartGame()
+    {
+        Scene* activeScene = SceneManager::GetActiveScene();
+
+        // 플레이어 위치 초기화
+        Layer* playerLayer = activeScene->GetLayer(enums::eLayerType::Player);
+        if (!playerLayer->GetGameObjects().empty()) {
+            GameObject* player = playerLayer->GetGameObjects().front();
+            Transform* playerTransform = player->GetComponent<Transform>();
+            playerTransform->SetPosition(Vector2(500.0f, 500.0f)); // 초기 위치
+        }
+
+        DeleteEnemy();
+
+        // 학습 환경 초기화
+        Layer* layer = activeScene->GetLayer(enums::eLayerType::BackGround); // 가정: Scene에 환경 존재
+        Environment* env = layer->GetEnvironment();
+        if (env) {
+            env->Reset(); // 환경 상태 초기화
+        }
+    }
+
+    void Environment::DeleteEnemy(GameObject* enemy)
+    {
+        Scene* activeScene = SceneManager::GetActiveScene();
+        Layer* enemyLayer = activeScene->GetLayer(enums::eLayerType::Animal);
+
+        if (enemy == nullptr) {
+            // 모든 적 삭제
+            std::vector<GameObject*> enemies = enemyLayer->GetGameObjects();
+            for (GameObject* enemyObj : enemies) {
+                object::Destroy(enemyObj); // 개별 적 삭제
+            }
+        }
+        else {
+            // 특정 적 삭제
+            object::Destroy(enemy);
+        }
+
+        // 상태 정보 업데이트 (필요 시)
+        learnState.enemyPositions.clear(); // 적 위치 초기화
+        std::vector<GameObject*> remainingEnemies = enemyLayer->GetGameObjects();
+        for (GameObject* enemyObj : remainingEnemies) {
+            Transform* enemyTransform = enemyObj->GetComponent<Transform>();
+            learnState.enemyPositions.push_back(enemyTransform->GetPosition());
+        }
     }
 
     // 적 생성 함수
