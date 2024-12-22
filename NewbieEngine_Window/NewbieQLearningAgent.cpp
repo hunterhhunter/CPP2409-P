@@ -28,33 +28,30 @@ namespace newbie
         // 환경 상태 가져오기
         const State& currentState = env->GetLearnState();
 
-        int action = chooseAction(learnState, epsilon);
+        action = chooseAction(learnState, epsilon);
 
         // epsilon을 지수적으로 감소
         epsilon *= 0.999;  // 0.995씩 곱해서 점차 감소
-        if (epsilon < 0.1) {
-            epsilon = 0.1;  // 최소 epsilon 값 설정
+        if (epsilon < 0.3) {
+            epsilon = 0.3;  // 최소 epsilon 값 설정
         }
         double reward = 0.0;
 
-        if (env != nullptr)
-        {
-            // reward 계산
-            reward = env->Step(action);
-            reward += env->GetLastPenalty(); // 페널티를 추가로 반영
+        // reward 계산
+        reward = env->Step(action);
+        reward += env->GetLastPenalty(); // 페널티를 추가로 반영
 
-            Transform* tr = player->GetComponent<Transform>();
+        Transform* tr = player->GetComponent<Transform>();
 
-            // 다음 상태 가져오기
-            const State& nextState = env->GetLearnState();
+        // 다음 상태 가져오기
+        const State& nextState = env->GetLearnState();
 
-            tr->SetPosition(nextState.playerPosition);
+        tr->SetPosition(nextState.playerPosition);
 
-            // Q-값 업데이트
-            updateQValue(currentState, action, reward, nextState, alpha, gamma);
+        // Q-값 업데이트
+        updateQValue(currentState, action, reward, nextState, alpha, gamma);
 
-            learnState = nextState; // 다음 상태로 갱신
-        }
+        learnState = nextState; // 다음 상태로 갱신
     }
 
     void QLearningAgent::LateUpdate()
@@ -63,6 +60,11 @@ namespace newbie
 
     void QLearningAgent::Render(HDC hdc)
     {
+        wchar_t str[50] = L"";
+        swprintf_s(str, 50, L"Action : %d", action);
+        int len = wcsnlen_s(str, 50);
+
+        TextOut(hdc, 100, 0, str, len);
     }
 
     // 생성자: Q-테이블 초기화

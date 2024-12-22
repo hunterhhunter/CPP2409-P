@@ -78,6 +78,7 @@ namespace newbie
 
 		// Env 활성화
 		Environment* env = object::Instantiate<Environment>(enums::eLayerType::BackGround);
+		// 강화학습
 		QLearningAgent* QScript = mPlayer->AddComponent<QLearningAgent>();
 
 		Scene::Initialize();

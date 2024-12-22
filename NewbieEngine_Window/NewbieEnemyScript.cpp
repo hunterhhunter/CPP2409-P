@@ -64,7 +64,7 @@ namespace newbie
 			{
 				Environment* env = envLayer->GetEnvironment();
 				if (env) {
-					env->ApplyPenalty(-100.0); // 충돌 페널티 기록
+					env->ApplyPenalty(-1000.0); // 충돌 페널티 기록
 				}
 
 				env->RestartGame();
