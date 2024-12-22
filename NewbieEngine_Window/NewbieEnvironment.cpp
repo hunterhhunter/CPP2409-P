@@ -40,11 +40,11 @@ namespace newbie
         else if (action == 3) learnState.playerPosition.x += 100.0f * Time::DeltaTime(); // 오른쪽
         else if (action == 4) { // 좌상
             learnState.playerPosition.x -= 70.7f * Time::DeltaTime();
-            learnState.playerPosition.y -= 70.7f * Time::DeltaTime();
+            learnState.playerPosition.y -= 700.7f * Time::DeltaTime();
         }
         else if (action == 5) { // 우상
-            learnState.playerPosition.x += 70.7f * Time::DeltaTime();
-            learnState.playerPosition.y -= 70.7f * Time::DeltaTime();
+            learnState.playerPosition.x += 700.7f * Time::DeltaTime();
+            learnState.playerPosition.y -= 700.7f * Time::DeltaTime();
         }
         else if (action == 6) { // 좌하
             learnState.playerPosition.x -= 70.7f * Time::DeltaTime();
@@ -114,7 +114,7 @@ namespace newbie
 
         mTime += Time::DeltaTime();
 
-        if (mTime > 1.0f)
+        if (mTime > 0.3f)
         {
             spawnEnemy();
             mTime = 0;
@@ -154,7 +154,7 @@ namespace newbie
         DeleteEnemy();
 
         // 학습 환경 초기화
-        Layer* layer = activeScene->GetLayer(enums::eLayerType::BackGround); // 가정: Scene에 환경 존재
+        Layer* layer = activeScene->GetLayer(enums::eLayerType::BackGround);
         Environment* env = layer->GetEnvironment();
         if (env) {
             env->Reset(); // 환경 상태 초기화

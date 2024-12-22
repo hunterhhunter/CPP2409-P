@@ -44,6 +44,7 @@ namespace newbie
 		double epsilon;
 		const double alpha = 0.1;
 		const double gamma = 0.99;
+		int action = 8;
 	};
 }
 

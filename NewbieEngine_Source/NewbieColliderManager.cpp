@@ -186,7 +186,7 @@ namespace newbie
 		if ((leftType == enums::eColliderType::Circle2D && rightType == enums::eColliderType::Rect2D)
 			|| (leftType == enums::eColliderType::Rect2D && rightType == enums::eColliderType::Circle2D))
 		{
-			
+			// TODO
 		}
 
 		return false;
