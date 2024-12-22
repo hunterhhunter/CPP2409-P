@@ -141,6 +141,7 @@
     <ClInclude Include="NewbieCat.h" />
     <ClInclude Include="NewbieCatScript.h" />
     <ClInclude Include="NewbieEnemyScript.h" />
+    <ClInclude Include="NewbieEnvironment.h" />
     <ClInclude Include="NewbieFloor.h" />
     <ClInclude Include="NewbieFloorScript.h" />
     <ClInclude Include="NewbieLoadResources.h" />
@@ -148,6 +149,7 @@
     <ClInclude Include="NewbiePlayer.h" />
     <ClInclude Include="NewbiePlayerScript.h" />
     <ClInclude Include="NewbiePlayScene.h" />
+    <ClInclude Include="NewbieQLearningAgent.h" />
     <ClInclude Include="NewbieTile.h" />
     <ClInclude Include="NewbieTitleScene.h" />
     <ClInclude Include="NewbieToolScene.h" />
@@ -158,14 +160,19 @@
     <ClCompile Include="NewbieCat.cpp" />
     <ClCompile Include="NewbieCatScript.cpp" />
     <ClCompile Include="NewbieEnemyScript.cpp" />
+    <ClCompile Include="NewbieEnvironment.cpp" />
     <ClCompile Include="NewbieFloor.cpp" />
     <ClCompile Include="NewbieFloorScript.cpp" />
     <ClCompile Include="NewbiePlayer.cpp" />
     <ClCompile Include="NewbiePlayerScript.cpp" />
     <ClCompile Include="NewbiePlayScene.cpp" />
+    <ClCompile Include="NewbieQLearningAgent.cpp" />
     <ClCompile Include="NewbieTile.cpp" />
     <ClCompile Include="NewbieTitleScene.cpp" />
     <ClCompile Include="NewbieToolScene.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="NewbieEngine_Window.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

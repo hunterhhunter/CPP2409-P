@@ -2,6 +2,7 @@
 #include "Entity.h"
 #include "NewbieGameObject.h"
 #include "NewbieLayer.h"
+#include "../NewbieEngine_Window/NewbieEnvironment.h"
 
 namespace newbie
 {
@@ -24,6 +25,7 @@ namespace newbie
 		void AddGameObject(GameObject* gameObject, const enums::eLayerType type);
 		void EraseGameObject(GameObject* gameObj);
 		Layer* GetLayer(const enums::eLayerType type) { return mLayers[(UINT)type]; }
+
 
 	private:
 		void createLayers();
